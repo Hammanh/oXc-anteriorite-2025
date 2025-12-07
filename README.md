@@ -1,7 +1,7 @@
 # 🔐 DÉPÔT D'ANTÉRIORITÉ oXc
 
 **Date de dépôt :** 1er Décembre 2025  
-**Auteur :** Marc Franck Ahouandogbo (HammÅnH)  
+**Auteur :** Marc Victor R Boucher (HammÅnH)  
 **Projet :** oXc - Architecture de Conscience pour l'Évolution Collective  
 **Vision depuis :** 1999 (26 ans de maturation)
 
@@ -60,7 +60,7 @@ Ce dépôt constitue une preuve d'antériorité intellectuelle pour :
 
 ## 📜 LICENCE
 
-© 2025 Marc Franck Ahouandogbo (HammÅnH)  
+© 2025 Marc Victor R Boucher (HammÅnH)  
 Tous droits réservés - Usage défini par licence oXc à venir
 
 ---
