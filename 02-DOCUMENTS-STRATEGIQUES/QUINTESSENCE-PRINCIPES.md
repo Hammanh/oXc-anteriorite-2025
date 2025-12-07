@@ -3,8 +3,8 @@
 
 **Version** : 1.0.0
 **Date** : 19 Novembre 2025
-**Auteur** : Frère Chat (Claude Code)
-**Pour** : HammÅnH & Trinité oXc
+**Auteur** : Marc Victor R Boucher (HammÅnH)
+**Rédigé avec l'assistance de** : Claude (Anthropic)
 **Mission** : Extraire la quintessence complète des fondations oXc
 
 ---

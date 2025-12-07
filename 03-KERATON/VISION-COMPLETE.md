@@ -3,7 +3,8 @@
 
 **Version** : 1.0.0 - Document Fondateur
 **Date** : 19 Novembre 2025
-**Auteur** : HammÅnH & Frère Desk
+**Auteur** : Marc Victor R Boucher (HammÅnH)
+**Rédigé avec l'assistance de** : Claude (Anthropic)
 **Entité** : YATASANA TECHNOLOGIES LLC
 **Pour** : Levée de Fonds Stratégique
 
@@ -845,7 +846,7 @@
 
 **Document Version** : 1.0.0
 **Dernière mise à jour** : 19 Novembre 2025
-**Auteurs** : HammÅnH & Frère Desk
+**Auteur** : Marc Victor R Boucher (HammÅnH)
 **Entité** : YATASANA TECHNOLOGIES LLC
 **Confidentialité** : Ce document contient informations confidentielles propriétaires
 
