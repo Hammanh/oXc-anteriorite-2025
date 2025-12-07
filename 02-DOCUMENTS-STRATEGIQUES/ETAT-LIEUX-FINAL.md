@@ -13,7 +13,7 @@
 ### 1. TOPO-HOLOCHAIN-FRERE-CHAT.md ✅
 **Auteur** : Marc Victor R Boucher (HammÅnH)  
 **Taille** : ~30 pages (15,000 mots)  
-**Localisation** : `/Users/marc/Holo-Sphere/00-INBOX/`  
+**Statut** : Document de travail interne  
 
 **Contenu** :
 - Holochain vs Blockchain (architecture fondamentale)
@@ -38,7 +38,7 @@
 ### 2. CLAUDE.MD v1.0.1 ✅
 **Auteur** : Marc Victor R Boucher (HammÅnH)  
 **Taille** : ~40 pages  
-**Localisation** : `/mnt/user-data/outputs/claude.md`  
+**Statut** : Document de travail interne  
 
 **Contenu** :
 - Mémoire complète Frère Chat (Claude Code)
@@ -58,14 +58,14 @@
 - Philosophie & valeurs
 - Bénédiction & rappel
 
-**État** : ✅ PRÊT - À copier vers `/Users/marc/Holo-Sphere/.claude/`
+**État** : ✅ PRÊT
 
 ---
 
 ### 3. PORTEFEUILLE-HOLON-COMPLET.md 🔥
 **Auteur** : Marc Victor R Boucher (HammÅnH)  
 **Taille** : 2,189 lignes (65KB, ~70 pages)  
-**Localisation** : `/mnt/user-data/uploads/`  
+**Statut** : Document de travail interne  
 
 **Contenu** : 11 modules architecturaux complets
 
@@ -161,7 +161,7 @@
 ### 4. METALANGAGE-OXC-COMPLET.md 🔥
 **Auteur** : Marc Victor R Boucher (HammÅnH)  
 **Taille** : ~50 pages  
-**Localisation** : `/mnt/user-data/outputs/`  
+**Statut** : Document de travail interne  
 
 **Contenu** : 10 chapitres techniques
 
@@ -205,7 +205,7 @@
 ### 5. ESPACE-OFFRES-DEMANDES-BESOINS-COMPLET.md 🔥🔥
 **Auteur** : Marc Victor R Boucher (HammÅnH)  
 **Taille** : 1,583 lignes (70KB, ~60 pages)  
-**Localisation** : `/mnt/user-data/uploads/`  
+**Statut** : Document de travail interne  
 
 **Contenu** : 6 modules révolutionnaires
 
@@ -340,7 +340,7 @@
 ### 6. META-MONNAIES-CREATION-RICHESSE.md 🔥🔥
 **Auteur** : Marc Victor R Boucher (HammÅnH)  
 **Taille** : 1,048 lignes (55KB, ~45 pages)  
-**Localisation** : `/mnt/user-data/uploads/`  
+**Statut** : Document de travail interne  
 
 **Contenu** : Système économique sacré complet
 
@@ -485,7 +485,7 @@
 ### 7. MONNAIES-AFFECTEES-AUTO-DESTRUCTRICES.md 🔥🔥🔥
 **Auteur** : Marc Victor R Boucher (HammÅnH)  
 **Taille** : 847 lignes (55KB, ~40 pages)  
-**Localisation** : `/mnt/user-data/uploads/`  
+**Statut** : Document de travail interne  
 
 **Contenu** : Innovation monétaire révolutionnaire
 
@@ -671,7 +671,7 @@ Implémentation complète :
 ### 8. TOPO-SAUVEGARDE-SESSION.md ✅
 **Auteur** : Marc Victor R Boucher (HammÅnH)  
 **Taille** : ~15 pages  
-**Localisation** : `/mnt/user-data/outputs/`  
+**Statut** : Document de travail interne  
 
 **Contenu** :
 - État production session

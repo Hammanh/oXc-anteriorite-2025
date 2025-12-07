@@ -224,19 +224,19 @@ It does. HammÅnH (Marc Victor R Boucher) envisioned oXc (Operating System for C
 **HammÅnH (Marc Victor R Boucher)**
 Founder & CEO, YATASANA TECHNOLOGIES LLC
 
-📧 Email: [email]
-📱 Phone: [phone]
-🌐 Website: [link]
-📅 Schedule meeting: [calendly link]
+📧 Email: hammanh@proton.me
+📱 Phone: +33 756 757 760 (France) / +62 812 2869 0406 (Bali)
+🌐 Website: yatasana.com
 
 **Materials available:**
 - 📊 Full pitch deck (10 slides)
-- 📄 Business plan (40 pages)
-- 💻 Technical architecture (100 pages)
-- 📈 Financial model (Excel)
-- 🎥 Video pitch (3 minutes)
+- 💻 Technical architecture (405 pages)
 
-**Data room access:** [link with NDA]
+**Coming soon:**
+- 📄 Business plan
+- 📈 Financial model
+- 🎥 Video pitch
+- 📅 Online scheduling
 
 ---
 

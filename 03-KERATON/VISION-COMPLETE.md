@@ -724,10 +724,9 @@
 4. **Vivre** la transformation au Keraton
 
 **Actions** :
-- Newsletter : [lien]
-- Discord : [lien]
+- Website : yatasana.com
 - GitHub : github.com/Hammanh/
-- Twitter : [à créer]
+- Email : hammanh@proton.me
 
 ### 10.3 Pour les Partenaires
 
@@ -829,11 +828,11 @@
 
 ### Annexe D : Contact & Next Steps
 
-**Immédiat** :
-1. Manifestation intérêt : [email]
-2. Calendrier meeting : [calendly]
-3. NDA signature : [docusign]
-4. Data room access : [link]
+**Contact** :
+- Email : hammanh@proton.me
+- Phone : +33 756 757 760 (France) / +62 812 2869 0406 (Bali)
+- Website : yatasana.com
+- GitHub : github.com/Hammanh
 
 **Timeline** :
 - Dec 2025 : Pitch rounds

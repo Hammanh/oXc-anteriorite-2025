@@ -4,7 +4,7 @@
 **Version** : 1.0.0
 **Date** : 19 Novembre 2025
 **Entité** : YATASANA TECHNOLOGIES LLC
-**Contact** : HammÅnH - [email]
+**Contact** : HammÅnH - hammanh@proton.me
 
 ---
 
@@ -325,8 +325,8 @@ Super-App P2P Household Management
 **Contact** :
 - HammÅnH : hammanh@proton.me
 - YATASANA TECHNOLOGIES LLC
-- Deck complet : [lien]
-- Schedule meeting : [calendly]
+- Website : yatasana.com
+- GitHub : github.com/Hammanh
 
 **Tagline bottom** :
 "De la beauté théorique vers la puissance pratique."
