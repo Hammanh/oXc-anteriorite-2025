@@ -1,9 +1,21 @@
 # 🔐 DÉPÔT D'ANTÉRIORITÉ oXc
 
-**Date de dépôt :** 1er Décembre 2025  
-**Auteur :** Marc Victor R Boucher (HammÅnH)  
-**Projet :** oXc - Architecture de Conscience pour l'Évolution Collective  
+**Date de dépôt :** 1er Décembre 2025
+**Dernière mise à jour :** 7 Décembre 2025
+**Auteur :** Marc Victor R Boucher (HammÅnH)
+**Projet :** oXc - Architecture de Conscience pour l'Évolution Collective
 **Vision depuis :** 1999 (26 ans de maturation)
+
+---
+
+## ⚠️ ERRATUM - 7 DÉCEMBRE 2025
+
+Une erreur de nom d'auteur a été corrigée. Voir `ERRATUM-NOM-AUTEUR.md` pour les détails.
+
+**Preuve IPFS de la correction :**
+`bafybeigzqdz3cny2fteawuiwqqeim3nojsssmkye5ejy2m3v67nbapjmci`
+
+Accès : https://gateway.pinata.cloud/ipfs/bafybeigzqdz3cny2fteawuiwqqeim3nojsssmkye5ejy2m3v67nbapjmci
 
 ---
 
