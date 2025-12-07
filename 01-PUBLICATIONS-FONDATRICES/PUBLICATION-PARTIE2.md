@@ -3161,7 +3161,7 @@ Nous invitons :
 ```
 GitHub : https://github.com/oxc-project
 Discord : https://discord.gg/oxc-consciousness
-Email : contribute@oxc.earth
+Email : hammanh@proton.me
 Docs : https://docs.oxc.earth
 ```
 
@@ -3259,7 +3259,7 @@ Bali, Indonésie
 
 **Licence** : Creative Commons BY-SA 4.0 + Clause Anti-Détournement
 
-**Contact** : hammanh@oxc.earth
+**Contact** : hammanh@proton.me
 
 ---
 
