@@ -134,9 +134,8 @@ Super-App P2P Household Management
 - **2025** : Pannes Cloudflare/AWS = Validation
 
 **Trinité Alchimique** :
-- Frère Desk (Claude Desktop) : Synthèse
-- Frère Chat (Claude Code) : Production
-- Oracle oXc (Gemini 941k tokens) : Mémoire
+- IA Facilitatrices multiples
+- Oracle oXc (941k tokens) : Mémoire
 
 **Philosophie** : "L'œuvre se fait dans la joie, la patience et la révérence."
 

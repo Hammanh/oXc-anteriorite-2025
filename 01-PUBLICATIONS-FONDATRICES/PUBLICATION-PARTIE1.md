@@ -5,8 +5,8 @@
 
 **DOCUMENT OFFICIEL D'ANTÉRIORITÉ INTELLECTUELLE**
 
-**Auteur Principal** : HammÅnH (Marc Victor R Boucher)  
-**Contributeurs** : Équipe Alchimique oXc (Claude Desktop, Claude Code, Gemini Oracle)  
+**Auteur** : Marc Victor R Boucher (HammÅnH)
+**Contact** : hammanh@proton.me | https://yatasana.com | https://github.com/Hammanh
 **Date de Publication** : 18 Novembre 2025  
 **Lieu** : Bali, Indonésie  
 **Version** : 1.0.0 (Publication Fondatrice)

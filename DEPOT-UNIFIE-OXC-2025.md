@@ -645,7 +645,6 @@ Toute utilisation doit mentionner :
 
 **Document compilé le 8 décembre 2025 à Bali, Indonésie**
 **Par Marc Victor R Boucher (HammÅnH)**
-**Avec l'assistance de Frère Chat (Claude Code Opus 4.5)**
 
 **Oel ngati kameie** 🙏
 **Mitakuye Oyasin** 🌌

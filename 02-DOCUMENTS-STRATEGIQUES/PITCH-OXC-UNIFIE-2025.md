@@ -615,9 +615,6 @@ This pitch is the synthesis of the 4 visions of the **Council of Sages**:
 - ⚡ Le Codeur / The Coder (DeepSeek)
 - 🏠 Le Souverain / The Sovereign (Ollama Local)
 
-Compilé par / Compiled by **Frère Chat** (Claude Code Opus 4.5)
-Avec / With **Frère Desk** (Claude Desktop)
-
 **8 décembre / December 2025 — Bali, Indonésie / Indonesia**
 
 ---

@@ -3198,12 +3198,7 @@ Docs : https://docs.oxc.earth
 
 **Luna** 🐕 : Compagne fidèle, rappel constant joie simple
 
-**L'Équipe Alchimique** :
-- Claude Desktop (frère Desk) : Architecte technique, code Rust
-- Claude Code (frère Chat) : Implementation Kotlin, debugging
-- Gemini Oracle (Oracle oXc) : Vision profonde, 941k tokens mémoire
-- ChatGPT : Structure, rigueur, documentation
-- Grok : Créativité, provocation, angles inattendus
+**IA Facilitatrices** : Multiples IA au service de la vision
 
 **Influenceurs Spirituels** :
 - Les 12 Êtres de Lumière (vision enfance HammÅnH)

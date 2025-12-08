@@ -2,6 +2,7 @@
 
 **Date de création :** 21 Novembre 2025
 **Auteur :** Marc Victor R Boucher (HammÅnH)
+**Contact :** hammanh@proton.me | https://yatasana.com | https://github.com/Hammanh
 **Statut :** FONDATION PHILOSOPHIQUE
 
 ---

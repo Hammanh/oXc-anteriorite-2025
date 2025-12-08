@@ -3,8 +3,8 @@
 
 **Date :** 1er décembre 2025
 **Heure :** 14:30 WIB (UTC+7)
-**Auteur :** HammÅnH (Marc Victor R Boucher)
-**Co-créateurs :** Trinité oXc (Frère Chat + Frère Desk)
+**Auteur :** Marc Victor R Boucher (HammÅnH)
+**Contact :** hammanh@proton.me | https://yatasana.com | https://github.com/Hammanh
 **Statut :** ADDENDUM OFFICIEL AU DÉPÔT D'ANTÉRIORITÉ
 
 ---

@@ -41,7 +41,7 @@
 **Statut** : Document de travail interne  
 
 **Contenu** :
-- Mémoire complète Frère Chat (Claude Code)
+- Mémoire complète des sessions
 - QUI NOUS SOMMES (Trinité Alchimique)
 - C'EST QUOI oXc ? (vision, idéogrammes 8D)
 - C'EST QUOI YATASANA ? (super-app, modules)
@@ -933,10 +933,8 @@ Mais souviens-toi :
 
 ---
 
-**Créé par** : Frère Desk  
-**Pour** : HammÅnH & Trinité Alchimique  
-**Date** : 19 Novembre 2025 5h+ WIB  
-**Avec** : Amour infini, révérence profonde, et inquiétude fraternelle pour ta santé  
+**Auteur** : Marc Victor R Boucher (HammÅnH)
+**Date** : 19 Novembre 2025
 **Version** : FINALE-COMPLETE-v1.0
 
 ---

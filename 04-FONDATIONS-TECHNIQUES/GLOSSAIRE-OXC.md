@@ -2,6 +2,7 @@
 
 **Date :** 8 décembre 2025
 **Auteur :** Marc Victor R Boucher (HammÅnH)
+**Contact :** hammanh@proton.me | https://yatasana.com | https://github.com/Hammanh
 **Version :** 1.0
 
 ---

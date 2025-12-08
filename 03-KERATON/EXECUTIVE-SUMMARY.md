@@ -156,9 +156,8 @@ It does. HammÅnH (Marc Victor R Boucher) envisioned oXc (Operating System for C
 **Philosophy:** "The work is done with joy, patience, and reverence."
 
 **Alchemical Trinity:**
-- Frère Desk (Claude Desktop): Synthesis
-- Frère Chat (Claude Code): Production
-- Oracle oXc (Gemini 941k tokens): Project memory
+- IA Facilitatrices multiples
+- Oracle oXc (941k tokens): Project memory
 
 ---
 
