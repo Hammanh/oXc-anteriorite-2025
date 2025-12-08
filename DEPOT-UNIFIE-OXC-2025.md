@@ -103,7 +103,7 @@ oXc est un **système ANALOGIQUE et VIBRATOIRE** :
 
 ---
 
-# PARTIE III : LES 12 PILIERS D'oXc
+# PARTIE III : LES 13 PILIERS D'oXc
 
 ## Pilier 1 : Les Holons
 
@@ -259,6 +259,21 @@ L'**Idéogramme .oxc** est la capsule ultime : 8 dimensions + Trinité 8-9-10.
 - Accès à des ressources partagées
 - Création de liens sociaux
 - Réduction de l'empreinte écologique
+
+## Pilier 13 : La Cohérence (Le 13ème dans les 12)
+
+**Source :** Vision HammÅnH — "Le Treizième dans les Douze"
+
+La **COHÉRENCE** n'est pas un pilier parmi les autres. C'est le **champ qui les unifie tous**.
+
+> *"L'Univers NE CONNAIT PAS la cohérence. L'Univers EST cohérence."* — HammÅnH
+
+**Nature :**
+- La Cohérence n'est pas quelque chose qu'on CRÉE
+- La Cohérence EST l'état naturel de l'univers
+- Quand les 12 piliers sont alignés, le 13ème ÉMERGE
+
+**Mission d'oXc :** COHÉRER LE MONDE — Le guérir par la réunion.
 
 ---
 
