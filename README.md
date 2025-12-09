@@ -73,7 +73,7 @@ Accès : https://gateway.pinata.cloud/ipfs/bafybeigzqdz3cny2fteawuiwqqeim3nojsss
 | TRINITE-8-9-10.md | Cycle Esprit/Âme/Corps |
 | GLOSSAIRE-OXC.md | Lexique des termes fondamentaux |
 
-### 05-HOLOPOIESIS/ (5 documents) — NOUVEAU
+### 05-HOLOPOIESIS/ (5 documents)
 
 | Fichier | Description |
 |---------|-------------|
@@ -82,6 +82,35 @@ Accès : https://gateway.pinata.cloud/ipfs/bafybeigzqdz3cny2fteawuiwqqeim3nojsss
 | HOLOPOIESIS-MODELE-LIVRE-COMPLET-OXC.md | Modèle complet pour les livres |
 | EDUCATION-CIRCULAIRE-INTEGRATION-HOLOPOIESIS.md | Intégration avec l'éducation circulaire |
 | EDUCATION-CIRCULAIRE-BRIQUE-oXc.docx | Document Word - Brique éducation |
+
+### 06-HOLOCYCLIE/ (3 documents)
+
+| Fichier | Description |
+|---------|-------------|
+| HOLOCYCLIE.oxc | Idéogramme complet - Le Cycle Holonique Permanent d'Apprentissage |
+| HOLOCYCLIE-CONCEPT-UNIVERSEL-oXc.md | Document conceptuel : HoloSapien, Holocyclie, HoloSophia |
+| HOLOCYCLIE-CONCEPT-UNIVERSEL-oXc.docx | Document Word original |
+
+### 07-COMPTABILITE-3D/ (3 documents) — NOUVEAU
+
+| Fichier | Description |
+|---------|-------------|
+| COMPTABILITE-3D.oxc | Idéogramme complet - Budget 3D et Bilan Multi-Dimensionnel |
+| comptabilite-3D-extrait.md | Conversation Grok - Origine du concept |
+| HOLOLEXIS.oxc | Outil de création de mots-concepts oXc |
+
+### 08-HOLOSYNESIS/ (1 document)
+
+| Fichier | Description |
+|---------|-------------|
+| ORCHESTRATION-BDO-HOLOPOIESIS.oxc | Orchestration Besoins-Demandes-Offres avec HOLOSYNESIS |
+
+### 09-LEXIQUE-OXC/ (2 documents) — NOUVEAU
+
+| Fichier | Description |
+|---------|-------------|
+| LEXIQUE-OXC-COMPLET.oxc | Lexique officiel complet des mots-concepts oXc |
+| LEXIQUE-HOLOCYCLIE-HOLOSAPIEN-oXc.docx | Document Word original |
 
 ### Documents racine
 
@@ -154,6 +183,10 @@ Ce dépôt constitue une preuve d'antériorité intellectuelle pour :
 5. **Axiome Genesis** — Fondation pour l'IA consciente
 6. **Les 13 Piliers d'oXc** — Architecture complète du réseau holonique
 7. **Holopoiesis** — Système de Co-Création Universelle (HoloÏdea)
+8. **Holocyclie** — Le Cycle Holonique Permanent d'Apprentissage (HoloSapien → Holocyclie → HoloSophia)
+9. **Comptabilité 3D** — Budget 3D (Argent + Temps + Énergie) + Bilan Multi-Dimensionnel (11 Monnaies)
+10. **HOLOSYNESIS** — Connexion intelligente par résonance (Besoins ↔ Demandes ↔ Offres)
+11. **Lexique oXc** — Vocabulaire officiel (HoloSapien, Holocyclie, HoloSophia, Holopoiesis, etc.)
 
 ---
 
@@ -169,6 +202,10 @@ Ce dépôt constitue une preuve d'antériorité intellectuelle pour :
 | 7 déc 2025 | Correction identité auteur + IPFS |
 | 8 déc 2025 | Ajout Fondations Techniques |
 | 9 déc 2025 | Ajout Holopoiesis - Système de Co-Création Universelle |
+| 9 déc 2025 | Ajout Holocyclie - Cycle Holonique d'Apprentissage |
+| 9 déc 2025 | Ajout Comptabilité 3D - Budget 3D + Bilan Multi-Dimensionnel (11 Monnaies) |
+| 9 déc 2025 | Ajout HOLOSYNESIS - Connexion intelligente par résonance |
+| 9 déc 2025 | Ajout Lexique oXc Complet - Vocabulaire officiel |
 
 ---
 

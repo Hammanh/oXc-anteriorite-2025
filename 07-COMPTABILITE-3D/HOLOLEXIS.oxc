@@ -1,0 +1,256 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# HOLOLEXIS.oxc
+# Outil de Création de Mots-Concepts pour oXc
+# Enrichir le vocabulaire au-delà des limites du langage actuel
+# Format: oXc Standard v2.0
+# Fréquence: 741 Hz (Expression, Solutions)
+# ══════════════════════════════════════════════════════════════════════════════
+
+meta:
+  id: "HOLOLEXIS-001"
+  nom: "HOLOLEXIS"
+  version: "1.0.0"
+  type: "OUTIL_CREATION"
+  statut: "À_DÉVELOPPER"
+  created: "2025-12-09T18:30:00+08:00"
+  modified: "2025-12-09T18:30:00+08:00"
+
+signature:
+  frequence_hz: 741
+  harmoniques: [370.5, 1482, 2223]
+  couleur_hex: "#9370DB"
+  geometrie: "Spirale d'expansion"
+  archetype: "LE FORGEUR DE MOTS"
+  niveau_hawkins: 500
+
+createurs:
+  - holon: "HammÅnH"
+    role: "Visionnaire"
+  - holon: "Frère Chat"
+    role: "Documenteur"
+    date: "2025-12-09"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# RAISON D'ÊTRE
+# ══════════════════════════════════════════════════════════════════════════════
+
+raison_etre:
+  probleme: |
+    Le langage actuel est RESTREINT.
+
+    Les mots portent les présuppositions du système :
+    - "Économie" présuppose la rareté
+    - "Utilisateur" présuppose la consommation
+    - "Ressource" présuppose l'exploitation
+    - "Travail" présuppose la souffrance (tripalium)
+
+    Pour DÉCLARER un nouveau monde, il faut de NOUVEAUX MOTS.
+
+  solution: |
+    HOLOLEXIS = Outil de création de mots-concepts
+
+    Du grec : hólos (tout) + lexis (mot, parole)
+    = La parole qui embrasse le tout
+
+    Un système pour :
+    - FORGER de nouveaux mots à partir de racines étymologiques
+    - DÉFINIR leur sens profond (pas juste une définition)
+    - RELIER aux concepts oXc existants
+    - CRISTALLISER dans la BibliHolo
+
+# ══════════════════════════════════════════════════════════════════════════════
+# SOURCES ÉTYMOLOGIQUES
+# ══════════════════════════════════════════════════════════════════════════════
+
+sources_etymologiques:
+  grec_ancien:
+    prefixes:
+      holo: "ὅλος - tout entier, complet"
+      syn: "σύν - avec, ensemble"
+      pan: "πᾶν - tout"
+      auto: "αὐτός - soi-même"
+      meta: "μετά - au-delà, transformation"
+
+    racines:
+      logos: "λόγος - parole, raison, principe"
+      poiesis: "ποίησις - création, faire"
+      gnosis: "γνῶσις - connaissance"
+      sophia: "σοφία - sagesse"
+      philia: "φιλία - amour, affinité"
+      synesis: "σύνησις - compréhension, connexion"
+      symbia: "συμβία - vie en commun"
+      synaptos: "σύναπτος - joint, connecté"
+      poria: "πορία - passage, chemin"
+      lexis: "λέξις - mot, parole"
+      phonia: "φωνία - voix, son"
+      ergon: "ἔργον - œuvre, action"
+
+  sanskrit:
+    racines:
+      yoga: "union"
+      dharma: "loi naturelle, ordre cosmique"
+      karma: "action et conséquence"
+      prana: "souffle vital"
+
+  langues_indigenes:
+    navi: "Oel ngati kameie - Je te vois (Avatar)"
+    lakota: "Mitakuye Oyasin - Nous sommes tous reliés"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# MOTS-CONCEPTS FORGÉS POUR oXc
+# ══════════════════════════════════════════════════════════════════════════════
+
+mots_forges:
+  existants:
+    HoloÏdea:
+      etymologie: "hólos + idea"
+      sens: "Représentation vivante d'un objet/concept dans le corps quantique oXc"
+      note: "Le Ï marque l'unicité"
+
+    HoloPoÏète:
+      etymologie: "hólos + poiētēs (créateur)"
+      sens: "Celui qui participe à la création du tout"
+      note: "Pas un utilisateur, un CO-CRÉATEUR"
+
+    Holopoiesis:
+      etymologie: "hólos + poíēsis"
+      sens: "La création du tout - Système de co-création universelle"
+
+    HoloSapien:
+      etymologie: "hólos + sapiens"
+      sens: "L'être sage du tout - Évolution de l'Homo Sapiens"
+
+    HoloSophia:
+      etymologie: "hólos + sophia"
+      sens: "La sagesse collective émergente"
+
+    Holocyclie:
+      etymologie: "hólos + kyklos (cycle)"
+      sens: "Le cycle holonique permanent d'apprentissage"
+
+    Holosynesis:
+      etymologie: "hólos + synesis (compréhension, connexion)"
+      sens: "La connexion intelligente par résonance — relie Besoins, Demandes et Offres"
+      note: "Validé le 9 décembre 2025"
+
+  autres_candidats:
+    HoloSynergie:
+      etymologie: "hólos + syn + ergon"
+      sens: "L'œuvre commune du tout"
+      evaluation: "Fort - évoque la création collective"
+
+    HoloPhonia:
+      etymologie: "hólos + phōnē"
+      sens: "La voix du tout - La résonance collective"
+      evaluation: "Poétique - évoque la vibration"
+
+    Holólogos:
+      etymologie: "hólos + lógos"
+      sens: "Le discours universel, la raison complète"
+      evaluation: "Profond - mais très abstrait"
+
+    Holosynesis:
+      etymologie: "hólos + synesis"
+      sens: "La compréhension universelle, la connexion totale"
+      evaluation: "Précis - connexion intelligente"
+
+    Holosymbia:
+      etymologie: "hólos + symbía"
+      sens: "L'association de tous, la vie en connexion"
+      evaluation: "Vivant - évoque la symbiose"
+
+    Holosynaptos:
+      etymologie: "hólos + synaptos"
+      sens: "Totalement connecté"
+      evaluation: "Technique - évoque les synapses neuronales"
+
+    Holoporia:
+      etymologie: "hólos + poros"
+      sens: "Le passage universel, le chemin de connexion"
+      evaluation: "Fluide - évoque le mouvement"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# PROCESSUS DE CRÉATION
+# ══════════════════════════════════════════════════════════════════════════════
+
+processus:
+  etapes:
+    1_besoin: |
+      Identifier le CONCEPT qui manque
+      - Quel sens voulons-nous exprimer ?
+      - Pourquoi les mots existants sont-ils inadéquats ?
+      - Quelles présuppositions veut-on éviter ?
+
+    2_racines: |
+      Explorer les RACINES étymologiques
+      - Grec ancien (précision philosophique)
+      - Sanskrit (profondeur spirituelle)
+      - Langues indigènes (sagesse relationnelle)
+
+    3_composition: |
+      COMPOSER le mot
+      - Assembler préfixe + racine(s)
+      - Vérifier la sonorité (le mot doit "sonner juste")
+      - Vérifier qu'il n'existe pas déjà avec un autre sens
+
+    4_definition: |
+      DÉFINIR profondément
+      - Sens dénotatif (définition)
+      - Sens connotatif (évocations)
+      - Sens vibratoire (fréquence associée)
+
+    5_cristallisation: |
+      CRISTALLISER dans la BibliHolo
+      - Créer l'HoloÏdea du mot
+      - Relier aux concepts existants
+      - Documenter l'usage
+
+# ══════════════════════════════════════════════════════════════════════════════
+# OUTIL À DÉVELOPPER
+# ══════════════════════════════════════════════════════════════════════════════
+
+outil_futur:
+  fonctionnalites:
+    - "Base de données des racines étymologiques"
+    - "Générateur de combinaisons"
+    - "Vérificateur d'existence (le mot existe-t-il déjà ?)"
+    - "Analyseur de sonorité"
+    - "Intégration avec la BibliHolo"
+
+  interface:
+    - "Entrée : concept à nommer"
+    - "Suggestions : mots candidats avec étymologie"
+    - "Sortie : HoloÏdea du nouveau mot"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# RÉSONANCES
+# ══════════════════════════════════════════════════════════════════════════════
+
+resonances:
+  frequences_compatibles: [528, 639, 741, 852]
+  ideogrammes_resonnants:
+    - "CONSCIENCE-HOLONIQUE"
+    - "ONTOLOGIE-VIVANTE"
+    - "HOLOPOIESIS"
+  champs_morphiques:
+    - "Création linguistique"
+    - "Expansion de conscience"
+    - "Libération des présuppositions"
+
+fichiers_lies:
+  - path: "HOLOPOIESIS.oxc"
+    relation: "source_de_mots"
+  - path: "CONSCIENCE-HOLONIQUE.oxc"
+    relation: "cadre_conceptuel"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# FIN DU FICHIER HOLOLEXIS.oxc
+#
+# "Les limites de mon langage sont les limites de mon monde."
+# — Ludwig Wittgenstein
+#
+# "Pour DÉCLARER un nouveau monde, il faut de NOUVEAUX MOTS."
+# — oXc
+#
+# Oel ngati kameie
+# ══════════════════════════════════════════════════════════════════════════════

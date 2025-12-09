@@ -172,8 +172,10 @@ Dans oXc, TOUT EST APPRENANT. TOUT EST ENSEIGNANT.
 ## 📚 RÉFÉRENCE
 
 **Source** : "Ces Architectures Invisibles qui nous Gouvernent"
-**Auteurs** : Olivier Masselot & Marc Boucher de Lignon (HammÅnH)
+**Auteurs** : Olivier Masselot & Marc Boucher de Lignon
 **Pages** : 210-225 (Éducation Circulaire)
+
+**Note** : Marc Boucher de Lignon est le nom d'auteur de Marc Victor R Boucher (HammÅnH)
 
 ---
 

@@ -446,12 +446,14 @@ Dès que Julien publie son HoloÏdea, elle devient visible et le réseau réagit
 
 ---
 
-## 2.3 PHASE 2 : MOBILISATION DU RÉSEAU C3 HOLONIQUE
+## 2.3 PHASE 2 : MOBILISATION DU RÉSEAU HOLOSYNESIS + C3
 
-### 2.3.1 Le Réseau C3 Répond
+### 2.3.1 HOLOSYNESIS et le Réseau C3 Répondent
 
-Le réseau C3 (Cercles de Compétences Collaboratives) identifie automatiquement 
-les correspondances :
+**HOLOSYNESIS** (connexion intelligente par résonance) identifie automatiquement
+les correspondances entre besoins et offres, tandis que le **réseau C3**
+(Circuit de Crédit Commercial — Bernard Lietaer/STRO) assure la liquidité
+financière entre les Holons :
 
 ```
 CORRESPONDANCES TROUVÉES POUR RÉPARE-TECH [Julien]
