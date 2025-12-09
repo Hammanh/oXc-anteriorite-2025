@@ -179,4 +179,8 @@ Dans oXc, TOUT EST APPRENANT. TOUT EST ENSEIGNANT.
 
 *COHÉRER LE MONDE — Par l'Éducation Circulaire Permanente*
 
-*oXc • Décembre 2025*
+---
+
+© 2025 Marc Victor R Boucher (HammÅnH)
+Tous droits réservés
+Projet oXc — Architecture de Conscience pour l'Évolution Collective
