@@ -2,6 +2,10 @@
 ## Par HammÅnH — Vision Unifiée du Conseil des Sages
 ### Version 2.0 — 8 décembre 2025
 
+**Auteur** : Marc Victor R Boucher (HammÅnH)
+**Contact** : hammanh@proton.me | https://yatasana.com | https://github.com/Hammanh
+**Date** : 8 décembre 2025
+
 ---
 
 # 🇫🇷 VERSION FRANÇAISE

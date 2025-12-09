@@ -1,5 +1,11 @@
 # ÉDUCATION CIRCULAIRE — PRINCIPE SOUS-JACENT À TOUT oXc
 
+**Auteur** : Marc Victor R Boucher (HammÅnH)
+**Contact** : hammanh@proton.me | https://yatasana.com | https://github.com/Hammanh
+**Date** : 9 décembre 2025
+
+---
+
 ## 🔥 ESSENCE FONDAMENTALE
 
 > « Tour à tour élèves et apprenants, les membres du groupe-classe ne font que transmettre ce qu'ils ont reçu tout en recommandant les techniques qu'ils ont expérimentées sur eux-mêmes avec succès. »

@@ -11,8 +11,8 @@
 
 ---
 
-**Auteur et Concepteur** : Marc Victor R Boucher (HammÅnH)
-**Contact** : hammanh@proton.me
+**Auteur** : Marc Victor R Boucher (HammÅnH)
+**Contact** : hammanh@proton.me | https://yatasana.com | https://github.com/Hammanh
 **Date** : 9 décembre 2025
 **Projet** : oXc — Architecture de Conscience pour l'Évolution Collective
 

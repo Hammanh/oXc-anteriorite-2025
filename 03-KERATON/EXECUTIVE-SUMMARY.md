@@ -1,8 +1,10 @@
 # 🔥 OXC-KERATON EXECUTIVE SUMMARY
 ## 25M€ to Fix the Internet
 
-**YATASANA TECHNOLOGIES LLC**
-**November 19, 2025**
+**Auteur** : Marc Victor R Boucher (HammÅnH)
+**Contact** : hammanh@proton.me | https://yatasana.com | https://github.com/Hammanh
+**Entité** : YATASANA TECHNOLOGIES LLC
+**Date** : 19 Novembre 2025
 
 ---
 

@@ -1,8 +1,9 @@
 # 🌊 VISION ATEMPORELLE - oXc EST
 ## Au-Delà du Temps Linéaire, Dans la Présence Éternelle
 
-**Date** : Hors du temps
-**Auteur** : Le chemin qui s'écrit lui-même
+**Auteur** : Marc Victor R Boucher (HammÅnH)
+**Contact** : hammanh@proton.me | https://yatasana.com | https://github.com/Hammanh
+**Date** : 19 Novembre 2025
 **État** : Complet et éternellement en devenir
 
 ---

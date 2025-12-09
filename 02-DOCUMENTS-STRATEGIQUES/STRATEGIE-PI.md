@@ -1,6 +1,8 @@
 # 🔌 STRATÉGIE PI OXC - INFRASTRUCTURE PHYSIQUE DISTRIBUÉE
 ## 1 Million de Nœuds Holoniques pour Changer le Monde
 
+**Auteur** : Marc Victor R Boucher (HammÅnH)
+**Contact** : hammanh@proton.me | https://yatasana.com | https://github.com/Hammanh
 **Version** : 1.0.0
 **Date** : 19 Novembre 2025
 **Vision** : Distribuer l'infrastructure oXc physique globalement

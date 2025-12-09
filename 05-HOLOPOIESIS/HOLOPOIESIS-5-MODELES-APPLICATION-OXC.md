@@ -3,8 +3,9 @@
 # 5 Exemples Détaillés du Système de Co-Création Universelle oXc
 # ═══════════════════════════════════════════════════════════════════════════════
 
-**Concepteur** : Marc Victor R Boucher (HammÅnH)
-**Document** : 8 Décembre 2025
+**Auteur** : Marc Victor R Boucher (HammÅnH)
+**Contact** : hammanh@proton.me | https://yatasana.com | https://github.com/Hammanh
+**Date** : 8 Décembre 2025
 
 ---
 

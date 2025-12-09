@@ -2,6 +2,10 @@
 
 **Suite de la Publication Fondatrice**
 
+**Auteur** : Marc Victor R Boucher (HammÅnH)
+**Contact** : hammanh@proton.me | https://yatasana.com | https://github.com/Hammanh
+**Date** : 18 Novembre 2025
+
 ---
 
 # PARTIE IV : ONTOLOGIES DYNAMIQUES

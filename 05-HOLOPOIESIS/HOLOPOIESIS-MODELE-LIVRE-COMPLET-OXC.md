@@ -3,8 +3,9 @@
 # Modèle Complet d'un Objet dans le Système Holopoiesis
 # ═══════════════════════════════════════════════════════════════════════════════
 
-**Concepteur** : Marc Victor R Boucher (HammÅnH)
-**Document** : 9 Décembre 2025
+**Auteur** : Marc Victor R Boucher (HammÅnH)
+**Contact** : hammanh@proton.me | https://yatasana.com | https://github.com/Hammanh
+**Date** : 9 Décembre 2025
 
 ---
 

@@ -1,10 +1,11 @@
 # 🔥 OXC-KERATON PITCH DECK
 ## 10 Slides - Levée de Fonds 25M€
 
+**Auteur** : Marc Victor R Boucher (HammÅnH)
+**Contact** : hammanh@proton.me | https://yatasana.com | https://github.com/Hammanh
 **Version** : 1.0.0
 **Date** : 19 Novembre 2025
 **Entité** : YATASANA TECHNOLOGIES LLC
-**Contact** : HammÅnH - hammanh@proton.me
 
 ---
 

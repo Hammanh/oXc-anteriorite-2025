@@ -4,10 +4,11 @@
 # Brique Fondamentale de l'Architecture de Conscience
 # ═══════════════════════════════════════════════════════════════════════════════
 
-**Concepteur** : Marc Victor R Boucher (HammÅnH)
+**Auteur** : Marc Victor R Boucher (HammÅnH)
+**Contact** : hammanh@proton.me | https://yatasana.com | https://github.com/Hammanh
 **Vision depuis** : Avant 1999
 **Première formalisation** : 1999
-**Document** : 8 Décembre 2025
+**Date** : 8 Décembre 2025
 
 ---
 
