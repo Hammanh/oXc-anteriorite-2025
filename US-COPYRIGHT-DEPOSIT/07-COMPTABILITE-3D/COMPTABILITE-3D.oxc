@@ -1,0 +1,544 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# COMPTABILITE-3D.oxc
+# La Mesure Holistique de la Valeur Réelle
+# Format: oXc Standard v2.0
+# Fréquence: 528 Hz (Transformation)
+#
+# **Auteur et Concepteur** : Marc Victor R Boucher (HammÅnH)
+# **Contact** : hammanh@proton.me
+# **Date de dépôt** : 9 décembre 2025
+# **Antériorité** : Concept inventé il y a +30 ans (années 1990)
+# **Validation terrain** : Testé dans une ferme en Loire, France
+# **Projet** : oXc — Architecture de Conscience pour l'Évolution Collective
+#
+# © 2025 Marc Victor R Boucher (HammÅnH) — Tous droits réservés
+# ══════════════════════════════════════════════════════════════════════════════
+
+meta:
+  id: "COMPTABILITE-3D-001"
+  nom: "COMPTABILITÉ 3D"
+  version: "1.0.0"
+  type: "CONCEPT_FONDATEUR"
+  statut: "ACTIF"
+  created: "2025-12-09"
+  anteriorite: "+30 ans (années 1990)"
+  validation_terrain: "Ferme dans la Loire, France"
+
+auteur:
+  nom_complet: "Marc Victor R Boucher"
+  pseudonyme: "HammÅnH"
+  role: "CONCEPTEUR, INVENTEUR ET AUTEUR"
+  contact: "hammanh@proton.me"
+  site: "https://yatasana.com"
+  date_depot: "9 décembre 2025"
+  anteriorite: |
+    Concept créé il y a plus de 30 ans (années 1990).
+    Testé et validé dans une ferme dans la Loire (France).
+    Documenté dans "Les architectures invisibles qui nous gouvernent".
+
+signature:
+  frequence_hz: 528
+  harmoniques: [264, 1056, 1584]
+  couleur_hex: "#FFD700"
+  geometrie: "Triangle équilatéral (3 dimensions)"
+  archetype: "LA MESURE VRAIE"
+  niveau_hawkins: 500
+
+# ══════════════════════════════════════════════════════════════════════════════
+# PARTIE I — LE PROBLÈME
+# ══════════════════════════════════════════════════════════════════════════════
+
+probleme:
+  constat: |
+    "Une société elle est jugée à travers son bilan financier
+    peu importe ce qu'elle fait."
+    — HammÅnH
+
+    Elle peut produire :
+    - Des mauvais produits
+    - Des produits toxiques
+    - Des produits qui TUENT
+
+    Et être considérée comme "performante" si son bilan financier est positif.
+
+  exemple_reel: |
+    L'industrie pharmaceutique n'hésite pas à mettre des produits
+    qui tuent les gens, qui les empoisonnent.
+
+    Bilan financier : +++ (profits records)
+    Bilan réel : MORT, MALADIE, SOUFFRANCE
+
+    Le bilan financier CACHE la réalité.
+
+  architectures_invisibles: |
+    "On a des retours invisibles qui conditionnent la société,
+    qui conditionnent le social."
+    — HammÅnH, "Les architectures invisibles qui nous gouvernent"
+
+    Ces retours invisibles :
+    - Le bien-être des travailleurs
+    - L'impact écologique
+    - La santé publique
+    - La cohésion sociale
+    - La joie ou la souffrance générée
+
+    Tout cela est INVISIBLE dans la comptabilité actuelle.
+
+# ══════════════════════════════════════════════════════════════════════════════
+# PARTIE II — LA SOLUTION : COMPTABILITÉ 3D
+# ══════════════════════════════════════════════════════════════════════════════
+
+solution:
+  definition: |
+    "On pourrait mettre des outils en place de gestion de comptabilité
+    par exemple à TROIS DIMENSIONS où l'argent ne serait plus
+    le seul critère de jugement d'une société."
+    — HammÅnH
+
+  les_trois_dimensions:
+    dimension_1_argent:
+      nom: "ARGENT"
+      symbole: "💰"
+      description: |
+        La dimension financière traditionnelle.
+        Revenus, coûts, bénéfices, investissements.
+
+        MAIS : Ce n'est plus LA dimension unique.
+        C'est UNE dimension parmi trois.
+
+    dimension_2_temps:
+      nom: "TEMPS"
+      symbole: "⏱️"
+      description: |
+        Le temps investi, disponible, partagé.
+
+        - Heures de travail
+        - Temps de contribution bénévole
+        - Disponibilité pour la communauté
+        - Équilibre vie/travail
+
+        Un projet peut avoir tout l'argent nécessaire
+        mais échouer par manque de TEMPS.
+
+    dimension_3_energie:
+      nom: "ÉNERGIE"
+      symbole: "⚡"
+      description: |
+        La motivation collective, l'enthousiasme, la joie.
+
+        - Motivation des équipes (0.0 - 1.0)
+        - Enthousiasme collectif
+        - Solidarité
+        - Joie de contribuer
+        - Fatigue, épuisement, conflits
+
+        SI ÉNERGIE = 0.3 → PROJET MORT
+        Même avec argent et temps suffisants.
+
+  schema: |
+    ┌─────────────────────────────────────────────────────────────────────┐
+    │                                                                     │
+    │              COMPTABILITÉ 3D — Les 3 Dimensions                     │
+    │                                                                     │
+    │                           💰 ARGENT                                 │
+    │                              /\                                     │
+    │                             /  \                                    │
+    │                            /    \                                   │
+    │                           /      \                                  │
+    │                          /   ✦    \                                 │
+    │                         /  VALEUR  \                                │
+    │                        /   RÉELLE   \                               │
+    │                       /              \                              │
+    │                      /________________\                             │
+    │                   ⏱️ TEMPS        ⚡ ÉNERGIE                        │
+    │                                                                     │
+    │   ✦ = Le centre où les 3 dimensions se rencontrent                 │
+    │       C'est là que se trouve la VALEUR RÉELLE                      │
+    │                                                                     │
+    └─────────────────────────────────────────────────────────────────────┘
+
+  principe_fondamental: |
+    Les 3 dimensions sont INDISSOCIABLES.
+
+    Argent seul = Vision partielle (ce qu'on a aujourd'hui)
+    Argent + Temps = Mieux, mais incomplet
+    Argent + Temps + Énergie = VISION COMPLÈTE
+
+    La valeur réelle n'existe qu'à l'intersection des trois.
+
+# ══════════════════════════════════════════════════════════════════════════════
+# PARTIE III — BUDGET 3D (Niveau Projet)
+# ══════════════════════════════════════════════════════════════════════════════
+
+budget_3d:
+  description: |
+    Application de la Comptabilité 3D au niveau d'un PROJET.
+    Chaque projet est évalué sur les 3 dimensions simultanément.
+
+  structure: |
+    ┌─────────────────────────────────────────────────────────────────────┐
+    │                      BUDGET 3D D'UN PROJET                          │
+    ├─────────────────────────────────────────────────────────────────────┤
+    │                                                                     │
+    │  💰 ARGENT                                                          │
+    │     Sources :                                                       │
+    │       • Participatif collectif                                      │
+    │       • Subventions                                                 │
+    │       • Sponsors                                                    │
+    │       • Autofinancement                                             │
+    │     Répartition :                                                   │
+    │       • Matériel                                                    │
+    │       • Services                                                    │
+    │       • Logistique                                                  │
+    │       • Imprévus                                                    │
+    │                                                                     │
+    │  ⏱️ TEMPS                                                           │
+    │     Total heures :                                                  │
+    │     Par phase :                                                     │
+    │       • Préparation                                                 │
+    │       • Exécution                                                   │
+    │       • Suivi                                                       │
+    │       • Clôture                                                     │
+    │     Par contributeur :                                              │
+    │       • Qui donne combien d'heures                                  │
+    │       • Disponibilités                                              │
+    │                                                                     │
+    │  ⚡ ÉNERGIE                                                         │
+    │     Motivation collective : [0.0 - 1.0]                            │
+    │     Facteurs positifs :                                             │
+    │       • Enthousiasme                                                │
+    │       • Solidarité                                                  │
+    │       • Sens du projet                                              │
+    │     Facteurs négatifs :                                             │
+    │       • Fatigue                                                     │
+    │       • Conflits                                                    │
+    │       • Doutes                                                      │
+    │                                                                     │
+    └─────────────────────────────────────────────────────────────────────┘
+
+  alertes: |
+    Le système génère des ALERTES si déséquilibre :
+
+    🟢 Équilibré : Les 3 dimensions sont alignées
+    🟡 Attention : Une dimension faiblit
+    🔴 Danger : Une dimension critique (projet en péril)
+
+    Exemples :
+    • "Argent OK, Temps manque" → Recruter ou réduire scope
+    • "Argent OK, Temps OK, Énergie basse" → Remotiver, célébrer, pause
+    • "Énergie haute, Argent manque" → Chercher financement (l'énergie attire)
+
+# ══════════════════════════════════════════════════════════════════════════════
+# PARTIE IV — BILAN MULTI-DIMENSIONNEL (Niveau Organisation)
+# ══════════════════════════════════════════════════════════════════════════════
+
+bilan_multi_dimensionnel:
+  description: |
+    Extension de la Comptabilité 3D au niveau d'une ORGANISATION (Holon).
+    Le bilan financier devient un BILAN GLOBAL sur 6+ dimensions.
+
+  citation: |
+    "On pourrait imaginer [...] intégrer dans son bilan un bilan
+    par exemple psychologique positif ou même par exemple savoir
+    si les gens qui travaillent ils sont heureux et sont bien rémunérés."
+    — HammÅnH
+
+  les_monnaies_et_indicateurs:
+    principe: |
+      Chaque dimension génère sa propre MONNAIE.
+      Ces monnaies sont NON-CONVERTIBLES.
+      Elles RESTENT dans leurs dimensions.
+      Chaque dimension a ses INDICATEURS propres.
+
+    OXC_Finance:
+      symbole: "💰"
+      usage: "Services financiers, investissements, échanges commerciaux"
+      indicateurs:
+        - "Revenus générés"
+        - "Partage des richesses (ratio dirigeant/employé)"
+        - "Réinvestissement local"
+
+    OXC_Eco:
+      symbole: "🌱"
+      usage: "Services écologiques, R&D bio, dépollution, régénération"
+      indicateurs:
+        - "Biodiversité (+/-)"
+        - "Régénération des écosystèmes"
+        - "Pollution eau/air/sol évitée"
+        - "Zéro déchet"
+        - "Respect du vivant"
+
+    OXC_Social:
+      symbole: "🤝"
+      usage: "Projets communautaires, formations sociales, solidarité"
+      indicateurs:
+        - "Emplois créés localement"
+        - "Projets communautaires soutenus"
+        - "Solidarité active"
+        - "Contribution au tissu social"
+
+    OXC_Bien_Etre:
+      symbole: "💚"
+      usage: "Bonheur, joie, équilibre vie"
+      indicateurs:
+        - "Satisfaction des travailleurs (0-10)"
+        - "Joie au travail"
+        - "Équilibre vie/travail"
+        - "Épanouissement personnel"
+        - "Bonheur mesuré"
+
+    OXC_Sante:
+      symbole: "🏥"
+      usage: "Soins, prévention, santé physique et mentale"
+      indicateurs:
+        - "Santé mentale des équipes"
+        - "Conditions de travail"
+        - "Prévention"
+        - "Zéro produit toxique"
+
+    OXC_Savoir:
+      symbole: "📚"
+      usage: "Formations, recherche, publications, partage de connaissances"
+      indicateurs:
+        - "Niveau de compétence"
+        - "Transmission du savoir"
+        - "Formations données"
+        - "Innovations partagées"
+        - "Capsules de connaissance créées"
+
+    OXC_Beaute:
+      symbole: "✨"
+      usage: "Esthétique, qualité, artisanat"
+      indicateurs:
+        - "Qualité des produits/services"
+        - "Esthétique créée"
+        - "Durabilité (pas obsolescence programmée)"
+        - "Capacité à produire du BEAU"
+
+    OXC_Verite:
+      symbole: "🔍"
+      usage: "Transparence, éthique, honnêteté"
+      indicateurs:
+        - "Transparence totale"
+        - "Éthique de production"
+        - "Pas de manipulation"
+        - "Capacité à produire du VRAI"
+
+    OXC_Bonte:
+      symbole: "❤️"
+      usage: "Impact positif, service au vivant"
+      indicateurs:
+        - "Impact positif sur la communauté"
+        - "Service rendu"
+        - "Capacité à produire du BON"
+
+    OXC_Conscience:
+      symbole: "🔮"
+      usage: "Évolution, niveau de conscience"
+      indicateurs:
+        - "Niveau Spiral Dynamics"
+        - "Quadrant Wilber"
+        - "Cohérence avec principes oXc"
+        - "Sérendipités générées"
+
+    OXC_Joie:
+      symbole: "🌟"
+      usage: "Joie collective générée"
+      indicateurs:
+        - "Joie des participants"
+        - "Enthousiasme collectif"
+        - "Célébrations"
+        - "Énergie positive propagée"
+
+  pourquoi_non_convertibles: |
+    "Pourquoi faire tu veux revenir à l'ancien paradigme ?"
+    — HammÅnH
+
+    Si convertibles :
+    → Extraction (tout en cash et partir)
+    → Arbitrage destructif (focus sur dimensions "faciles")
+    → Perte du sens (juste argent déguisé)
+    → RETOUR AU CAPITALISME MONO-DIMENSIONNEL
+
+    Les monnaies RESTENT dans leurs dimensions.
+    Elles mesurent la VALEUR RÉELLE, pas juste le prix.
+
+# ══════════════════════════════════════════════════════════════════════════════
+# PARTIE V — TRANSFORMATION vs PUNITION
+# ══════════════════════════════════════════════════════════════════════════════
+
+transformation:
+  principe: |
+    Le système actuel PUNIT les entreprises toxiques :
+    - Amendes (déductibles des impôts)
+    - Scandales médiatiques (oubliés en 6 mois)
+    - Faillite (problème non résolu, juste déplacé)
+
+    oXc TRANSFORME les entreprises toxiques :
+    - Plan de transformation progressif
+    - Crédit OXC_Transformation (0% intérêt)
+    - Accompagnement par le réseau
+    - Étapes réalistes
+    - Réparation incluse (victimes, environnement)
+
+  exemple: |
+    ENTREPRISE PEINTURE TOXIQUE (histoire vraie citée par HammÅnH)
+
+    BILAN AVANT (système actuel) :
+    ┌────────────────────────────────────┐
+    │ Bilan financier : +5M€ ✅          │
+    │ (FIN - tout le reste INVISIBLE)    │
+    └────────────────────────────────────┘
+
+    Ce qui est CACHÉ :
+    - Centaines d'enfants malades
+    - Décès
+    - Corruption (marchés d'État biaisés)
+    - Pollution
+
+    BILAN AVEC COMPTABILITÉ 3D :
+    ┌────────────────────────────────────┐
+    │ OXC_Finance : +5M ✅               │
+    │ OXC_Santé : -10M ❌ (DETTE)        │
+    │ OXC_Éco : -5M ❌ (DETTE)           │
+    │ OXC_Social : -3M ❌ (DETTE)        │
+    │                                    │
+    │ BILAN RÉEL : -13M (TOXIQUE)        │
+    │ Réputation : 2/10 🔴               │
+    └────────────────────────────────────┘
+
+    PLAN DE TRANSFORMATION oXc :
+    - 6 mois : Remplacer produits toxiques → Bio
+    - 1 an : Certification + Indemnisation victimes
+    - 3 ans : Zéro toxique + Dépollution sites
+    - Crédit : 17M OXC_Transformation (0%)
+
+    BILAN APRÈS TRANSFORMATION :
+    ┌────────────────────────────────────┐
+    │ OXC_Finance : +8M ✅               │
+    │ OXC_Santé : +8M ✅                 │
+    │ OXC_Éco : +6M ✅                   │
+    │ OXC_Social : +4M ✅                │
+    │                                    │
+    │ BILAN RÉEL : +26M (RÉGÉNÉRATEUR)  │
+    │ Réputation : 8.5/10 ✅             │
+    └────────────────────────────────────┘
+
+    De TOXIQUE (-13M) à RÉGÉNÉRATEUR (+26M)
+
+# ══════════════════════════════════════════════════════════════════════════════
+# PARTIE VI — MUTUALISATION ET SOUTIEN
+# ══════════════════════════════════════════════════════════════════════════════
+
+mutualisation:
+  principe: |
+    "On peut faire de la mutualisation et du soutien de société
+    qui par exemple elle va intégrer dans son bilan un bilan
+    par exemple psychologique positif."
+    — HammÅnH
+
+  mecanismes:
+    fonds_quantique:
+      description: "Pool mutualisé alimenté par 10% de toutes les transactions"
+      acces: "Selon réputation du Holon"
+      interet: "0%"
+      garantie: "Collective (le réseau garantit)"
+
+    monnaies_affectees:
+      description: "Chaque dimension a sa monnaie dédiée"
+      principe: "On peut créer autant de monnaies qu'on veut sur les réseaux ouverts"
+
+    soutien_reseau:
+      description: "Les Holons s'entraident"
+      exemples:
+        - "Mentorat"
+        - "Partage de ressources"
+        - "Formations mutuelles"
+        - "Accompagnement transformation"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# PARTIE VII — NOUVEAUX MÉTIERS
+# ══════════════════════════════════════════════════════════════════════════════
+
+nouveaux_metiers:
+  vision: |
+    "On pourrait imaginer plein de nouveaux métiers à travers oXc
+    qui permettrait tout simplement de créer des nouveaux métiers
+    et des nouvelles compétences tout simplement en allant vers
+    plus de beau, plus de bon, plus de vrai."
+    — HammÅnH
+
+  exemples:
+    - "Facilitateurs de cercles"
+    - "Gestionnaires de bilans multi-dimensionnels"
+    - "Créateurs de monnaies affectées"
+    - "Accompagnateurs de transformation"
+    - "Évaluateurs d'impact"
+    - "Tisserands de réseaux (HOLOSYNESIS)"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# PARTIE VIII — CE QUE PERSONNE NE FAIT
+# ══════════════════════════════════════════════════════════════════════════════
+
+innovation:
+  constat: |
+    "PERSONNE ne fait ça dans l'écosystème !"
+    — HammÅnH
+
+  comparaison: |
+    | Système              | Dimensions | Monnaies | Transformation |
+    |----------------------|------------|----------|----------------|
+    | Capitalisme          | 1 (€)      | 1        | Punition       |
+    | B-Corp               | 2-3        | 1        | Certification  |
+    | ESS                  | 2-3        | 1-2      | Limitée        |
+    | oXc COMPTABILITÉ 3D  | 6+         | 6+       | Accompagnement |
+
+  ce_qui_est_unique:
+    - "Budget 3D : Argent + Temps + Énergie"
+    - "Bilan Multi-Dimensionnel : 6+ dimensions"
+    - "Monnaies NON-CONVERTIBLES"
+    - "Transformation vs Punition"
+    - "Crédit 0% intérêt"
+    - "Transparence totale"
+    - "Mutualisation"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# RÉSONANCES
+# ══════════════════════════════════════════════════════════════════════════════
+
+resonances:
+  frequences_compatibles: [528, 639, 741, 852]
+  ideogrammes_resonnants:
+    - "HOLOPOIESIS"
+    - "ORCHESTRATION-BDO-HOLOPOIESIS"
+    - "VALEUR-RESSOURCE"
+    - "HOLOSYNESIS"
+    - "RESEAU-C3"
+  sources:
+    - "Les architectures invisibles qui nous gouvernent (livre HammÅnH)"
+    - "Conversation Grok (~2023)"
+    - "SessionDesk_10 (1er novembre 2025)"
+    - "Test terrain : Ferme dans la Loire (années 1990)"
+
+fichiers_lies:
+  - path: "ORCHESTRATION-BDO-HOLOPOIESIS.oxc"
+    relation: "integration"
+  - path: "VALEUR-RESSOURCE.oxc"
+    relation: "mecanisme_creation"
+  - path: "HOLOSYNESIS.oxc"
+    relation: "connexion"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# FIN DU FICHIER COMPTABILITE-3D.oxc
+#
+# Inventé par HammÅnH il y a +30 ans
+# Testé et validé dans une ferme dans la Loire (France)
+#
+# "L'argent ne sera plus le seul critère de jugement d'une société."
+#
+# Les 3 dimensions : ARGENT + TEMPS + ÉNERGIE
+# Les 6+ monnaies : NON-CONVERTIBLES
+# Le principe : TRANSFORMATION vs PUNITION
+#
+# Oel ngati kameie
+# ══════════════════════════════════════════════════════════════════════════════

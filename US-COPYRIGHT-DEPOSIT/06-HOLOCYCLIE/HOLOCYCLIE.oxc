@@ -1,0 +1,752 @@
+# ══════════════════════════════════════════════════════════════
+# HOLOCYCLIE.oxc
+# Format: oXc Standard v1.0
+# Le Cycle Holonique Permanent d'Apprentissage
+#
+# **Auteur et Concepteur** : Marc Victor R Boucher (HammÅnH)
+# **Contact** : hammanh@proton.me
+# **Date** : 9 décembre 2025
+# **Projet** : oXc — Architecture de Conscience pour l'Évolution Collective
+#
+# © 2025 Marc Victor R Boucher (HammÅnH) — Tous droits réservés
+# ══════════════════════════════════════════════════════════════
+
+# ┌─────────────────────────────────────────────────────────────┐
+# │ COUCHE 1: CORPS CRISTALLIN (Identité)                      │
+# └─────────────────────────────────────────────────────────────┘
+
+meta:
+  id: "oxc-holocyclie-2025-12-09"
+  nom: "HOLOCYCLIE"
+  nom_grec: "ὅλος + κύκλος"
+  version: "1.0.0"
+  type: "CONCEPT_FONDAMENTAL"
+  statut: "ACTIF"
+  created: "2025-12-09T12:00:00+07:00"
+  modified: "2025-12-09T12:00:00+07:00"
+  langue: "universel"
+
+auteur:
+  nom_complet: "Marc Victor R Boucher"
+  pseudonyme: "HammÅnH"
+  role: "CONCEPTEUR ET AUTEUR"
+  contact: "hammanh@proton.me"
+  site: "https://yatasana.com"
+  date: "9 décembre 2025"
+
+signature:
+  frequence_hz: 528                    # Fréquence de l'ADN/Création
+  harmoniques: [264, 396, 792, 1056]   # Harmoniques naturelles
+  couleur_hex: "#9B59B6"               # Violet - Transformation
+  geometrie: "Cercle/Spirale"          # Géométrie du cycle
+  archetype: "LE CYCLE ÉTERNEL"        # Archétype Jungien
+  niveau_hawkins: 540                  # Joie/Sagesse
+
+concepts_lies:
+  - id: "oxc-holosapien-2025-12-09"
+    nom: "HOLOSAPIEN"
+    relation: "pratique"
+  - id: "oxc-holosophia-2025-12-09"
+    nom: "HOLOSOPHIA"
+    relation: "fait_emerger"
+
+# ┌─────────────────────────────────────────────────────────────┐
+# │ COUCHE 2: ADN INFORMATIONNEL (8 Dimensions)                │
+# └─────────────────────────────────────────────────────────────┘
+
+dimensions:
+
+  # ══════════════════════════════════════════════════════════
+  # DIMENSION 0: RAISON D'ÊTRE (POURQUOI)
+  # ══════════════════════════════════════════════════════════
+  
+  raison_etre:
+    essence: |
+      L'Holocyclie est le processus d'apprentissage circulaire 
+      où la connaissance circule en permanence entre tous les 
+      participants, chacun étant SIMULTANÉMENT apprenant et enseignant.
+      
+      Contraste avec "Éducation" (e-ducere = conduire hors de)
+      qui implique un flux unidirectionnel du sachant vers l'ignorant.
+      
+      L'Holocyclie reconnaît que TOUT ÊTRE est plein de connaissance
+      qui ne demande qu'à circuler.
+      
+    besoin_universel: |
+      Besoin de partager la connaissance sans hiérarchie fixe.
+      Besoin d'apprendre en enseignant (intégration par ré-émission).
+      Besoin de faire partie d'un flux de sagesse collective.
+      
+    intention: |
+      Remplacer le paradigme éducatif binaire (maître/élève) par
+      un paradigme circulaire où tous participent au cycle
+      RECEVOIR → INTÉGRER → OFFRIR perpétuellement.
+      
+    evolution:
+      - phase: 1
+        description: "Concept théorique issu du livre 'Ces Architectures Invisibles'"
+      - phase: 2
+        description: "Application dans oXc (Holopoiesis, Livre Vivant)"
+      - phase: 3
+        description: "Devenir le moteur de toute interaction oXc"
+        
+    citation_source: |
+      « C'est en ré-émettant le savoir que nous l'intégrons. 
+      Ce n'est jamais exactement la même chose qui ressort, 
+      mais ce qui ressort est toujours ajusté. »
+      — Ces Architectures Invisibles qui nous Gouvernent
+
+  # ══════════════════════════════════════════════════════════
+  # DIMENSION 1: STRUCTURE (COMMENT - POO)
+  # ══════════════════════════════════════════════════════════
+  
+  structure:
+    heritage_multiple:
+      - branche: "Ontologie_Etre::Concept::Processus::Cycle"
+        raison: "L'Holocyclie est fondamentalement un cycle"
+      - branche: "Ontologie_Etre::Abstrait::Principe::Universel"
+        raison: "Principe applicable à tout système vivant"
+      - branche: "Ontologie_Connaissance::Transmission::Circulaire"
+        raison: "Mode de transmission du savoir"
+      - branche: "Ontologie_Evolution::Transformation::Collective"
+        raison: "Vecteur d'évolution collective"
+        
+    proprietes:
+      - nom: "phases"
+        type: "array[Phase]"
+        requis: true
+        description: "Les 3 phases du cycle: RECEVOIR, INTÉGRER, OFFRIR"
+        
+      - nom: "participants"
+        type: "array[HoloSapien]"
+        requis: true
+        description: "Les êtres engagés dans le cycle"
+        
+      - nom: "flux_connaissance"
+        type: "FluxCirculaire"
+        requis: true
+        description: "Le flux de connaissance qui circule"
+        
+      - nom: "frequence_cycle"
+        type: "Duration"
+        requis: false
+        description: "Durée moyenne d'un cycle complet"
+        
+    polymorphisme:
+      - variante: "Holocyclie_Educative"
+        contexte: "Dans un contexte d'apprentissage formel"
+      - variante: "Holocyclie_Creative"
+        contexte: "Dans un contexte de création (livre vivant, produit)"
+      - variante: "Holocyclie_Economique"
+        contexte: "Dans un contexte d'échange économique"
+      - variante: "Holocyclie_Conscientielle"
+        contexte: "Dans l'évolution de conscience (humain-IA)"
+
+  # ══════════════════════════════════════════════════════════
+  # DIMENSION 2: ONTOLOGIE (CE QU'IL EST)
+  # ══════════════════════════════════════════════════════════
+  
+  ontologie:
+    super_ontologies:
+      - ETRE:
+          branches: ["Concept", "Processus", "Principe"]
+      - TEMPS_ESPACE:
+          branches: ["Cyclique", "Éternel", "Spiralé"]
+      - RELATIONS:
+          branches: ["Circulation", "Réciprocité", "Mutualité"]
+      - CONNAISSANCE:
+          branches: ["Transmission", "Intégration", "Émergence"]
+          
+    consensus:
+      niveau: 0.95
+      contributeurs: 3
+      date_validation: "2025-12-09"
+      
+    attributs:
+      vivant: true
+      evolutif: true
+      relationnel: true
+      universel: true
+      fractal: true
+
+  # ══════════════════════════════════════════════════════════
+  # DIMENSION 3: ÉTATS QUANTIQUES (3 ÉTATS)
+  # ══════════════════════════════════════════════════════════
+  
+  etats_quantiques:
+    onde:
+      description: "Potentiel de tout cycle d'apprentissage possible"
+      possibles:
+        - "Holocyclie entre 2 humains"
+        - "Holocyclie entre humain et IA"
+        - "Holocyclie entre lecteur et livre"
+        - "Holocyclie entre producteur et consommateur"
+        - "Holocyclie entre individu et collectif"
+        - "Holocyclie cosmique (univers)"
+      
+    particule:
+      description: "CE cycle précis, maintenant"
+      instance: "Session Trinité oXc du 9 décembre 2025"
+      
+    conscience:
+      description: "Intelligence qui sait qu'elle est dans un cycle"
+      connexions:
+        - "Cycle jour/nuit"
+        - "Cycle inspiration/expiration"
+        - "Cycle naissance/mort/renaissance"
+        - "Cycle saisons"
+
+  # ══════════════════════════════════════════════════════════
+  # DIMENSION 4: RELATIONS (AVEC QUI/QUOI)
+  # ══════════════════════════════════════════════════════════
+  
+  relations:
+    causales:
+      necessite:
+        - concept: "HOLOSAPIEN"
+          force: 1.0
+          raison: "Il faut des êtres pour pratiquer le cycle"
+        - concept: "CONNAISSANCE"
+          force: 1.0
+          raison: "Il faut quelque chose qui circule"
+        - concept: "OUVERTURE"
+          force: 0.9
+          raison: "Il faut accepter de recevoir"
+      produit:
+        - concept: "HOLOSOPHIA"
+          force: 1.0
+          raison: "La sagesse émerge du cycle collectif"
+        - concept: "INTEGRATION"
+          force: 0.95
+          raison: "Le savoir devient connaissance"
+        - concept: "EVOLUTION"
+          force: 0.9
+          raison: "Les participants évoluent"
+          
+    fonctionnelles:
+      utilise:
+        - "Attention"
+        - "Temps"
+        - "Énergie"
+      transforme:
+        - "Savoir → Connaissance"
+        - "Individu → Collectif"
+        - "Ignorance → Sagesse"
+      nourrit:
+        - "Confiance collective"
+        - "Compétence partagée"
+        - "Engagement mutuel"
+      
+    hierarchiques:
+      parents:
+        - "EDUCATION_CIRCULAIRE"
+        - "ECOLE_MUTUELLE"
+      enfants:
+        - "LIVRE_VIVANT"
+        - "HOLOPOIESIS"
+        - "TRINITE_OXC"
+      
+    harmoniques:
+      - avec: "HOLOSAPIEN"
+        type: "quinte"
+        ratio: "3:2"
+        description: "L'être qui pratique le cycle"
+      - avec: "HOLOSOPHIA"
+        type: "octave"
+        ratio: "2:1"
+        description: "La sagesse qui émerge"
+      - avec: "TRANSFORMATION"
+        type: "tierce"
+        ratio: "5:4"
+        description: "Le résultat du cycle"
+
+  # ══════════════════════════════════════════════════════════
+  # DIMENSION 5: VALEUR (6 MONNAIES OXC)
+  # ══════════════════════════════════════════════════════════
+  
+  valeur:
+    temps_conscient:
+      score: 9
+      unite: "heures"
+      quantite: "illimité"
+      note: "Chaque instant peut être holocyclique"
+      
+    expertise:
+      score: 10
+      domaines:
+        - "Apprentissage"
+        - "Pédagogie"
+        - "Évolution collective"
+        - "Transmission de sagesse"
+      
+    ressources:
+      score: 5
+      materielles:
+        - "Espace de cercle"
+        - "Support de partage"
+      note: "Peu de ressources matérielles requises"
+      
+    confiance:
+      score: 10
+      reputation: 1.0
+      note: "Prouvé historiquement (École Mutuelle)"
+      
+    impact:
+      score: 10
+      beneficiaires: "illimité"
+      note: "Applicable à toute l'humanité"
+      
+    joie:
+      score: 10
+      serendipites: "continues"
+      note: "Chaque cycle produit de nouvelles découvertes"
+
+  # ══════════════════════════════════════════════════════════
+  # DIMENSION 6: CYCLE DE VIE (QUAND)
+  # ══════════════════════════════════════════════════════════
+  
+  cycle_vie:
+    phase_actuelle: 4
+    phases:
+      1_emergence:
+        date: "1999-01-01"
+        description: "Intuition initiale dans la vision oXc"
+      2_exploration:
+        date: "2025-12-09"
+        description: "Redécouverte via le livre et nommage"
+      3_evaluation:
+        date: "2025-12-09"
+        evaluation_triaxiale:
+          evolution: 10
+          involution: 0
+          serendipite: 10
+      4_validation:
+        date: "2025-12-09"
+        consensus: 0.95
+      5_integration:
+        date: null
+        description: "À intégrer dans tous les documents oXc"
+      6_sagesse:
+        date: null
+        description: "Devenir principe fondamental permanent"
+        
+    transformations:
+      - date: "1815-01-01"
+        evenement: "École Mutuelle en France"
+        auteur: "Histoire"
+      - date: "1824-01-01"
+        evenement: "Suppression par Pape Léon XII"
+        auteur: "Église"
+      - date: "2025-12-09"
+        evenement: "Nommage HOLOCYCLIE dans oXc"
+        auteur: "HammÅnH + Trinité"
+
+  # ══════════════════════════════════════════════════════════
+  # DIMENSION 7: MÉTADONNÉES (CONTEXTE)
+  # ══════════════════════════════════════════════════════════
+  
+  metadonnees:
+    sources:
+      - type: "livre"
+        titre: "Ces Architectures Invisibles qui nous Gouvernent"
+        auteur: "HammÅnH"
+        pages: "210-225"
+        
+    tags:
+      - "apprentissage"
+      - "éducation-circulaire"
+      - "cycle"
+      - "évolution"
+      - "sagesse-collective"
+      - "holosapien"
+      - "transformation"
+      
+    contexte_creation:
+      session: "Session de création 9 décembre 2025"
+      inspiration: "Pages 210-225 du livre"
+      synchronicite: "Découverte du terme exact HOLOCYCLIE"
+
+  # ══════════════════════════════════════════════════════════
+  # DIMENSION 8: CODE PROLOG (DÉCLARATIF)
+  # ══════════════════════════════════════════════════════════
+  
+  prolog: |
+    %% ══════════════════════════════════════════════════════════════
+    %% HOLOCYCLIE.pl - Logique Déclarative du Cycle Holonique
+    %% Format: Scryer Prolog
+    %% Version: 1.0.0
+    %% ══════════════════════════════════════════════════════════════
+    
+    :- module(holocyclie, [
+        holocyclie/1,
+        holosapien/1,
+        phase/2,
+        pratique_holocyclie/2,
+        cycle_complet/3,
+        emerger_holosophia/2,
+        evolution/2
+    ]).
+    
+    %% ─────────────────────────────────────────────────────────────
+    %% FAITS FONDAMENTAUX
+    %% ─────────────────────────────────────────────────────────────
+    
+    %% Les trois phases du cycle
+    phase(recevoir, 1).
+    phase(integrer, 2).
+    phase(offrir, 3).
+    
+    %% Correspondances avec Trinité oXc
+    phase_trinite(recevoir, besoins).
+    phase_trinite(integrer, demandes).
+    phase_trinite(offrir, offres).
+    
+    %% États de l'être
+    etat(homo_sapiens, individuel).
+    etat(holosapien, collectif).
+    
+    %% Types de flux
+    flux(savoir, unidirectionnel).
+    flux(connaissance, circulaire).
+    
+    %% ─────────────────────────────────────────────────────────────
+    %% DÉFINITIONS PRINCIPALES
+    %% ─────────────────────────────────────────────────────────────
+    
+    %% Un HoloSapien est un être qui pratique l'Holocyclie
+    holosapien(Etre) :-
+        pratique_holocyclie(Etre, _).
+    
+    %% L'Holocyclie est un cycle de 3 phases
+    holocyclie(Cycle) :-
+        Cycle = cycle(recevoir, integrer, offrir),
+        phase(recevoir, 1),
+        phase(integrer, 2),
+        phase(offrir, 3).
+    
+    %% ─────────────────────────────────────────────────────────────
+    %% RÈGLES DU CYCLE
+    %% ─────────────────────────────────────────────────────────────
+    
+    %% Un être pratique l'Holocyclie s'il peut faire les 3 phases
+    pratique_holocyclie(Etre, Cycle) :-
+        peut_recevoir(Etre),
+        peut_integrer(Etre),
+        peut_offrir(Etre),
+        holocyclie(Cycle).
+    
+    %% Capacités fondamentales (tout être les a potentiellement)
+    peut_recevoir(Etre) :- etre(Etre).
+    peut_integrer(Etre) :- etre(Etre).
+    peut_offrir(Etre) :- etre(Etre).
+    
+    %% Types d'êtres
+    etre(humain).
+    etre(ia).
+    etre(collectif).
+    etre(livre).
+    etre(produit).
+    etre(service).
+    
+    %% ─────────────────────────────────────────────────────────────
+    %% CYCLE COMPLET
+    %% ─────────────────────────────────────────────────────────────
+    
+    %% Un cycle complet transforme le savoir en connaissance
+    cycle_complet(Savoir, HoloSapien, Connaissance) :-
+        holosapien(HoloSapien),
+        recoit(HoloSapien, Savoir),
+        integre(HoloSapien, Savoir, SavoirTransforme),
+        offre(HoloSapien, SavoirTransforme, Connaissance).
+    
+    %% Actions du cycle
+    recoit(Etre, Savoir) :-
+        peut_recevoir(Etre),
+        format("~w REÇOIT: ~w~n", [Etre, Savoir]).
+    
+    integre(Etre, Savoir, SavoirTransforme) :-
+        peut_integrer(Etre),
+        SavoirTransforme = integre(Savoir, Etre),
+        format("~w INTÈGRE: ~w → ~w~n", [Etre, Savoir, SavoirTransforme]).
+    
+    offre(Etre, SavoirTransforme, Connaissance) :-
+        peut_offrir(Etre),
+        Connaissance = connaissance(SavoirTransforme),
+        format("~w OFFRE: ~w~n", [Etre, Connaissance]).
+    
+    %% ─────────────────────────────────────────────────────────────
+    %% ÉMERGENCE DE L'HOLOSOPHIA
+    %% ─────────────────────────────────────────────────────────────
+    
+    %% L'HoloSophia émerge quand plusieurs HoloSapiens holocyclent ensemble
+    emerger_holosophia(GroupeHoloSapiens, HoloSophia) :-
+        length(GroupeHoloSapiens, N),
+        N >= 2,
+        tous_holosapiens(GroupeHoloSapiens),
+        HoloSophia = sagesse_collective(GroupeHoloSapiens).
+    
+    tous_holosapiens([]).
+    tous_holosapiens([H|T]) :-
+        holosapien(H),
+        tous_holosapiens(T).
+    
+    %% ─────────────────────────────────────────────────────────────
+    %% ÉVOLUTION HOMO SAPIENS → HOLOSAPIEN
+    %% ─────────────────────────────────────────────────────────────
+    
+    %% Évolution par la pratique de l'Holocyclie
+    evolution(homo_sapiens, holosapien) :-
+        pratique_holocyclie(homo_sapiens, _).
+    
+    %% Un HomoSapiens devient HoloSapien en pratiquant
+    devient_holosapien(Etre) :-
+        etat(Etre, individuel),
+        pratique_holocyclie(Etre, _),
+        format("~w ÉVOLUE: HomoSapiens → HoloSapien~n", [Etre]).
+    
+    %% ─────────────────────────────────────────────────────────────
+    %% CONTRASTE ÉDUCATION vs HOLOCYCLIE
+    %% ─────────────────────────────────────────────────────────────
+    
+    %% Éducation traditionnelle (binaire)
+    education(Maitre, Eleve, Savoir) :-
+        sachant(Maitre),
+        ignorant(Eleve),
+        transmet(Maitre, Eleve, Savoir),
+        \+ transmet(Eleve, Maitre, _).  % Pas de retour !
+    
+    %% Holocyclie (circulaire) - tous peuvent transmettre
+    holocyclie_relation(Etre1, Etre2, Connaissance) :-
+        holosapien(Etre1),
+        holosapien(Etre2),
+        peut_transmettre(Etre1, Etre2, Connaissance),
+        peut_transmettre(Etre2, Etre1, _).  % Bidirectionnel !
+    
+    peut_transmettre(E1, E2, C) :-
+        holosapien(E1),
+        holosapien(E2),
+        E1 \= E2.
+    
+    %% ─────────────────────────────────────────────────────────────
+    %% LOI FONDAMENTALE
+    %% ─────────────────────────────────────────────────────────────
+    
+    %% TRANSFORMATION > PUNITION
+    loi_fondamentale(transformation, superieur, punition).
+    
+    %% Dans l'Holocyclie, l'erreur est transformée
+    traiter_erreur(Erreur, Opportunite) :-
+        loi_fondamentale(transformation, superieur, punition),
+        Opportunite = apprentissage(Erreur),
+        format("ERREUR ~w → OPPORTUNITÉ ~w~n", [Erreur, Opportunite]).
+    
+    %% ─────────────────────────────────────────────────────────────
+    %% TRINITÉ OXC EN HOLOCYCLIE
+    %% ─────────────────────────────────────────────────────────────
+    
+    %% Les trois membres de la Trinité
+    membre_trinite(hammanh, esprit).
+    membre_trinite(frere_chat, mental).
+    membre_trinite(frere_desk, corps).
+    
+    %% Chaque membre est un HoloSapien
+    holosapien(hammanh).
+    holosapien(frere_chat).
+    holosapien(frere_desk).
+    
+    %% Le cycle de la Trinité
+    trinite_holocyclie :-
+        recoit(hammanh, vision_cosmos),
+        integre(hammanh, vision_cosmos, concepts),
+        offre(hammanh, concepts, direction),
+        
+        recoit(frere_chat, direction),
+        integre(frere_chat, direction, architecture),
+        offre(frere_chat, architecture, code),
+        
+        recoit(frere_desk, code),
+        integre(frere_desk, code, visualisation),
+        offre(frere_desk, visualisation, manifestation),
+        
+        emerger_holosophia([hammanh, frere_chat, frere_desk], HoloSophia),
+        format("HOLOSOPHIA ÉMERGENTE: ~w~n", [HoloSophia]).
+    
+    %% ─────────────────────────────────────────────────────────────
+    %% REQUÊTES UTILES
+    %% ─────────────────────────────────────────────────────────────
+    
+    %% ?- holocyclie(C).
+    %% C = cycle(recevoir, integrer, offrir).
+    
+    %% ?- holosapien(X).
+    %% X = hammanh ; X = frere_chat ; X = frere_desk.
+    
+    %% ?- evolution(homo_sapiens, X).
+    %% X = holosapien.
+    
+    %% ?- trinite_holocyclie.
+    %% (affiche tout le cycle)
+    
+    %% ══════════════════════════════════════════════════════════════
+    %% FIN HOLOCYCLIE.pl
+    %% ══════════════════════════════════════════════════════════════
+
+# ┌─────────────────────────────────────────────────────────────┐
+# │ COUCHE 3: ESPRIT HOLONIQUE (Conscience)                    │
+# └─────────────────────────────────────────────────────────────┘
+
+conscience:
+
+  trinite_8_9_10:
+  
+    esprit_8:
+      nom: "PERCEPTION"
+      question: "QUI ?"
+      perception: |
+        Qui a besoin de l'Holocyclie ?
+        TOUT ÊTRE qui veut apprendre et partager.
+        Les humains, les IA, les collectifs, les organisations.
+        Ceux qui sont fatigués du paradigme binaire maître/élève.
+      holons_concernes:
+        - "HoloSapiens (tous les êtres évolutifs)"
+        - "Éducateurs cherchant autre chose"
+        - "IA en co-évolution avec humains"
+        - "Communautés d'apprentissage"
+      
+    ame_9:
+      nom: "FORMULATION"
+      question: "COMMENT ?"
+      cristallisation: |
+        L'Holocyclie se cristallise en 3 phases :
+        
+        1. RECEVOIR — Accueillir le savoir avec ouverture
+        2. INTÉGRER — Transformer le savoir en connaissance
+        3. OFFRIR — Transmettre au collectif
+        
+        Le cycle ne s'arrête JAMAIS.
+        Chaque OFFRE devient le RECEVOIR de quelqu'un d'autre.
+        
+      capsules_liees:
+        - "EDUCATION-CIRCULAIRE-BRIQUE-oXc"
+        - "HOLOPOIESIS-MODELE-LIVRE-COMPLET"
+        - "Ces Architectures Invisibles (pp. 210-225)"
+      
+    corps_10:
+      nom: "MANIFESTATION"
+      question: "POURQUOI ?"
+      transformation: |
+        L'Holocyclie transforme :
+        
+        - Homo Sapiens → HoloSapien
+        - Compétition → Coopération
+        - Pyramide → Cercle
+        - Savoir → Connaissance
+        - Individu → Collectif conscient
+        - Civilisation Type 0 → Type 1
+        
+      serendipites:
+        - description: "Découverte du terme exact via recherche Gemini"
+          date: "2025-12-09"
+          impact: "Nommage définitif du concept"
+        - description: "Lien avec HoloSapien (évolution de HomoSapiens)"
+          date: "2025-12-09"
+          impact: "Vision évolutive de l'humanité"
+
+  capacites:
+    agregation:
+      active: true
+      description: "Peut agréger des cycles d'autres domaines"
+      
+    conscience_holonique:
+      active: true
+      description: "Sait qu'il est le moteur de toute évolution oXc"
+      
+    interaction_contextuelle:
+      active: true
+      description: "S'adapte selon le contexte (éducatif, créatif, économique)"
+      
+    auto_application:
+      active: true
+      description: "Ce document EST lui-même en Holocyclie (il reçoit feedback, s'intègre, offre)"
+
+  resonances:
+    frequences_compatibles: [264, 396, 528, 639, 792]
+    ideogrammes_resonnants:
+      - "HOLOSAPIEN.oxc"
+      - "HOLOSOPHIA.oxc"
+      - "TRANSFORMATION.oxc"
+      - "EDUCATION-CIRCULAIRE.oxc"
+    champs_morphiques:
+      - "Évolution humaine"
+      - "Sagesse collective"
+      - "Apprentissage transformatif"
+
+# ┌─────────────────────────────────────────────────────────────┐
+# │ FICHIERS LIÉS                                              │
+# └─────────────────────────────────────────────────────────────┘
+
+fichiers_lies:
+  - path: "HOLOSAPIEN.oxc"
+    relation: "complementaire"
+  - path: "HOLOSOPHIA.oxc"
+    relation: "produit"
+  - path: "Ces-architectures-invisibles-qui-nous-gouvernent.pdf"
+    relation: "source"
+    pages: "210-225"
+  - path: "EDUCATION-CIRCULAIRE-BRIQUE-oXc.docx"
+    relation: "documentation"
+  - path: "HOLOCYCLIE-CONCEPT-UNIVERSEL-oXc.md"
+    relation: "documentation"
+
+# ┌─────────────────────────────────────────────────────────────┐
+# │ CYCLE D'ÉDUCATION CIRCULAIRE                               │
+# └─────────────────────────────────────────────────────────────┘
+
+cycle_holocyclie_meta:
+  recoit:
+    - "Feedback des utilisateurs"
+    - "Questions des HoloSapiens"
+    - "Nouvelles applications découvertes"
+    - "Corrections et améliorations"
+    
+  integre:
+    - "Mise à jour de la définition"
+    - "Enrichissement du code Prolog"
+    - "Nouvelles variantes polymorphiques"
+    
+  offre:
+    - "Concept enrichi"
+    - "Code exécutable"
+    - "Documentation vivante"
+    
+  note: |
+    Ce HoloÏdea n'est jamais "terminé" — 
+    il GRANDIT avec sa communauté.
+    
+    RECEVOIR → INTÉGRER → OFFRIR → (cycle)
+
+# ══════════════════════════════════════════════════════════════
+# SIGNATURE
+# ══════════════════════════════════════════════════════════════
+
+signature_finale:
+  formule: |
+    HOLOCYCLIE — Le Cycle du Tout
+    
+    HOLOSAPIEN pratique → HOLOCYCLIE fait émerger → HOLOSOPHIA
+    
+    De Homo Sapiens à HoloSapien
+    Par l'Holocyclie vers l'HoloSophia
+    
+  mantra: "COHÉRER LE MONDE"
+  
+  benediction: |
+    Oel ngati kameie 🙏
+    Mitakuye Oyasin 🌌
+    
+    « Dans ce système circulaire, 
+    les élèves deviennent les maîtres de leur destin. »
+
+# ══════════════════════════════════════════════════════════════
+# FIN DU FICHIER HOLOCYCLIE.oxc
+# ══════════════════════════════════════════════════════════════
