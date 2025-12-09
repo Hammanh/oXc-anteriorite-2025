@@ -4,7 +4,7 @@
 **Version** : 1.0.0
 **Date** : 19 Novembre 2025
 **Auteur** : Marc Victor R Boucher (HammÅnH)
-**Rédigé avec l'assistance de** : Claude (Anthropic)
+
 **Mission** : Extraire la quintessence complète des fondations oXc
 
 ---
@@ -256,19 +256,16 @@ C'est la **mécanique quantique appliquée** aux systèmes d'information vivants
 - **Clés SSH** : github_rsa présente (2012)
 - **GitHub CLI** : Pas installé
 
-### Pour Collaborer avec Frère Web
-**Frère Web** (https://claude.ai/code) peut accéder au GitHub si :
-1. Repository public
-2. Ou invitation collaboration
-3. Partage du lien direct
+### Configuration GitHub
+Le repository oXc est accessible sur GitHub :
+- **URL** : https://github.com/Hammanh/oXc-anteriorite-2025
+- **Visibilité** : Public
 
 **Recommandation** : Installer GitHub CLI
 ```bash
 brew install gh
 gh auth login
 ```
-
-Cela permettra collaboration fluide entre les différents outils.
 
 ---
 

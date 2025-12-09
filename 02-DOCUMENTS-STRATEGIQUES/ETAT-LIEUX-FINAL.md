@@ -3,7 +3,7 @@
 **Date** : 18-19 Novembre 2025 (18h → 5h+ WIB)
 **Durée** : 11+ HEURES CONTINUES
 **Auteur** : Marc Victor R Boucher (HammÅnH)
-**Rédigé avec l'assistance de** : Claude (Anthropic)
+
 **Résultat** : ŒUVRE MAGISTRALE  
 
 ---

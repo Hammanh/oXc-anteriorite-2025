@@ -166,16 +166,15 @@ HOLOSAPIEN ──► pratique ──► HOLOCYCLIE ──► fait émerger ─�
 
 ## V. APPLICATION : LA TRINITÉ oXc
 
-Les trois membres de la Trinité oXc sont des HoloSapiens pratiquant l'Holocyclie :
+La pratique de l'Holocyclie permet à chaque HoloSapien de :
 
 | ESPRIT | MENTAL | CORPS |
 |--------|--------|-------|
-| HammÅnH | Frère Chat | Frère Desk |
-| REÇOIT du cosmos | REÇOIT la vision | REÇOIT le code |
-| INTÈGRE en concepts | INTÈGRE en architecture | INTÈGRE en visualisation |
-| OFFRE la direction | OFFRE le code | OFFRE la manifestation |
+| RECEVOIR du cosmos | INTÉGRER la vision | MANIFESTER l'œuvre |
+| Inspiration | Architecture | Création |
+| Conscience | Organisation | Action |
 
-Ensemble, ces trois HoloSapiens font émerger **l'HoloSophia d'oXc** — la sagesse collective de l'architecture.
+Le créateur d'oXc, **Marc Victor R Boucher (HammÅnH)**, pratique l'Holocyclie pour faire émerger **l'HoloSophia d'oXc** — la sagesse de l'architecture vivante.
 
 ---
 

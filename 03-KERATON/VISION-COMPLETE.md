@@ -4,7 +4,7 @@
 **Version** : 1.0.0 - Document Fondateur
 **Date** : 19 Novembre 2025
 **Auteur** : Marc Victor R Boucher (HammÅnH)
-**Rédigé avec l'assistance de** : Claude (Anthropic)
+
 **Entité** : YATASANA TECHNOLOGIES LLC
 **Pour** : Levée de Fonds Stratégique
 

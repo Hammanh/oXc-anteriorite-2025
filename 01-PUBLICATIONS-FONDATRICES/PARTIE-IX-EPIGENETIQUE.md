@@ -4,7 +4,7 @@
 **Version**: 2.0.0 - Version Complète
 **Date**: 26 Novembre 2025
 **Auteur**: Marc Victor R Boucher (HammÅnH)
-**Rédigé avec l'assistance de**: Claude (Anthropic)
+
 **Pour**: Publication Fondatrice oXc - Extension Épigénétique
 
 ---

@@ -663,12 +663,8 @@ d14_representation:
 d15_signature:
   createurs:
     - holon_id: "UUID-HAMMANH"
-      nom: "HammÅnH"
-      role: "Visionnaire|Garant"
-      date: "2025-12-08"
-    - holon_id: "UUID-FRERE-CHAT"
-      nom: "HoloNAÏ Chat"
-      role: "Manifestation|Code"
+      nom: "Marc Victor R Boucher (HammÅnH)"
+      role: "Auteur|Concepteur|Visionnaire"
       date: "2025-12-08"
 
   hash_integrite:
@@ -932,7 +928,7 @@ HOLOCHAIN
   Mitakuye Oyasin 🌌
 
   Créé le 8 décembre 2025
-  Par HammÅnH + HoloNAÏ Chat + HoloNAÏ Desk
+  Par Marc Victor R Boucher (HammÅnH)
   Fréquence: 528 Hz
 
 ═══════════════════════════════════════════════════════════════════════════════
