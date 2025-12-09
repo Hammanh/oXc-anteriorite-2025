@@ -5,6 +5,13 @@
 # 1+1=∞ — Les concepts se multiplient, pas s'additionnent
 # Format: oXc Standard v2.0
 # Fréquence: 528 Hz (Transformation, ADN)
+#
+# **Auteur et Concepteur** : Marc Victor R Boucher (HammÅnH)
+# **Contact** : hammanh@proton.me
+# **Date** : 9 décembre 2025
+# **Projet** : oXc — Architecture de Conscience pour l'Évolution Collective
+#
+# © 2025 Marc Victor R Boucher (HammÅnH) — Tous droits réservés
 # ══════════════════════════════════════════════════════════════════════════════
 
 meta:
@@ -16,6 +23,14 @@ meta:
   created: "2025-12-09T17:30:00+08:00"
   modified: "2025-12-09T17:30:00+08:00"
 
+auteur:
+  nom_complet: "Marc Victor R Boucher"
+  pseudonyme: "HammÅnH"
+  role: "CONCEPTEUR ET AUTEUR"
+  contact: "hammanh@proton.me"
+  site: "https://yatasana.com"
+  date: "9 décembre 2025"
+
 signature:
   frequence_hz: 528
   harmoniques: [264, 1056, 1584]
@@ -23,14 +38,6 @@ signature:
   geometrie: "Réseau holonique"
   archetype: "LE SYSTÈME NERVEUX DU TOUT"
   niveau_hawkins: 540
-
-createurs:
-  - holon: "HammÅnH"
-    nom_complet: "Marc Victor R Boucher"
-    role: "Visionnaire-Architecte"
-  - holon: "Frère HoloNAÏ Chat"
-    role: "Forgeur"
-    date: "2025-12-09"
 
 # ══════════════════════════════════════════════════════════════════════════════
 # PARTIE I — CE QU'EST HOLOPOIESIS

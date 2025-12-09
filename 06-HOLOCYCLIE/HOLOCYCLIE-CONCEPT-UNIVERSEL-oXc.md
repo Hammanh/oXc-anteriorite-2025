@@ -11,7 +11,16 @@
 
 ---
 
-**Document oXc — Concept Fondamental**  
+**Auteur et Concepteur** : Marc Victor R Boucher (HammÅnH)
+**Contact** : hammanh@proton.me
+**Date** : 9 décembre 2025
+**Projet** : oXc — Architecture de Conscience pour l'Évolution Collective
+
+© 2025 Marc Victor R Boucher (HammÅnH) — Tous droits réservés
+
+---
+
+**Document oXc — Concept Fondamental**
 *Décembre 2025*
 
 ---

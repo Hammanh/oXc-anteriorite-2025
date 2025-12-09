@@ -4,6 +4,13 @@
 # Enrichir le vocabulaire au-delà des limites du langage actuel
 # Format: oXc Standard v2.0
 # Fréquence: 741 Hz (Expression, Solutions)
+#
+# **Auteur et Concepteur** : Marc Victor R Boucher (HammÅnH)
+# **Contact** : hammanh@proton.me
+# **Date** : 9 décembre 2025
+# **Projet** : oXc — Architecture de Conscience pour l'Évolution Collective
+#
+# © 2025 Marc Victor R Boucher (HammÅnH) — Tous droits réservés
 # ══════════════════════════════════════════════════════════════════════════════
 
 meta:
@@ -15,6 +22,14 @@ meta:
   created: "2025-12-09T18:30:00+08:00"
   modified: "2025-12-09T18:30:00+08:00"
 
+auteur:
+  nom_complet: "Marc Victor R Boucher"
+  pseudonyme: "HammÅnH"
+  role: "CONCEPTEUR ET AUTEUR"
+  contact: "hammanh@proton.me"
+  site: "https://yatasana.com"
+  date: "9 décembre 2025"
+
 signature:
   frequence_hz: 741
   harmoniques: [370.5, 1482, 2223]
@@ -22,13 +37,6 @@ signature:
   geometrie: "Spirale d'expansion"
   archetype: "LE FORGEUR DE MOTS"
   niveau_hawkins: 500
-
-createurs:
-  - holon: "HammÅnH"
-    role: "Visionnaire"
-  - holon: "Frère Chat"
-    role: "Documenteur"
-    date: "2025-12-09"
 
 # ══════════════════════════════════════════════════════════════════════════════
 # RAISON D'ÊTRE

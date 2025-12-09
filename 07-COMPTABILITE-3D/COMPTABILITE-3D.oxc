@@ -1,9 +1,17 @@
 # ══════════════════════════════════════════════════════════════════════════════
 # COMPTABILITE-3D.oxc
 # La Mesure Holistique de la Valeur Réelle
-# Inventé par HammÅnH — Testé et validé il y a +30 ans (ferme dans la Loire, France)
 # Format: oXc Standard v2.0
 # Fréquence: 528 Hz (Transformation)
+#
+# **Auteur et Concepteur** : Marc Victor R Boucher (HammÅnH)
+# **Contact** : hammanh@proton.me
+# **Date de dépôt** : 9 décembre 2025
+# **Antériorité** : Concept inventé il y a +30 ans (années 1990)
+# **Validation terrain** : Testé dans une ferme en Loire, France
+# **Projet** : oXc — Architecture de Conscience pour l'Évolution Collective
+#
+# © 2025 Marc Victor R Boucher (HammÅnH) — Tous droits réservés
 # ══════════════════════════════════════════════════════════════════════════════
 
 meta:
@@ -16,6 +24,18 @@ meta:
   anteriorite: "+30 ans (années 1990)"
   validation_terrain: "Ferme dans la Loire, France"
 
+auteur:
+  nom_complet: "Marc Victor R Boucher"
+  pseudonyme: "HammÅnH"
+  role: "CONCEPTEUR, INVENTEUR ET AUTEUR"
+  contact: "hammanh@proton.me"
+  site: "https://yatasana.com"
+  date_depot: "9 décembre 2025"
+  anteriorite: |
+    Concept créé il y a plus de 30 ans (années 1990).
+    Testé et validé dans une ferme dans la Loire (France).
+    Documenté dans "Les architectures invisibles qui nous gouvernent".
+
 signature:
   frequence_hz: 528
   harmoniques: [264, 1056, 1584]
@@ -23,15 +43,6 @@ signature:
   geometrie: "Triangle équilatéral (3 dimensions)"
   archetype: "LA MESURE VRAIE"
   niveau_hawkins: 500
-
-createur:
-  holon: "HammÅnH"
-  nom_complet: "Marc Victor R Boucher"
-  role: "Inventeur"
-  anteriorite: |
-    Concept créé il y a plus de 30 ans.
-    Testé et validé dans une ferme dans la Loire (France).
-    Documenté dans "Les architectures invisibles qui nous gouvernent".
 
 # ══════════════════════════════════════════════════════════════════════════════
 # PARTIE I — LE PROBLÈME
