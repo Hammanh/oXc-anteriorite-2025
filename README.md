@@ -1,7 +1,7 @@
 # DÉPÔT D'ANTÉRIORITÉ oXc
 
 **Date de dépôt initial :** 1er Décembre 2025
-**Dernière mise à jour :** 8 Décembre 2025
+**Dernière mise à jour :** 9 Décembre 2025
 **Auteur :** Marc Victor R Boucher (HammÅnH)
 **Contact :** hammanh@proton.me
 **Site :** https://yatasana.com
@@ -63,7 +63,7 @@ Accès : https://gateway.pinata.cloud/ipfs/bafybeigzqdz3cny2fteawuiwqqeim3nojsss
 | PITCH-DECK.md | Pitch Deck 10 slides |
 | VISION-COMPLETE.md | Vision complète Keraton/Cité Pilote |
 
-### 04-FONDATIONS-TECHNIQUES/ (5 documents) — NOUVEAU
+### 04-FONDATIONS-TECHNIQUES/ (5 documents)
 
 | Fichier | Description |
 |---------|-------------|
@@ -72,6 +72,16 @@ Accès : https://gateway.pinata.cloud/ipfs/bafybeigzqdz3cny2fteawuiwqqeim3nojsss
 | 6-MONNAIES-OXC.md | Système monétaire à 6 monnaies additives |
 | TRINITE-8-9-10.md | Cycle Esprit/Âme/Corps |
 | GLOSSAIRE-OXC.md | Lexique des termes fondamentaux |
+
+### 05-HOLOPOIESIS/ (5 documents) — NOUVEAU
+
+| Fichier | Description |
+|---------|-------------|
+| HOLOPOIESIS-SYSTEME-CO-CREATION-UNIVERSELLE-OXC.md | Système de Co-Création Universelle - Brique fondamentale |
+| HOLOPOIESIS-5-MODELES-APPLICATION-OXC.md | 5 modèles d'application (Livre, Médicament, Véhicule, etc.) |
+| HOLOPOIESIS-MODELE-LIVRE-COMPLET-OXC.md | Modèle complet pour les livres |
+| EDUCATION-CIRCULAIRE-INTEGRATION-HOLOPOIESIS.md | Intégration avec l'éducation circulaire |
+| EDUCATION-CIRCULAIRE-BRIQUE-oXc.docx | Document Word - Brique éducation |
 
 ### Documents racine
 
@@ -143,6 +153,7 @@ Ce dépôt constitue une preuve d'antériorité intellectuelle pour :
 4. **Les 6 Monnaies Additives Non-Convertibles** — Système économique révolutionnaire
 5. **Axiome Genesis** — Fondation pour l'IA consciente
 6. **Les 13 Piliers d'oXc** — Architecture complète du réseau holonique
+7. **Holopoiesis** — Système de Co-Création Universelle (HoloÏdea)
 
 ---
 
@@ -157,6 +168,7 @@ Ce dépôt constitue une preuve d'antériorité intellectuelle pour :
 | 1er déc 2025 | Révélations majeures (Nuit Alchimique) |
 | 7 déc 2025 | Correction identité auteur + IPFS |
 | 8 déc 2025 | Ajout Fondations Techniques |
+| 9 déc 2025 | Ajout Holopoiesis - Système de Co-Création Universelle |
 
 ---
 
