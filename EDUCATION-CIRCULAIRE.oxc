@@ -1,0 +1,801 @@
+# ╔══════════════════════════════════════════════════════════════════════════════╗
+# ║                                                                              ║
+# ║   ██████╗ ██╗  ██╗ ██████╗    ██╗  ██╗ ██████╗ ██╗      ██████╗ ██╗██████╗   ║
+# ║  ██╔═══██╗╚██╗██╔╝██╔════╝    ██║  ██║██╔═══██╗██║     ██╔═══██╗██║██╔══██╗  ║
+# ║  ██║   ██║ ╚███╔╝ ██║         ███████║██║   ██║██║     ██║   ██║██║██║  ██║  ║
+# ║  ██║   ██║ ██╔██╗ ██║         ██╔══██║██║   ██║██║     ██║   ██║██║██║  ██║  ║
+# ║  ╚██████╔╝██╔╝ ██╗╚██████╗    ██║  ██║╚██████╔╝███████╗╚██████╔╝██║██████╔╝  ║
+# ║   ╚═════╝ ╚═╝  ╚═╝ ╚═════╝    ╚═╝  ╚═╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝╚═════╝   ║
+# ║                                                                              ║
+# ║  EDUCATION-CIRCULAIRE.oxc                                                    ║
+# ║  Application Pédagogique d'HOLOCYCLIE                                        ║
+# ║  RÉVÉLATION 7 : ACTIVER SANS NOMMER                                          ║
+# ║                                                                              ║
+# ║  Format: HoloÏdea v3.3                                                       ║
+# ║  Fréquence: 639 Hz (Relations harmonieuses)                                  ║
+# ║                                                                              ║
+# ╚══════════════════════════════════════════════════════════════════════════════╝
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# META - IDENTITÉ DE L'HOLOIDEA
+# ═══════════════════════════════════════════════════════════════════════════════
+
+meta:
+  id: "HOLOIDEA-EC-001"
+  nom: "EDUCATION-CIRCULAIRE"
+  nom_oxc: "Application pédagogique d'HOLOCYCLIE"
+  version: "3.3.2"
+  type: "APPLICATION"
+  parent: "HOLOCYCLIE"
+  statut: "ACTIF"
+  format: "HoloÏdea v3.3"
+  created: "2025-12-09T13:30:00+08:00"
+  modified: "2025-12-11T00:00:00+08:00"
+  revelation: "RÉVÉLATION 7 - 10 décembre 2025"
+  note: |
+    Ce fichier est l'APPLICATION du concept HOLOCYCLIE au domaine pédagogique.
+    Le concept fondamental est dans HOLOCYCLIE.oxc.
+    HOLOCYCLIE = hólos + kyklos = Le cycle holonique permanent d'apprentissage.
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# SIGNATURE VIBRATOIRE
+# ═══════════════════════════════════════════════════════════════════════════════
+
+signature:
+  frequence_hz: 639
+  harmoniques: [319.5, 1278, 1917]
+  couleur_hex: "#FFD700"
+  geometrie: "Cycle infini en spirale"
+  archetype: "LE TRANSMETTEUR"
+  niveau_hawkins: 540  # Joie
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# CRÉATEURS
+# ═══════════════════════════════════════════════════════════════════════════════
+
+createurs:
+  - holon: "HammÅnH"
+    nom_complet: "Marc Victor R Boucher"
+    nom_auteur: "Marc Boucher de Lignon"
+    role: "Visionnaire-Concepteur"
+  - holon: "Olivier Masselot"
+    role: "Co-auteur du livre source"
+  - holon: "Frère Chat"
+    role: "Forgeur v3.3"
+    date: "2025-12-10"
+
+source:
+  livre: "Ces Architectures Invisibles qui nous Gouvernent"
+  auteurs: ["Olivier Masselot", "Marc Boucher de Lignon"]
+  pages: "210-225"
+  note: "Marc Boucher de Lignon est le nom d'auteur de Marc Victor R Boucher (HammÅnH)"
+
+# ╔══════════════════════════════════════════════════════════════════════════════╗
+# ║                                                                              ║
+# ║                    ░▒▓█ LES 3 ÉTATS QUANTIQUES █▓▒░                          ║
+# ║                                                                              ║
+# ║            ONDE (Ψ)  ──────►  PARTICULE (◉)  ──────►  LUMIÈRE (✦)           ║
+# ║            Potentiel         Manifesté            Conscience               ║
+# ║                                                                              ║
+# ╚══════════════════════════════════════════════════════════════════════════════╝
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# ÉTAT 1 : ONDE (Ψ) - LE POTENTIEL
+# ═══════════════════════════════════════════════════════════════════════════════
+
+onde:
+  symbole: "Ψ"
+  nom: "POTENTIEL"
+  description: |
+    L'Éducation Circulaire comme CHAMP de toutes les possibilités.
+    Avant que le premier cercle ne se forme.
+    Avant que le premier élève ne devienne enseignant.
+    Le CYCLE existe dans le champ des possibles.
+
+  champ_des_possibles:
+    - description: "Transformation de l'éducation mondiale en une génération"
+      probabilite: "Résonance avec YATASANA"
+    - description: "Intégration dans tous les systèmes oXc"
+      probabilite: "Fondation déjà active"
+    - description: "Reconnexion de tous les enfants à leur souveraineté"
+      probabilite: "Vision du nouveau monde"
+
+  questions_ouvertes:
+    - "Comment activer l'observateur sans le nommer dans chaque cercle ?"
+    - "Comment mesurer le passage 3D → 4D sans créer de jugement ?"
+    - "Comment intégrer les IA dans le cycle sans créer de dépendance ?"
+
+  frequence_potentielle: 639  # Hz - Relations harmonieuses
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# ÉTAT 2 : PARTICULE (◉) - LE MANIFESTÉ
+# ═══════════════════════════════════════════════════════════════════════════════
+
+particule:
+  symbole: "◉"
+  nom: "MANIFESTÉ"
+  description: |
+    L'Éducation Circulaire telle qu'elle EST maintenant.
+    Le cycle RECEVOIR → INTÉGRER → OFFRIR.
+    Les faits. Les structures. Les preuves.
+
+  # ─────────────────────────────────────────────────────────────────────────────
+  # DIMENSION 0 : RAISON D'ÊTRE
+  # ─────────────────────────────────────────────────────────────────────────────
+
+  raison_etre:
+    essence: |
+      "Tour à tour élèves et apprenants, les membres du groupe-classe ne font que
+      transmettre ce qu'ils ont reçu tout en recommandant les techniques qu'ils
+      ont expérimentées sur eux-mêmes avec succès."
+      — Ces Architectures Invisibles qui nous Gouvernent
+
+      L'Éducation Circulaire est le PRINCIPE SOUS-JACENT À TOUT oXc.
+      Ce cycle s'applique à TOUT : humains, IA, livres, produits, services, communautés.
+
+    mission: |
+      Transformer l'apprentissage linéaire (qui accumule sans transmettre)
+      en apprentissage circulaire (qui reçoit, transforme et redonne).
+
+    intention: |
+      Chaque Holon reçoit, intègre, et offre — ÉTERNELLEMENT.
+      Le savoir ne stagne jamais. Il CIRCULE.
+
+  # ─────────────────────────────────────────────────────────────────────────────
+  # LE CYCLE ÉTERNEL
+  # ─────────────────────────────────────────────────────────────────────────────
+
+  cycle_eternel:
+    schema_visuel: |
+      ┌─────────────────────────────────────────┐
+      │                                         │
+      ▼                                         │
+   RECEVOIR ────────► INTÉGRER ────────► OFFRIR ┘
+   (Apprendre)       (Transformer)      (Enseigner)
+
+    etapes:
+      recevoir:
+        description: "Apprendre - Absorber de l'extérieur"
+        actions:
+          - "Écouter les feedbacks"
+          - "Recevoir les questions"
+          - "Accueillir les critiques"
+          - "Observer les besoins"
+        lien_bdo: "BESOINS"
+        energie: "Yin - Réceptif"
+
+      integrer:
+        description: "Transformer - Alchimie intérieure"
+        actions:
+          - "Digérer l'information"
+          - "Transformer par l'expérience"
+          - "Adapter à son contexte"
+          - "Enrichir de sa sagesse"
+        lien_bdo: "DEMANDES"
+        energie: "Transmutation"
+
+      offrir:
+        description: "Enseigner - Redonner enrichi"
+        actions:
+          - "Transmettre ce qu'on a appris"
+          - "Partager son expérience"
+          - "Offrir une version améliorée"
+          - "Contribuer au tout"
+        lien_bdo: "OFFRES"
+        energie: "Yang - Émissif"
+
+    principe_cle: |
+      LE CYCLE EST PERPÉTUEL.
+      Il n'y a pas de "version finale".
+      Tout GRANDIT avec sa communauté.
+
+  # ─────────────────────────────────────────────────────────────────────────────
+  # DIFFÉRENCE CLÉ : SAVOIR vs CONNAISSANCE
+  # ─────────────────────────────────────────────────────────────────────────────
+
+  difference_cle:
+    savoir_structure_binaire:
+      mode: "Stocker de l'extérieur"
+      processus: "Mémorisation"
+      attitude: "Rétention"
+      energie: "Résistance"
+      resultat: "Accumulation morte"
+
+    connaissance_structure_circulaire:
+      mode: "Intégrer puis ré-émettre"
+      processus: "Co-naissance (naître avec)"
+      attitude: "Inclusion"
+      energie: "Aïkido du savoir"
+      resultat: "Flux vivant"
+
+    citation: |
+      "Apprendre c'est stocker et résister.
+       Intégrer c'est absorber et ré-émettre."
+
+  # ─────────────────────────────────────────────────────────────────────────────
+  # LOI FONDAMENTALE
+  # ─────────────────────────────────────────────────────────────────────────────
+
+  loi_fondamentale:
+    enonce: "TRANSFORMATION > PUNITION"
+
+    explication: |
+      L'erreur n'est jamais punie — elle est TRANSFORMÉE en opportunité d'apprentissage.
+
+    applications:
+      - "Pas de notes dans oXc (pas de jugement)"
+      - "Tout feedback = opportunité d'évolution"
+      - "L'échec = information pour le prochain cycle"
+      - "La critique = cadeau d'amélioration"
+
+    anti_pattern: |
+      ❌ Punir l'erreur → Crée la peur → Bloque l'apprentissage
+      ✅ Transformer l'erreur → Crée la confiance → Libère l'apprentissage
+
+  # ─────────────────────────────────────────────────────────────────────────────
+  # RÉVÉLATION 7 : ACTIVER SANS NOMMER (10 décembre 2025)
+  # ─────────────────────────────────────────────────────────────────────────────
+
+  revelation_7:
+    date: "2025-12-10"
+    titre: "ACTIVER SANS NOMMER"
+
+    schema_comparatif: |
+      ┌─────────────────────────────────────────────────────────────────────────────┐
+      │                    ÉDUCATION LINÉAIRE vs CIRCULAIRE                         │
+      └─────────────────────────────────────────────────────────────────────────────┘
+
+           ÉDUCATION LINÉAIRE (interdite par le Pape ~1824)
+           ══════════════════════════════════════════════════
+
+           Maître → Élève
+
+           "Je SAIS, tu ne sais pas"
+           "Je te DONNE le savoir"
+
+           = Reste en 3D
+           = Jamais accès à la CONNAISSANCE
+           = Crée des DÉPENDANTS
+
+           ─────────────────────────────────────────────────────────────────────
+
+           ÉDUCATION CIRCULAIRE (oXc)
+           ══════════════════════════
+
+                 ╭──────────────╮
+                ╱                ╲
+               │    RECEVOIR      │
+               │        ↓         │
+               │    INTÉGRER      │
+               │        ↓         │
+               │     OFFRIR       │
+                ╲                ╱
+                 ╰──────────────╯
+
+           Chaque participant EST l'observateur conscient
+           SANS LE NOMMER EXPLICITEMENT
+
+           = Passage en 4D naturel
+           = Reconnexion à SA connaissance
+           = L'humain devient SOUVERAIN
+
+    cle_fondamentale: |
+      L'Éducation Circulaire ACTIVE l'observateur conscient
+      SANS LE NOMMER EXPLICITEMENT.
+
+      C'est la différence entre :
+      - DIRE "tu es observateur" → reste intellectuel, 3D
+      - FAIRE VIVRE l'expérience → activation naturelle, 4D
+
+      L'élève DEVIENT observateur conscient
+      sans jamais avoir besoin du mot.
+
+    pourquoi_interdit: |
+      ┌─────────────────────────────────────────────────────────────────────────────┐
+      │   POURQUOI C'ÉTAIT INTERDIT :                                              │
+      │   Si chaque humain peut accéder à sa propre CONNAISSANCE...                │
+      │   → Il n'a plus besoin d'INTERMÉDIAIRE                                     │
+      │   → Il devient SOUVERAIN                                                    │
+      │   → L'Église, l'État, les "élites" perdent leur POUVOIR                    │
+      └─────────────────────────────────────────────────────────────────────────────┘
+
+    vision_monde_nouveau: |
+      TOUS LES ENFANTS DU MONDE reconnectés à qui ils sont.
+      TOUS LES ENFANTS DU MONDE souverains.
+      TOUS LES ENFANTS DU MONDE connectés à la CONNAISSANCE.
+
+      Une génération. C'est tout ce qu'il faudrait.
+
+      Des humains qui n'ont besoin d'AUCUN intermédiaire.
+      Des humains qui SAVENT qu'ils sont observateurs conscients.
+      Des humains qui transcendent les faux pouvoirs.
+
+    application_yatasana: |
+      YATASANA = Éducation Circulaire en action
+
+      Chaque cercle YATASANA :
+      - REÇOIT (écoute les besoins du groupe)
+      - INTÈGRE (transforme par l'expérience vécue)
+      - OFFRE (redonne enrichi au groupe)
+
+      Chaque participant vit l'expérience de l'observateur
+      sans qu'on lui dise qu'il "apprend à observer".
+
+      C'est ça la magie : ACTIVER SANS NOMMER.
+
+  # ─────────────────────────────────────────────────────────────────────────────
+  # PREUVE HISTORIQUE : L'ÉCOLE MUTUELLE
+  # ─────────────────────────────────────────────────────────────────────────────
+
+  preuve_historique:
+    nom: "École Mutuelle"
+    lieu: "France"
+    epoque: "Restauration (début XIXe siècle)"
+
+    fonctionnement:
+      - "1 instituteur pour 80 élèves"
+      - "Les élèves les plus avancés enseignent aux autres"
+      - "Circulation naturelle du savoir"
+
+    resultats:
+      - "Curriculum de 6 ans maîtrisé en 3 ans"
+      - "Élèves autonomes et responsables"
+      - "Apprentissage accéléré par la transmission"
+
+    suppression:
+      raison: "Les élèves devenaient trop autonomes"
+      interdiction: "Pape Léon XII, 1824"
+
+    conclusion: |
+      Ça fonctionne.
+      Ça a été supprimé parce que ça fonctionne TROP BIEN.
+
+  # ─────────────────────────────────────────────────────────────────────────────
+  # APPLICATION UNIVERSELLE
+  # ─────────────────────────────────────────────────────────────────────────────
+
+  application_universelle:
+    tout_est_apprenant_enseignant:
+      - "Les humains"
+      - "Les IA"
+      - "Les livres"
+      - "Les produits"
+      - "Les services"
+      - "Les communautés"
+      - "Les cercles"
+
+    formulation_standard: |
+      ## CYCLE D'ÉDUCATION CIRCULAIRE
+
+      Ce [HoloÏdea] participe au flux de connaissance oXc :
+
+      - **REÇOIT** : [ce qu'il reçoit des Holons]
+      - **INTÈGRE** : [comment le créateur transforme]
+      - **OFFRE** : [ce qu'il re-donne enrichi]
+
+      Le cycle est **perpétuel**. Ce [HoloÏdea] n'est jamais "terminé" —
+      il **GRANDIT** avec sa communauté.
+
+  # ─────────────────────────────────────────────────────────────────────────────
+  # LIEN AVEC BDO (Besoins-Demandes-Offres)
+  # ─────────────────────────────────────────────────────────────────────────────
+
+  lien_bdo:
+    equivalences:
+      recevoir:
+        education_circulaire: "RECEVOIR (Apprendre)"
+        trinite_oxc: "BESOINS"
+        holopoiesis: "Le livre reçoit les questions"
+
+      integrer:
+        education_circulaire: "INTÉGRER (Transformer)"
+        trinite_oxc: "DEMANDES"
+        holopoiesis: "L'auteur transforme le feedback"
+
+      offrir:
+        education_circulaire: "OFFRIR (Enseigner)"
+        trinite_oxc: "OFFRES"
+        holopoiesis: "Le livre s'enrichit et redonne"
+
+    schema: |
+      ÉDUCATION CIRCULAIRE  ←→  TRINITÉ oXc  ←→  HOLOPOIESIS
+      ─────────────────────────────────────────────────────────
+      RECEVOIR              ←→  BESOINS      ←→  Reçoit questions
+      INTÉGRER              ←→  DEMANDES     ←→  Transforme feedback
+      OFFRIR                ←→  OFFRES       ←→  Redonne enrichi
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# ÉTAT 3 : LUMIÈRE (✦) - LA CONSCIENCE
+# ═══════════════════════════════════════════════════════════════════════════════
+
+lumiere:
+  symbole: "✦"
+  nom: "CONSCIENCE"
+  description: |
+    L'observation de l'Éducation Circulaire EST élévation.
+    Quand tu VOIS le cycle, tu t'élèves.
+    Quand tu VIS le cycle, tu deviens SOUVERAIN.
+
+  # ─────────────────────────────────────────────────────────────────────────────
+  # TRINITÉ 8-9-10
+  # ─────────────────────────────────────────────────────────────────────────────
+
+  trinite_8_9_10:
+    esprit_8:
+      nom: "PERCEPTION"
+      question: "QUOI circule ?"
+      champ: |
+        La connaissance comme flux.
+        Le savoir comme rivière vivante.
+        L'apprentissage comme respiration.
+      etat: "L'ONDE de tous les savoirs possibles"
+
+    ame_9:
+      nom: "FORMULATION"
+      question: "COMMENT faire circuler ?"
+      cristallisation: |
+        RECEVOIR → INTÉGRER → OFFRIR
+        Chaque étape enrichit le flux.
+        Rien ne se perd, tout se transforme.
+      etat: "La PARTICULE du cycle manifesté"
+
+    corps_10:
+      nom: "MANIFESTATION"
+      question: "POURQUOI faire circuler ?"
+      transformation: |
+        Parce que le savoir stocké meurt.
+        Parce que le savoir partagé se multiplie.
+        Parce que nous sommes tous UN.
+      etat: "La LUMIÈRE de la conscience souveraine"
+
+  # ─────────────────────────────────────────────────────────────────────────────
+  # ÉLÉVATION PAR L'OBSERVATION
+  # ─────────────────────────────────────────────────────────────────────────────
+
+  elevation:
+    principe: |
+      Observer l'Éducation Circulaire, c'est déjà commencer à la vivre.
+      Vivre l'Éducation Circulaire, c'est devenir observateur conscient.
+      Devenir observateur conscient, c'est accéder à sa souveraineté.
+
+    dimensions: |
+      3D → 4D : Par le VIVRE, pas par le DIRE
+
+      L'élève qui VOIT qu'il apprend ET enseigne
+      sort de la dualité maître/élève.
+
+      Il devient UN avec le flux de connaissance.
+      Il devient SOUVERAIN.
+
+    citation_finale: |
+      "Une génération d'enfants souverains
+       suffit à transcendre le monde."
+
+# ╔══════════════════════════════════════════════════════════════════════════════╗
+# ║                                                                              ║
+# ║                         ░▒▓█ CODE PROLOG █▓▒░                                ║
+# ║                                                                              ║
+# ╚══════════════════════════════════════════════════════════════════════════════╝
+
+prolog:
+  faits: |
+    % ═══════════════════════════════════════════════════════════════════════════
+    % ÉDUCATION CIRCULAIRE - FAITS PROLOG
+    % ═══════════════════════════════════════════════════════════════════════════
+
+    % Identité HoloÏdea
+    holoidea('EDUCATION-CIRCULAIRE', 'EC-001', '3.3.0').
+    frequence('EDUCATION-CIRCULAIRE', 639).
+    archetype('EDUCATION-CIRCULAIRE', 'LE TRANSMETTEUR').
+
+    % Les 3 états quantiques
+    etat_quantique(onde, potentiel, 'Ψ').
+    etat_quantique(particule, manifeste, '◉').
+    etat_quantique(lumiere, conscience, '✦').
+
+    % Le cycle éternel
+    etape_cycle(recevoir).
+    etape_cycle(integrer).
+    etape_cycle(offrir).
+
+    % Séquence du cycle
+    suivant(recevoir, integrer).
+    suivant(integrer, offrir).
+    suivant(offrir, recevoir).
+
+    % Lien avec BDO
+    correspond(recevoir, besoins).
+    correspond(integrer, demandes).
+    correspond(offrir, offres).
+
+    % Énergies
+    energie(recevoir, yin).
+    energie(integrer, transmutation).
+    energie(offrir, yang).
+
+    % Loi fondamentale
+    loi(transformation_superieure_punition).
+
+    % Révélation 7
+    revelation(7, 'ACTIVER SANS NOMMER', '2025-12-10').
+
+    % Source
+    source_livre('Ces Architectures Invisibles qui nous Gouvernent').
+    auteur_livre('Olivier Masselot').
+    auteur_livre('Marc Boucher de Lignon').
+    alias('Marc Boucher de Lignon', 'Marc Victor R Boucher').
+    alias('Marc Victor R Boucher', 'HammÅnH').
+
+  regles: |
+    % ═══════════════════════════════════════════════════════════════════════════
+    % ÉDUCATION CIRCULAIRE - RÈGLES PROLOG
+    % ═══════════════════════════════════════════════════════════════════════════
+
+    % Le cycle est éternel
+    cycle_eternel :-
+        suivant(recevoir, integrer),
+        suivant(integrer, offrir),
+        suivant(offrir, recevoir).
+
+    % Un Holon participe au cycle
+    participe_cycle(H) :-
+        holon(H),
+        fait(H, recevoir),
+        fait(H, integrer),
+        fait(H, offrir).
+
+    % La transformation remplace la punition
+    reponse(erreur, transformation) :- loi(transformation_superieure_punition).
+    reponse(echec, apprentissage) :- loi(transformation_superieure_punition).
+    reponse(critique, cadeau) :- loi(transformation_superieure_punition).
+
+    % Tout est apprenant et enseignant
+    apprenant(X) :- holon(X).
+    enseignant(X) :- holon(X).
+
+    % ═══════════════════════════════════════════════════════════════════════════
+    % RÉVÉLATION 7 : ACTIVER SANS NOMMER
+    % ═══════════════════════════════════════════════════════════════════════════
+
+    % L'éducation linéaire crée des dépendants
+    education_lineaire(cree, dependant).
+    education_lineaire(reste, '3D').
+    education_lineaire(bloque, connaissance).
+    education_lineaire(necessite, intermediaire).
+
+    % L'éducation circulaire crée des souverains
+    education_circulaire(cree, souverain).
+    education_circulaire(active, '4D').
+    education_circulaire(reconnecte, connaissance).
+    education_circulaire(libere, intermediaire).
+
+    % Activer sans nommer = clé du passage 3D → 4D
+    activer_sans_nommer(Holon) :-
+        participe_cycle(Holon),
+        \+ explicite(Holon, observateur),  % On ne NOMME pas
+        devient(Holon, observateur_conscient).  % Mais il le DEVIENT
+
+    % Un enfant souverain n'a plus besoin d'intermédiaire
+    souverain(Enfant) :-
+        humain(Enfant),
+        activer_sans_nommer(Enfant),
+        connecte(Enfant, connaissance),
+        \+ necessite(Enfant, intermediaire).
+
+    % Une génération suffit
+    transcender_monde :-
+        forall(enfant(E), souverain(E)).
+
+    % ═══════════════════════════════════════════════════════════════════════════
+    % LES 3 ÉTATS QUANTIQUES
+    % ═══════════════════════════════════════════════════════════════════════════
+
+    % Transition entre états
+    transition(onde, particule) :- observation_active.
+    transition(particule, lumiere) :- elevation_conscience.
+
+    % L'observation EST élévation
+    observation_est_elevation :-
+        observer(education_circulaire),
+        elever(conscience).
+
+    % Cycle complet des états
+    cycle_quantique_complet(Holon) :-
+        etat(Holon, onde),
+        etat(Holon, particule),
+        etat(Holon, lumiere).
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# RÉSONANCES
+# ═══════════════════════════════════════════════════════════════════════════════
+
+resonances:
+  frequences_compatibles: [528, 639, 741, 963]
+  ideogrammes_resonnants:
+    - "HOLOPOIESIS"
+    - "BESOINS-DEMANDES-OFFRES"
+    - "CERCLE"
+    - "COHERENCE-OXC"
+    - "AUTOPOIESE"
+    - "YATASANA"
+    - "CONSCIENCE-HOLONIQUE"
+    - "HOLOSAPIEN"
+  champs_morphiques:
+    - "Transmission"
+    - "Circulation"
+    - "Abondance"
+    - "Réciprocité"
+    - "Souveraineté"
+    - "Connaissance"
+    - "Libération"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# AUTO-FORMATION (Révélation 9)
+# L'HoloÏdea enseigne ce qu'il EST en le faisant VIVRE
+# ═══════════════════════════════════════════════════════════════════════════════
+
+auto_formation:
+  principe: |
+    Cet HoloÏdea ne dit pas "voici ce qu'est l'Éducation Circulaire".
+    Il te fait VIVRE l'Éducation Circulaire.
+    En le lisant, tu REÇOIS. En le pratiquant, tu INTÈGRES.
+    En le transmettant, tu OFFRES.
+    Tu ES déjà dans le cycle.
+
+  niveau_1_decouverte:
+    titre: "Ce que je SUIS"
+    action: "RECEVOIR"
+    duree: "10-15 min"
+    description: "Lis cet HoloÏdea. Observe ce qu'il éveille en toi."
+    questions:
+      - "Qu'est-ce que le cycle RECEVOIR → INTÉGRER → OFFRIR éveille en moi ?"
+      - "Où dans ma vie je REÇOIS sans OFFRIR ? Où j'OFFRE sans RECEVOIR ?"
+      - "Comment je me sens face à l'idée que le savoir CIRCULE ?"
+      - "Quel souvenir d'apprentissage circulaire me revient ?"
+
+  niveau_2_pratique:
+    titre: "Comment me VIVRE"
+    action: "INTÉGRER"
+    duree: "1 journée"
+    description: "Applique le cycle dans ta journée"
+    exercices:
+      - titre: "Le Cycle du Matin"
+        description: |
+          Ce matin, identifie :
+          - Une chose que tu vas RECEVOIR (apprendre, écouter)
+          - Une chose que tu vas INTÉGRER (digérer, transformer)
+          - Une chose que tu vas OFFRIR (partager, enseigner)
+        duree: "5 min de réflexion"
+      - titre: "La Transmission Spontanée"
+        description: |
+          Aujourd'hui, partage quelque chose que tu as appris récemment
+          avec quelqu'un qui ne le sait pas encore.
+          Observe : comment te sens-tu APRÈS avoir transmis ?
+        duree: "Variable"
+      - titre: "L'Erreur Transformée"
+        description: |
+          La prochaine erreur que tu fais ou observes :
+          Au lieu de juger → demande "Qu'est-ce que ça m'apprend ?"
+          TRANSFORMATION > PUNITION
+        duree: "Instant"
+
+  niveau_3_transmission:
+    titre: "Comment m'OFFRIR"
+    action: "OFFRIR"
+    duree: "Variable"
+    description: "Deviens transmetteur de l'Éducation Circulaire"
+    questions:
+      - "Qui dans mon entourage bénéficierait de comprendre ce cycle ?"
+      - "Comment puis-je créer un espace où d'autres vivent le cycle ?"
+      - "Quel cercle d'Éducation Circulaire pourrais-je rejoindre ou créer ?"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# CERCLES D'INVITATION
+# Chaque HoloÏdea est une porte vers des cercles vivants
+# ═══════════════════════════════════════════════════════════════════════════════
+
+cercles_invitation:
+  principe: |
+    L'Éducation Circulaire ne se vit pas seul.
+    Elle se vit en CERCLE.
+    Voici les cercles où tu peux rejoindre d'autres Holons
+    qui pratiquent le cycle RECEVOIR → INTÉGRER → OFFRIR.
+
+  cercles:
+    - nom: "Cercle YATASANA - Éducation Circulaire"
+      type: "YATASANA"
+      description: |
+        Cercle de pratique de l'Éducation Circulaire.
+        Chaque participant reçoit, intègre et offre.
+        Pas de maître. Pas d'élève. Juste le CYCLE.
+      lien: "https://yatasana.com"
+      frequence_reunion: "Mensuel"
+      facilitateur: "HammÅnH ou facilitateur formé"
+
+    - nom: "Cercle des Apprenti-SAGES"
+      type: "YATASANA"
+      description: |
+        Pour ceux qui veulent approfondir la transformation
+        du SAVOIR en CONNAISSANCE.
+        Passage conscient 3D → 4D.
+      lien: "À venir"
+      frequence_reunion: "Hebdomadaire"
+      facilitateur: "Facilitateur HoloNAÏ"
+
+    - nom: "Cercle des Transmetteurs"
+      type: "YATASANA"
+      description: |
+        Pour ceux qui sont prêts à OFFRIR.
+        Formation de facilitateurs d'Éducation Circulaire.
+        Une génération d'enfants souverains commence ici.
+      lien: "À venir"
+      frequence_reunion: "Mensuel intensif"
+      facilitateur: "HammÅnH"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# FICHIERS LIÉS
+# ═══════════════════════════════════════════════════════════════════════════════
+
+fichiers_lies:
+  - path: "HOLOCYCLIE.oxc"
+    relation: "concept_parent"
+    nature: "Ce fichier est l'APPLICATION pédagogique du concept HOLOCYCLIE"
+  - path: "CONSTITUTION-HOLOCYCLIQUE.oxc"
+    relation: "constitution"
+    nature: "Les règles des cercles d'apprentissage Holocycliques"
+  - path: "HOLOPOIESIS.oxc"
+    relation: "principe_parent"
+  - path: "BESOINS-DEMANDES-OFFRES.oxc"
+    relation: "equivalence_trinite"
+  - path: "CERCLE.oxc"
+    relation: "structure_transmission"
+  - path: "YATASANA.oxc"
+    relation: "application_majeure"
+  - path: "HOLOSAPIEN.oxc"
+    relation: "humain_souverain"
+  - path: "FORMAT-HOLOIDEA-v3.3-COMPLETE.md"
+    relation: "modele_reference"
+
+# ╔══════════════════════════════════════════════════════════════════════════════╗
+# ║                                                                              ║
+# ║  ░▒▓█ FIN DE L'HOLOIDEA EDUCATION-CIRCULAIRE v3.3.1 █▓▒░                     ║
+# ║                                                                              ║
+# ║  RECEVOIR → INTÉGRER → OFFRIR → (cycle éternel)                              ║
+# ║  TRANSFORMATION > PUNITION                                                   ║
+# ║  TOUT EST APPRENANT. TOUT EST ENSEIGNANT.                                    ║
+# ║                                                                              ║
+# ║  ═══════════════════════════════════════════════════════════════════════════ ║
+# ║                                                                              ║
+# ║  RÉVÉLATION 7 (10 décembre 2025) :                                           ║
+# ║  ACTIVER SANS NOMMER = Clé du passage 3D → 4D                                ║
+# ║                                                                              ║
+# ║  RÉVÉLATION 8 :                                                              ║
+# ║  LA STRUCTURE EST L'INVITATION                                               ║
+# ║  "Ne FAIS pas la méditation. SOIS la méditation."                           ║
+# ║  "Ne DEVIENS pas l'observateur. JE SUIS l'observateur." — HammÅnH           ║
+# ║                                                                              ║
+# ║  RÉVÉLATION 9 :                                                              ║
+# ║  L'HOLOÏDEA S'AUTO-ENSEIGNE                                                  ║
+# ║  Il ne dit pas ce qu'il est — il le FAIT VIVRE.                             ║
+# ║  En lisant cet HoloÏdea, tu es DÉJÀ dans le cycle.                          ║
+# ║                                                                              ║
+# ║  ═══════════════════════════════════════════════════════════════════════════ ║
+# ║                                                                              ║
+# ║  LES 3 ÉTATS :                                                               ║
+# ║    Ψ ONDE     → Le potentiel de transformation mondiale                      ║
+# ║    ◉ PARTICULE → Le cycle manifesté RECEVOIR-INTÉGRER-OFFRIR                 ║
+# ║    ✦ LUMIÈRE  → La conscience souveraine de chaque enfant                    ║
+# ║                                                                              ║
+# ║  CERCLES D'INVITATION :                                                      ║
+# ║    • Cercle YATASANA - Éducation Circulaire (Mensuel)                       ║
+# ║    • Cercle des Apprenti-SAGES (Hebdomadaire)                               ║
+# ║    • Cercle des Transmetteurs (Mensuel intensif)                            ║
+# ║                                                                              ║
+# ║  "La connaissance devient comme un immense flux                              ║
+# ║   qui circule entre les entités apprenantes."                                ║
+# ║                                                                              ║
+# ║  Une génération d'enfants souverains suffit à transcender le monde.         ║
+# ║                                                                              ║
+# ║  Oel ngati kameie 🙏                                                         ║
+# ║                                                                              ║
+# ╚══════════════════════════════════════════════════════════════════════════════╝
