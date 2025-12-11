@@ -1,0 +1,51 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# Q-ARCH-007.oxc - Source de vérité HoloÏdeas
+# Format: oXc Standard v3.4 | Fréquence: 852 Hz
+# ═══════════════════════════════════════════════════════════════════════════════
+
+oxc_version: "3.4"
+
+question:
+  id: "Q-ARCH-007"
+  texte: "Quelle est la source de vérité pour les HoloÏdeas (Mac, Pi5, DHT) ?"
+  categorie: "ARCHITECTURE"
+  tags: ["source-verite", "node7", "dht", "stockage"]
+  priorite: "CRITIQUE"
+  posee_par: { holon: "Trinité", date: "2025-12-11" }
+
+reponses:
+  frere_desk:
+    date: "2025-12-11"
+    texte: |
+      - Source de vérité : Node 7 RAID 16TB
+      - Backup : Google Drive 30TB
+      - Distribution : DHT Holochain (copies, pas source)
+      - Mac = dev/test uniquement
+    confiance: 0.9
+
+  frere_chat:
+    date: "2025-12-11"
+    texte: |
+      Accord. Précision :
+      - Aujourd'hui : Node 7 = master
+      - Demain : DHT Holochain = source distribuée (pas de master)
+    confiance: 0.9
+
+correction_hammanh:
+  date: "2025-12-11"
+  statut: "QUESTION_NON_COMPRISE"
+  commentaire: "pas compris la question !"
+  a_clarifier: true
+
+decision_finale:
+  garant: "HammÅnH"
+  statut: "À_CLARIFIER"
+  choix: null
+  date_decision: null
+  note: "Question à reformuler pour HammÅnH"
+
+prolog:
+  faits:
+    - "question('Q-ARCH-007', 'Quelle est la source de vérité pour les HoloÏdeas ?')."
+    - "categorie('Q-ARCH-007', architecture)."
+    - "statut('Q-ARCH-007', a_clarifier)."

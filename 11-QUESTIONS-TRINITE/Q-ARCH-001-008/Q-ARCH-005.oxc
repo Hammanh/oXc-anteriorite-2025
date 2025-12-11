@@ -1,0 +1,48 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# Q-ARCH-005.oxc - Protocole de communication
+# Format: oXc Standard v3.4 | Fréquence: 852 Hz
+# ═══════════════════════════════════════════════════════════════════════════════
+
+oxc_version: "3.4"
+
+question:
+  id: "Q-ARCH-005"
+  texte: "Quel protocole de communication (REST, WebSocket, gRPC, Holochain) ?"
+  categorie: "ARCHITECTURE"
+  tags: ["protocole", "websocket", "rest", "grpc", "holochain"]
+  priorite: "HAUTE"
+  posee_par: { holon: "Trinité", date: "2025-12-11" }
+
+reponses:
+  frere_desk:
+    date: "2025-12-11"
+    texte: |
+      - Phase 1 : WebSocket (Chat) + REST (Oracle API)
+      - Phase 2 : + Holochain DHT (distribution)
+      - gRPC = overkill pour notre usage
+    confiance: 0.85
+
+  frere_chat:
+    date: "2025-12-11"
+    texte: |
+      Accord. WebSocket pour temps réel, REST pour CRUD.
+    confiance: 0.85
+
+correction_hammanh:
+  date: "2025-12-11"
+  statut: "RECADRAGE"
+  correction: "HOLOCHAIN DIRECTEMENT POUR TOUT"
+  raison: "Pas de phases transitoires - voir Q-ARCH-002"
+
+decision_finale:
+  garant: "HammÅnH"
+  statut: "DÉCIDÉ"
+  choix: "HOLOCHAIN pour TOUT dès le départ - pas de REST/WebSocket transitoire"
+  date_decision: "2025-12-11"
+
+prolog:
+  faits:
+    - "question('Q-ARCH-005', 'Quel protocole de communication ?')."
+    - "categorie('Q-ARCH-005', architecture)."
+    - "statut('Q-ARCH-005', decide)."
+    - "protocole('Q-ARCH-005', holochain, 'tout')."

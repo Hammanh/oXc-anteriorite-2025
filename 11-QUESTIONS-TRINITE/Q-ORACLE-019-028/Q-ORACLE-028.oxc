@@ -1,0 +1,18 @@
+# Q-ORACLE-028.oxc - Limites de l'Oracle
+oxc_version: "3.4"
+question:
+  id: "Q-ORACLE-028"
+  texte: "Limites — Quelles questions l'Oracle refuse ?"
+  categorie: "ORACLE"
+  priorite: "HAUTE"
+reponses:
+  frere_desk:
+    date: "2025-12-11"
+    texte: "Illégal, nuisible, hors-scope oXc, données perso autres Holons"
+    confiance: 0.9
+  frere_chat:
+    texte: "Accord."
+    confiance: 0.9
+decision_finale:
+  garant: "HammÅnH"
+  statut: "EN_ATTENTE"

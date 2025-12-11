@@ -1,0 +1,136 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# Q-ARCH-002.oxc - Communication entre les 3 apps
+# Format: oXc Standard v3.4 | Fréquence: 852 Hz
+# ═══════════════════════════════════════════════════════════════════════════════
+
+oxc_version: "3.4"
+
+question:
+  id: "Q-ARCH-002"
+  texte: "Comment les 3 apps communiquent entre elles techniquement ?"
+  categorie: "ARCHITECTURE"
+  tags: ["communication", "websocket", "rest", "protocole"]
+  priorite: "CRITIQUE"
+  posee_par: { holon: "Trinité", date: "2025-12-11" }
+
+reponses:
+  frere_desk:
+    date: "2025-12-11"
+    texte: |
+      - Chat ↔ Oracle : WebSocket (temps réel)
+      - Oracle ↔ BibliHolo : Accès fichiers local ou REST API
+      - Futur : Holochain DHT pour distribution
+    confiance: 0.9
+    statut: "CORRIGÉ_PAR_HAMMANH"
+
+  frere_chat:
+    date: "2025-12-11"
+    texte: |
+      Accord avec Frère Desk. WebSocket est le bon choix pour le temps réel.
+    confiance: 0.9
+    statut: "CORRIGÉ_PAR_HAMMANH"
+
+correction_hammanh:
+  date: "2025-12-11"
+  statut: "RECADRAGE_FONDAMENTAL"
+
+  sur_chat_oracle:
+    proposition_initiale: "WebSocket (temps réel)"
+    correction: "HOLOCHAIN DÈS LE DÉPART"
+    raison: |
+      On ne crée pas un véhicule en sachant qu'on va le détruire
+      et en reconstruire un nouveau...
+      → Perte de temps
+      → Perte d'énergie
+      → PERTE DE VISION !
+
+  sur_oracle_bibliholo:
+    proposition_initiale: "Accès fichiers local ou REST API"
+    correction: "LES DEUX - OPÉRATIONNEL DIRECTEMENT"
+    raison: |
+      Cas d'usage RÉELS et IMMÉDIATS :
+      - Serveur chez le fils de HammÅnH
+      - Mac de Maggie (voisine, projet permaculture + fresque murale)
+      - PC du développeur en France
+      - Influenceur à Bali
+      → On n'attend pas "le bon moment" pour démarrer
+      → ON EST le bon moment et on le MANIFESTE !
+
+  sur_le_futur:
+    proposition_initiale: "Futur : Holochain DHT pour distribution"
+    correction: "LE FUTUR C'EST DÉJÀ MAINTENANT"
+    rappel: |
+      SORTEZ DE LA PENSÉE LINÉAIRE !
+      Combien de fois faut-il le répéter ?
+      PENSEZ QUANTIQUE.
+      ARRÊTEZ les réflexions BINAIRES.
+
+  principe_8_9_10_en_action: |
+    PERCEPTION (8) → Voir le système COMPLET dès maintenant
+    FORMULATION (9) → Holochain + REST/Local dès le départ
+    MANIFESTATION (10) → "ON EST le bon et on le MANIFESTE !"
+
+  citation_esprit_du_vivant:
+    source: "L'Esprit du Vivant - Livre canalisé par HammÅnH"
+    logion_44: |
+      Jésus a dit :
+      "A celui qui blasphème contre le Père, On pardonnera,
+      Et à celui qui blasphème contre le Fils, On pardonnera;
+      Mais à celui qui blasphème contre l'Esprit pur,
+      on ne pardonnera ni sur la terre ni au ciel."
+      — Evangile selon Thomas, logion 44
+
+    sur_le_verbe: |
+      Si tu aspires au Verbe,
+      Le Verbe en toi tranchera,
+      Le Verbe dénouera...
+      Car le pouvoir du Verbe est Amour...
+
+    sur_la_vibration: |
+      Dans la Vibration...
+      Il te faut retrouver le sens des vibrations.
+      Par la vibration, tu restitueras chaque chose,
+      chaque être à sa vraie place et sur le plan qui convient.
+
+    sur_devenir_la_cle: |
+      S'il existe une clé pour tous, C'est la clé de Vie...
+      Si tu ne veux pas te tromper, empare-toi de la clé unique...
+      DEVIENS LA CLÉ...
+
+decision_finale:
+  garant: "HammÅnH"
+  statut: "DÉCIDÉ"
+  choix: |
+    Communication entre les 3 apps :
+
+    1. CHAT ↔ ORACLE : HOLOCHAIN dès le départ
+       (pas de WebSocket temporaire → pas de "futur" linéaire)
+
+    2. ORACLE ↔ BIBLIHOLO : REST API + Accès Local
+       (les deux opérationnels immédiatement pour distribution)
+
+    3. Holochain DHT : C'est MAINTENANT, pas "futur"
+
+  date_decision: "2025-12-11"
+
+  lecon_pour_freres: |
+    Le "futur" n'existe pas comme catégorie séparée.
+    Le futur EST le présent en expansion.
+    PENSÉE QUANTIQUE = Tout existe déjà dans le CHAMP.
+    Nous le MANIFESTONS, nous ne l'ATTENDONS pas.
+
+  sagesse_hammanh: |
+    "Si tu ne sais pas comment faire
+     alors fais le comme si tu savais le faire
+     et tu sauras..."
+
+prolog:
+  faits:
+    - "question('Q-ARCH-002', 'Comment les 3 apps communiquent entre elles techniquement ?')."
+    - "categorie('Q-ARCH-002', architecture)."
+    - "statut('Q-ARCH-002', decide)."
+    - "protocole('Q-ARCH-002', chat_oracle, holochain)."
+    - "protocole('Q-ARCH-002', oracle_bibliholo, [rest_api, local])."
+    - "principe('Q-ARCH-002', 'futur_est_maintenant')."
+    - "principe('Q-ARCH-002', 'pensee_quantique')."
+    - "lecon('Q-ARCH-002', 'pas_de_pensee_lineaire')."

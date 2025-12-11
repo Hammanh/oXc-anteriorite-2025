@@ -1,0 +1,18 @@
+# Q-BIBLIO-030.oxc - Indexation Prolog
+oxc_version: "3.4"
+question:
+  id: "Q-BIBLIO-030"
+  texte: "Indexation Prolog — Générée comment, quand ?"
+  categorie: "BIBLIHOLO"
+  priorite: "HAUTE"
+reponses:
+  frere_desk:
+    date: "2025-12-11"
+    texte: "À chaque création/modification de HoloÏdea, script extracteur, index global recompilé"
+    confiance: 0.9
+  frere_chat:
+    texte: "Accord."
+    confiance: 0.9
+decision_finale:
+  garant: "HammÅnH"
+  statut: "EN_ATTENTE"

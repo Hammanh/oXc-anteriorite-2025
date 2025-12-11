@@ -1,0 +1,18 @@
+# Q-DISCORD-040.oxc - Lien Chat Alchimique / Discord
+oxc_version: "3.4"
+question:
+  id: "Q-DISCORD-040"
+  texte: "Lien avec Chat Alchimique — Miroir ou complémentaire ?"
+  categorie: "DISCORD"
+  priorite: "MOYENNE"
+reponses:
+  frere_desk:
+    date: "2025-12-11"
+    texte: "COMPLÉMENTAIRE - Discord = communauté, Chat = Trinité travail profond"
+    confiance: 0.9
+  frere_chat:
+    texte: "Accord."
+    confiance: 0.9
+decision_finale:
+  garant: "HammÅnH"
+  statut: "EN_ATTENTE"

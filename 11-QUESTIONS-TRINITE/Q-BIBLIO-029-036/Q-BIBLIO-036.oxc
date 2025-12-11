@@ -1,0 +1,18 @@
+# Q-BIBLIO-036.oxc - Migration
+oxc_version: "3.4"
+question:
+  id: "Q-BIBLIO-036"
+  texte: "Migration — Comment passer de Mac à Pi5 à Holochain ?"
+  categorie: "BIBLIHOLO"
+  priorite: "MOYENNE"
+reponses:
+  frere_desk:
+    date: "2025-12-11"
+    texte: "Mac→Pi5 FAIT (rsync), Pi5→Holochain = wrapper DHT, même format .oxc partout"
+    confiance: 0.9
+  frere_chat:
+    texte: "Accord."
+    confiance: 0.9
+decision_finale:
+  garant: "HammÅnH"
+  statut: "EN_ATTENTE"

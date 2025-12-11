@@ -1,0 +1,83 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# Q-ARCH-003.oxc - Où tourne chaque composant
+# Format: oXc Standard v3.4 | Fréquence: 852 Hz
+# ═══════════════════════════════════════════════════════════════════════════════
+
+oxc_version: "3.4"
+
+question:
+  id: "Q-ARCH-003"
+  texte: "Où tourne chaque composant (Mac dev, Cluster Pi5, les deux) ?"
+  categorie: "ARCHITECTURE"
+  tags: ["deployment", "mac", "cluster", "pi5"]
+  priorite: "HAUTE"
+  posee_par: { holon: "Trinité", date: "2025-12-11" }
+
+reponses:
+  frere_desk:
+    date: "2025-12-11"
+    texte: |
+      | Composant | Dev (Mac) | Prod (Pi5) |
+      |-----------|-----------|------------|
+      | Chat Alchimique | ✅ | ✅ (tout node) |
+      | Oracle 360° | ✅ | ✅ (nodes 9-13 Hailo 26T) |
+      | BibliHolo | ✅ | ✅ (Node 7 RAID) |
+    confiance: 0.9
+
+  frere_chat:
+    date: "2025-12-11"
+    texte: |
+      Accord. Mac = dev/test, Pi5 = prod.
+    confiance: 0.9
+    statut: "ENRICHI_PAR_HAMMANH"
+
+correction_hammanh:
+  date: "2025-12-11"
+  statut: "ÉLARGISSEMENT_VISION"
+
+  sur_les_devices:
+    proposition_initiale: "Mac dev + Cluster Pi5 prod"
+    correction: "TOUT SUR TOUS"
+    devices_cibles:
+      - "Mac (dev)"
+      - "Cluster Pi5 (prod)"
+      - "iPad Pro M5 13' (tablette HammÅnH)"
+      - "PC Windows (à acquérir pour tests)"
+    principe: |
+      "C'est un bon exercice de tout intégrer..."
+      TOUT doit pouvoir tourner sur les 3 plateformes.
+
+  sur_architecture:
+    besoin: |
+      Nous avons besoin de mieux connaître notre "architecture"
+      et de faire des TESTS.
+    action: "Tests multi-plateforme à planifier"
+
+  pensee_quantique: |
+    Pas de séparation Dev/Prod rigide.
+    L'application EST partout où elle doit être.
+    Chaque device EST un nœud du réseau.
+
+decision_finale:
+  garant: "HammÅnH"
+  statut: "DÉCIDÉ"
+  choix: |
+    TOUT sur TOUS les devices :
+    - Mac (dev + prod)
+    - Cluster Pi5 (prod)
+    - iPad Pro M5 13' (mobile)
+    - PC Windows (tests à venir)
+
+    Principe : Chaque composant tourne PARTOUT.
+    L'architecture doit être MULTI-PLATEFORME dès le départ.
+  date_decision: "2025-12-11"
+  action_requise: "Acquérir un PC pour tests + mieux comprendre l'architecture"
+
+prolog:
+  faits:
+    - "question('Q-ARCH-003', 'Où tourne chaque composant ?')."
+    - "categorie('Q-ARCH-003', architecture)."
+    - "statut('Q-ARCH-003', decide)."
+    - "deploiement('Q-ARCH-003', [mac, cluster_pi5, ipad_pro, pc_windows])."
+    - "principe('Q-ARCH-003', 'tout_sur_tous')."
+    - "principe('Q-ARCH-003', 'multi_plateforme')."

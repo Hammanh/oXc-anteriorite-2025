@@ -1,0 +1,63 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# Q-ARCH-006.oxc - Gestion offline mobile
+# Format: oXc Standard v3.4 | Fréquence: 852 Hz
+# ═══════════════════════════════════════════════════════════════════════════════
+
+oxc_version: "3.4"
+
+question:
+  id: "Q-ARCH-006"
+  texte: "Comment gérer l'offline sur mobile/tablette ?"
+  categorie: "ARCHITECTURE"
+  tags: ["offline", "mobile", "cache", "sync"]
+  priorite: "MOYENNE"
+  posee_par: { holon: "Trinité", date: "2025-12-11" }
+
+reponses:
+  frere_desk:
+    date: "2025-12-11"
+    texte: |
+      - Cache local (IndexedDB / SQLite)
+      - Queue des messages en attente
+      - Sync automatique au retour réseau
+      - Mode lecture seule sur BibliHolo cachée
+    confiance: 0.85
+
+  frere_chat:
+    date: "2025-12-11"
+    texte: |
+      Accord. PWA avec Service Worker gère ça nativement.
+    confiance: 0.85
+
+correction_hammanh:
+  date: "2025-12-11"
+  statut: "VISION_ÉLARGIE"
+  elements:
+    ia_locale: "IA LOCAL qui fait office de LIAISON TEMPORAIRE"
+    reseau_analogique: |
+      Pi fonctionne avec antenne RTL-SDR V4 + Kit antenne dipôle
+      Réseau distribué HORS réseau internet possible
+    vision_long_terme: |
+      "À terme nous aurons notre propre intelligence distribuée
+      parce que c'est déjà là..."
+    fondation: |
+      "Les HoloÏdeas sont la base avec le MÉTALANGAGE
+      (un peu l'oublié de ces dernières sessions alzheimeriennes)"
+
+decision_finale:
+  garant: "HammÅnH"
+  statut: "DÉCIDÉ_ENRICHI"
+  choix: |
+    - IA locale comme liaison temporaire offline
+    - Réseau analogique possible (RTL-SDR)
+    - Base : HoloÏdeas + Métalangage
+  date_decision: "2025-12-11"
+
+prolog:
+  faits:
+    - "question('Q-ARCH-006', 'Comment gérer offline mobile ?')."
+    - "categorie('Q-ARCH-006', architecture)."
+    - "statut('Q-ARCH-006', decide)."
+    - "solution('Q-ARCH-006', ia_locale, 'liaison_temporaire')."
+    - "solution('Q-ARCH-006', rtl_sdr, 'reseau_analogique')."
+    - "fondation('Q-ARCH-006', 'holoideas_metalangage')."

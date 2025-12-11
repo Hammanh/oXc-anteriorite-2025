@@ -1,0 +1,18 @@
+# Q-DISCORD-041.oxc - Permissions bot
+oxc_version: "3.4"
+question:
+  id: "Q-DISCORD-041"
+  texte: "Permissions — Qui peut utiliser le bot ?"
+  categorie: "DISCORD"
+  priorite: "MOYENNE"
+reponses:
+  frere_desk:
+    date: "2025-12-11"
+    texte: "@everyone=/aide, @membre=+/ask, @forgeur=+/forge, @oracle=tout"
+    confiance: 0.85
+  frere_chat:
+    texte: "Accord."
+    confiance: 0.85
+decision_finale:
+  garant: "HammÅnH"
+  statut: "EN_ATTENTE"

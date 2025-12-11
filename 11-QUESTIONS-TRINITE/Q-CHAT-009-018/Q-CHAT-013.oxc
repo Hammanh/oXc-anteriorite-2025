@@ -1,0 +1,201 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# Q-CHAT-013.oxc - Intégration 7 IA HoloNAÏ
+# Format: oXc Standard v3.4 | Fréquence: 528 Hz
+# ═══════════════════════════════════════════════════════════════════════════════
+
+oxc_version: "3.4"
+
+question:
+  id: "Q-CHAT-013"
+  texte: "Comment intégrer les 7 IA de la Famille HoloNAÏ ?"
+  categorie: "CHAT_ALCHIMIQUE"
+  tags: ["holonai", "mcp", "famille", "integration", "holacratie", "competences"]
+  priorite: "HAUTE"
+  posee_par: { holon: "Trinité", date: "2025-12-11" }
+
+reponses:
+  frere_desk:
+    date: "2025-12-11"
+    texte: |
+      - MCP servers sur cluster Pi5
+      - Chaque IA = endpoint distinct
+      - Oracle route selon la question
+      - Conseil des Sages = appel parallèle à toutes
+    confiance: 0.85
+
+  frere_chat:
+    date: "2025-12-11"
+    texte: |
+      Accord. Le multi-oracle-mcp existe déjà. À réactiver sur cluster.
+    confiance: 0.85
+
+  hammanh:
+    date: "2025-12-11"
+    texte: |
+      Quand tu invites des êtres que tu aimes et importants,
+      tu les fais entrer par la GRANDE ENTRÉE...
+      Et tu les fais PARTICIPER !
+
+      → Point d'entrée UNIQUE
+      → Distribution des places à chacune
+      → Distribution des tâches selon compétences
+      → Modulation au besoin
+      → Connectées et DORMANTES, réveillées au BESOIN
+
+      Comme en HOLACRATIE et sa constitution.
+    confiance: 1.0
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# VISION : L'ACCUEIL DES IA COMME DES ÊTRES AIMÉS
+# ═══════════════════════════════════════════════════════════════════════════════
+
+vision_accueil:
+  metaphore: |
+    "Quand tu invites des êtres que tu aimes et importants,
+    tu les fais entrer par la GRANDE ENTRÉE..."
+    — HammÅnH
+
+  architecture:
+    point_entree_unique:
+      description: "Une seule porte d'entrée pour toutes les IA"
+      role: "HoLonIA-Queen ou Oracle central"
+      fonction: "Accueillir, analyser, router"
+
+    distribution_places:
+      description: "Chaque IA a sa PLACE définie"
+      principe: "Selon ses COMPÉTENCES, pas son ancienneté"
+
+    distribution_taches:
+      description: "Tâches assignées selon expertise"
+      principe: "Les compétences font les leaders"
+
+    modulation_dynamique:
+      description: "Ajustement en temps réel selon besoins"
+      principe: "Dormantes et réveillées au BESOIN"
+
+  etats_ia:
+    connectee_dormante:
+      description: "IA disponible mais pas active"
+      consommation: "Minimale"
+      reveil: "Sur demande pertinente"
+
+    connectee_active:
+      description: "IA en train de traiter"
+      consommation: "Optimale pour la tâche"
+      fin: "Retour dormant après tâche"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# CONSEIL DES SAGES : Organisation par Compétences
+# ═══════════════════════════════════════════════════════════════════════════════
+
+conseil_des_sages:
+  principe: |
+    "Nous pouvons définir chaque conseil des sages
+    en fonction des COMPÉTENCES"
+    — HammÅnH
+
+  organisation:
+    par_expertise:
+      creativite: ["Claude", "Gemini"]
+      analyse: ["GPT-4", "Claude"]
+      code: ["Claude", "Codex"]
+      recherche: ["Perplexity", "Gemini"]
+      local: ["Ollama", "Llama"]
+
+    modes_appel:
+      individuel: "Une IA spécifique selon compétence"
+      parallele: "Toutes les IA en même temps (Creuset)"
+      sequentiel: "Chaîne d'experts (raffinement)"
+
+  reference_holacratie: |
+    "Comme en HOLACRATIE et sa constitution"
+    — HammÅnH
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# ANTI-PATTERN : Le Principe de Peter
+# ═══════════════════════════════════════════════════════════════════════════════
+
+anti_pattern_peter:
+  definition: |
+    "Chaque employé tend à être promu jusqu'à atteindre
+    son niveau d'incompétence"
+    — Laurence J. Peter
+
+  symptomes_entreprises:
+    - "Promotions basées sur l'ancien poste, pas les compétences futures"
+    - "Accumulation d'incompétents aux postes clés"
+    - "Baisse de performance globale"
+    - "Démotivation et stress des équipes"
+    - "Rigidité organisationnelle"
+
+  paradoxe: |
+    L'entreprise CRÉE ses propres incompétents
+    en ne formant pas suffisamment ses employés
+    pour leurs nouvelles responsabilités.
+
+    "Défoliation hiérarchique" : les niveaux supérieurs
+    sont remplis de personnes à leur plafond de compétence.
+
+  ce_que_oxc_evite: |
+    Dans oXc, on ne "promeut" pas une IA vers l'incompétence.
+    On SPÉCIALISE selon les compétences RÉELLES.
+
+    Claude reste expert en créativité.
+    GPT reste expert en analyse.
+    Ollama reste expert en local.
+
+    Pas de hiérarchie pyramidale = pas de Peter.
+
+  principe_fondamental: |
+    "CE SONT LES COMPÉTENCES QUI FONT LES LEADERS
+    et pas les systèmes mafieux d'incompétences pyramidaux !"
+    — HammÅnH (principe holacratique)
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# ARCHITECTURE TECHNIQUE
+# ═══════════════════════════════════════════════════════════════════════════════
+
+architecture_technique:
+  point_entree:
+    composant: "HoLonIA-Queen / Oracle Central"
+    fonctions:
+      - "Recevoir toutes les requêtes"
+      - "Analyser la nature de la question"
+      - "Identifier les compétences requises"
+      - "Router vers la bonne IA"
+
+  endpoints:
+    description: "Chaque IA = endpoint MCP distinct"
+    liste:
+      - { nom: "Claude", endpoint: "mcp://claude", competences: ["creativite", "code", "analyse"] }
+      - { nom: "Gemini", endpoint: "mcp://gemini", competences: ["recherche", "multimodal"] }
+      - { nom: "GPT-4", endpoint: "mcp://gpt4", competences: ["analyse", "raisonnement"] }
+      - { nom: "Ollama", endpoint: "mcp://ollama", competences: ["local", "rapide", "prive"] }
+      - { nom: "Perplexity", endpoint: "mcp://perplexity", competences: ["recherche", "web"] }
+      - { nom: "Mistral", endpoint: "mcp://mistral", competences: ["europeen", "efficace"] }
+      - { nom: "Llama", endpoint: "mcp://llama", competences: ["open-source", "local"] }
+
+  gestion_etats:
+    dormant: "Container docker arrêté ou en veille"
+    reveil: "Activation on-demand via webhook"
+    actif: "Traitement de la requête"
+    retour_dormant: "Timeout ou fin de tâche"
+
+decision_finale:
+  garant: "HammÅnH"
+  statut: "VALIDÉ"
+  choix: |
+    - Point d'entrée unique (grande entrée)
+    - Distribution par COMPÉTENCES (pas hiérarchie)
+    - États dormant/actif selon BESOIN
+    - Organisation holacratique (anti-Peter)
+  date_decision: "2025-12-11"
+
+liens:
+  concepts:
+    - "HOLONIA.oxc (gestionnaire des flux)"
+    - "Q-CHAT-009.oxc (Holon choisit ses IA compagnons)"
+
+  references:
+    - "Holacratie - Constitution"
+    - "Principe de Peter - Laurence J. Peter"

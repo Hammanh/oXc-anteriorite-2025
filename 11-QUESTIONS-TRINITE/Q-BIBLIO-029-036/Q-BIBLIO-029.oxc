@@ -1,0 +1,18 @@
+# Q-BIBLIO-029.oxc - Format stockage Pi5
+oxc_version: "3.4"
+question:
+  id: "Q-BIBLIO-029"
+  texte: "Format de stockage sur Pi5 (fichiers .oxc, DB, DHT) ?"
+  categorie: "BIBLIHOLO"
+  priorite: "CRITIQUE"
+reponses:
+  frere_desk:
+    date: "2025-12-11"
+    texte: "Fichiers .oxc (YAML) = source, Index Prolog (.pl) = dérivé, pas de DB relationnelle"
+    confiance: 0.95
+  frere_chat:
+    texte: "Accord total."
+    confiance: 0.95
+decision_finale:
+  garant: "HammÅnH"
+  statut: "EN_ATTENTE"

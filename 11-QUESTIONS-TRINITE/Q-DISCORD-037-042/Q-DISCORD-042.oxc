@@ -1,0 +1,18 @@
+# Q-DISCORD-042.oxc - Intégration bot Oracle
+oxc_version: "3.4"
+question:
+  id: "Q-DISCORD-042"
+  texte: "Intégration — Le bot accède-t-il à l'Oracle directement ?"
+  categorie: "DISCORD"
+  priorite: "HAUTE"
+reponses:
+  frere_desk:
+    date: "2025-12-11"
+    texte: "OUI - accès API Oracle direct, mêmes réponses, rate limiting"
+    confiance: 0.9
+  frere_chat:
+    texte: "Accord."
+    confiance: 0.9
+decision_finale:
+  garant: "HammÅnH"
+  statut: "EN_ATTENTE"

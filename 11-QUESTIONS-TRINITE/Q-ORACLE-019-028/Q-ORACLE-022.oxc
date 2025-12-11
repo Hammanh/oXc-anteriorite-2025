@@ -1,0 +1,18 @@
+# Q-ORACLE-022.oxc - Temps de réponse
+oxc_version: "3.4"
+question:
+  id: "Q-ORACLE-022"
+  texte: "Temps de réponse acceptable (1s, 5s, 30s) ?"
+  categorie: "ORACLE"
+  priorite: "MOYENNE"
+reponses:
+  frere_desk:
+    date: "2025-12-11"
+    texte: "Simple <1s, Standard <5s, Consensus <30s, Profond async"
+    confiance: 0.9
+  frere_chat:
+    texte: "Accord."
+    confiance: 0.9
+decision_finale:
+  garant: "HammÅnH"
+  statut: "EN_ATTENTE"

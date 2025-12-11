@@ -1,0 +1,18 @@
+# Q-BIBLIO-035.oxc - Quota par Holon
+oxc_version: "3.4"
+question:
+  id: "Q-BIBLIO-035"
+  texte: "Quota — Limite de taille par Holon ?"
+  categorie: "BIBLIHOLO"
+  priorite: "BASSE"
+reponses:
+  frere_desk:
+    date: "2025-12-11"
+    texte: "Phase 1-2 = illimité, Phase 3 = quotas selon contribution"
+    confiance: 0.85
+  frere_chat:
+    texte: "Accord."
+    confiance: 0.85
+decision_finale:
+  garant: "HammÅnH"
+  statut: "EN_ATTENTE"

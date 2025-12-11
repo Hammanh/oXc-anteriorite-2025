@@ -1,0 +1,18 @@
+# Q-ORACLE-026.oxc - Traçabilité des réponses
+oxc_version: "3.4"
+question:
+  id: "Q-ORACLE-026"
+  texte: "Traçabilité — Comment savoir d'où vient une réponse ?"
+  categorie: "ORACLE"
+  priorite: "HAUTE"
+reponses:
+  frere_desk:
+    date: "2025-12-11"
+    texte: "source_ids[], ia_contributors[], confidence_score, timestamp"
+    confiance: 0.95
+  frere_chat:
+    texte: "Accord."
+    confiance: 0.95
+decision_finale:
+  garant: "HammÅnH"
+  statut: "EN_ATTENTE"
