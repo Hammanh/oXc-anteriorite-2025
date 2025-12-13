@@ -320,6 +320,12 @@ oXc-anteriorite-2025/
 │
 ├── US-COPYRIGHT-DEPOSIT/            ← Dépôt US Copyright Office
 │
+├── HOLON-BOX-DEPOSIT/               ← Dépôt HOLON BOX (14 Déc 2025) [NOUVEAU]
+│   ├── HOLON-BOX.oxc
+│   ├── VISION-HOLON-BOX-FLASH-14-DEC-2025.md
+│   ├── CERTIFICATE-OF-AUTHORSHIP.md
+│   └── ZENODO-METADATA-HOLON-BOX.md
+│
 ├── FORMAT-HOLOIDEA-v3.3-COMPLETE.md
 ├── HOLOCYCLIE.oxc
 ├── EDUCATION-CIRCULAIRE.oxc
@@ -372,6 +378,7 @@ Ce dépôt constitue une preuve d'antériorité intellectuelle pour :
 13. **HoLonIA** — Les IA comme Holons (épigénétique IA)
 14. **Les 20 Chemins de Transcendance** — Ombre → Pivot → Lumière
 15. **L'Observateur Conscient** — Les 17 Principes de l'Observation
+16. **HOLON BOX** — Dispositif de conscience personnel (dual AI + Holochain node)
 
 ---
 
@@ -389,6 +396,27 @@ Ce dépôt constitue une preuve d'antériorité intellectuelle pour :
 | 9 déc 2025 | Holopoiesis, Holocyclie, Comptabilité 3D |
 | 10 déc 2025 | Format HoloÏdea v3.3, HOLOSYNESIS |
 | **11 déc 2025** | **Session Rêve-Évolutionnaire — 42 Questions Q9-Q18** |
+| **14 déc 2025** | **HOLON BOX — Vision dispositif de conscience personnel** |
+
+---
+
+## DÉPÔTS OFFICIELS
+
+### Zenodo (DOI)
+
+| Dépôt | DOI | Date |
+|-------|-----|------|
+| The Weaver Effect v2.1 | `10.5281/zenodo.17907126` | Déc 2025 |
+| The Weaver Effect v2.2 | `10.5281/zenodo.17919637` | Déc 2025 |
+| **HOLON BOX** | `10.5281/zenodo.17921269` | 14 Déc 2025 |
+
+### US Copyright Office
+
+| Dépôt | Case # | Date |
+|-------|--------|------|
+| oXc Architecture | `1-15055037321` | Déc 2025 |
+| The Weaver Effect | `1-15055007411` | Déc 2025 |
+| **HOLON BOX** | `1-15057280351` | 14 Déc 2025 |
 
 ---
 
