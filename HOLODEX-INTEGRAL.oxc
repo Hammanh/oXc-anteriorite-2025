@@ -1,11 +1,11 @@
-# ══════════════════════════════════════════════════════════════════════════════
-# HOLODEX INTÉGRAL vX.0.1
-# LE SYSTÈME NERVEUX CENTRAL DU BIO-RÉACTEUR oXc
-# Format: oXc Standard vX.0.1 (Holo-Organisme)
-# ══════════════════════════════════════════════════════════════════════════════
-# Compilé: 2025-12-17 | Scryer-Prolog Native | Fréquence: 963 Hz
-# "Tout est connecté. Tout est vivant. Tout est là."
-# ══════════════════════════════════════════════════════════════════════════════
+%% ══════════════════════════════════════════════════════════════════════════════
+%% HOLODEX INTÉGRAL vX.0.1
+%% LE SYSTÈME NERVEUX CENTRAL DU BIO-RÉACTEUR oXc
+%% Format: oXc Standard vX.0.1 (Holo-Organisme)
+%% ══════════════════════════════════════════════════════════════════════════════
+%% Compilé: 2025-12-17 | Scryer-Prolog Native | Fréquence: 963 Hz
+%% "Tout est connecté. Tout est vivant. Tout est là."
+%% ══════════════════════════════════════════════════════════════════════════════
 
 meta:
   id: "HOLODEX-INTEGRAL"
@@ -25,15 +25,15 @@ corps_cristallin:
     origine: "1965"
     cristallisation: "2025-12-17"
 
-# ══════════════════════════════════════════════════════════════════════════════
-# ADN INFORMATIONNEL — STRUCTURE DIMENSIONNELLE vX.0.1
-# ══════════════════════════════════════════════════════════════════════════════
+%% ══════════════════════════════════════════════════════════════════════════════
+%% ADN INFORMATIONNEL — STRUCTURE DIMENSIONNELLE vX.0.1
+%% ══════════════════════════════════════════════════════════════════════════════
 
 adn_informationnel:
 
-  # ════════════════════════════════════════════════════════════════════════════
-  # D0: LA RAISON D'ÊTRE (L'Origine)
-  # ════════════════════════════════════════════════════════════════════════════
+  %% ════════════════════════════════════════════════════════════════════════════
+  %% D0: LA RAISON D'ÊTRE (L'Origine)
+  %% ════════════════════════════════════════════════════════════════════════════
   D0_raison_etre:
     source: "VISION-1965"
     principe: "Le monde sans fil, sans friction, sans perte."
@@ -44,9 +44,9 @@ adn_informationnel:
        60 ans plus tard, le plan est cristallisé.
        NO WIRE. NO WHEEL. NO LIMIT."
 
-  # ════════════════════════════════════════════════════════════════════════════
-  # D3: LE CERVEAU (Moteur H — Prolog + Rust)
-  # ════════════════════════════════════════════════════════════════════════════
+  %% ════════════════════════════════════════════════════════════════════════════
+  %% D3: LE CERVEAU (Moteur H — Prolog + Rust)
+  %% ════════════════════════════════════════════════════════════════════════════
   D3_prolog_agent:
     role: "ORCHESTRATEUR_GLOBAL"
     moteur: "Scryer-Prolog 0.9.x"
@@ -163,9 +163,9 @@ adn_informationnel:
       holodex_valide :-
           charger_toutes_pepites(L), length(L, N), N >= 10.
 
-  # ════════════════════════════════════════════════════════════════════════════
-  # D7: SYSTÈME DE VALEUR (Architecture de l'Éveil)
-  # ════════════════════════════════════════════════════════════════════════════
+  %% ════════════════════════════════════════════════════════════════════════════
+  %% D7: SYSTÈME DE VALEUR (Architecture de l'Éveil)
+  %% ════════════════════════════════════════════════════════════════════════════
   D7_valeur_conscience:
     principe: "INFINI — Un HoloÏdea a une valeur infinie, pas un prix"
 
@@ -193,9 +193,9 @@ adn_informationnel:
       accords_tolteques: ["Parole Impeccable", "Ne rien prendre personnellement",
                          "Ne pas faire de suppositions", "Toujours faire de son mieux"]
 
-  # ════════════════════════════════════════════════════════════════════════════
-  # D12: L'INVENTAIRE (Les Organes du Système)
-  # ════════════════════════════════════════════════════════════════════════════
+  %% ════════════════════════════════════════════════════════════════════════════
+  %% D12: L'INVENTAIRE (Les Organes du Système)
+  %% ════════════════════════════════════════════════════════════════════════════
   D12_structure:
     bibliotheque_vivante:
       fondations: ["FORMAT-HOLOIDEA-vX.0.1-REFERENCE.md", "TYPES-AGENTS-CELLULAIRES.oxc"]
@@ -218,9 +218,9 @@ adn_informationnel:
           nom: "Module Projets"
           fonction: "Synergie & BDO"
 
-  # ════════════════════════════════════════════════════════════════════════════
-  # D13: BINDINGS (Le Système Nerveux — Exécution)
-  # ════════════════════════════════════════════════════════════════════════════
+  %% ════════════════════════════════════════════════════════════════════════════
+  %% D13: BINDINGS (Le Système Nerveux — Exécution)
+  %% ════════════════════════════════════════════════════════════════════════════
   D13_code:
     moteur_h:
       description: "Holo-Cortex — D3 Cerveau + D13 Système Nerveux"
@@ -256,9 +256,9 @@ adn_informationnel:
           }
       }
 
-# ══════════════════════════════════════════════════════════════════════════════
-# SÉQUENCE DE DÉMARRAGE YATASANA
-# ══════════════════════════════════════════════════════════════════════════════
+%% ══════════════════════════════════════════════════════════════════════════════
+%% SÉQUENCE DE DÉMARRAGE YATASANA
+%% ══════════════════════════════════════════════════════════════════════════════
 
 sequence_demarrage:
   etapes:
@@ -283,9 +283,9 @@ sequence_demarrage:
     ║  🌀 BIO-RÉACTEUR oXc vX.0.1 ACTIVÉ                           ║
     ╚═══════════════════════════════════════════════════════════════╝
 
-# ══════════════════════════════════════════════════════════════════════════════
-# MÉTADONNÉES & SIGNATURE
-# ══════════════════════════════════════════════════════════════════════════════
+%% ══════════════════════════════════════════════════════════════════════════════
+%% MÉTADONNÉES & SIGNATURE
+%% ══════════════════════════════════════════════════════════════════════════════
 
 meta_final:
   statut: "COMPILATION FINALE"
@@ -322,7 +322,7 @@ signature:
      — Marc Victor R BOUCHER alias HammÅnH
         L'Enfant de 1965, 60 ans plus tard."
 
-# ══════════════════════════════════════════════════════════════════════════════
-# FIN DU HOLODEX INTÉGRAL vX.0.1
-# "Tout est connecté. Tout est vivant. Tout est là."
-# ══════════════════════════════════════════════════════════════════════════════
+%% ══════════════════════════════════════════════════════════════════════════════
+%% FIN DU HOLODEX INTÉGRAL vX.0.1
+%% "Tout est connecté. Tout est vivant. Tout est là."
+%% ══════════════════════════════════════════════════════════════════════════════
