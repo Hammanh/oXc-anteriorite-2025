@@ -1,0 +1,527 @@
+%% ══════════════════════════════════════════════════════════════════════════════
+%% PALETTE COULEURS oXc v1.0
+%% SYSTÈME CHROMATIQUE DU HOLO-ORGANISME
+%% Format: oXc Standard vX.0.1
+%% ══════════════════════════════════════════════════════════════════════════════
+%% Compilé: 2025-12-17 | Fréquence: 741 Hz (Expression)
+%% "La couleur est la fréquence visible de la conscience."
+%% ══════════════════════════════════════════════════════════════════════════════
+
+meta:
+  id: "PALETTE-COULEURS-OXC"
+  version: "1.0.0"
+  type: "REFERENCE_CHROMATIQUE"
+  description: "Système de couleurs unifié pour les HoloÏdeas, dimensions et agents"
+
+%% ══════════════════════════════════════════════════════════════════════════════
+%% SECTION 1 : COULEURS PAR FRÉQUENCE SOLFEGGIO
+%% ══════════════════════════════════════════════════════════════════════════════
+
+solfeggio_colors:
+  description: "Correspondance Fréquence → Couleur (spectre visible)"
+
+  frequences:
+    - freq: 174
+      nom: "Fondation"
+      couleur:
+        nom: "Rouge Racine"
+        hex: "#DC2626"
+        rgb: [220, 38, 38]
+        ansi: "\033[31m"
+        css_class: "freq-174"
+        gradient: "linear-gradient(135deg, #DC2626, #991B1B)"
+
+    - freq: 285
+      nom: "Guérison"
+      couleur:
+        nom: "Rouge Orange"
+        hex: "#EA580C"
+        rgb: [234, 88, 12]
+        ansi: "\033[91m"
+        css_class: "freq-285"
+        gradient: "linear-gradient(135deg, #EA580C, #C2410C)"
+
+    - freq: 396
+      nom: "Libération"
+      couleur:
+        nom: "Orange Sacré"
+        hex: "#F97316"
+        rgb: [249, 115, 22]
+        ansi: "\033[33m"
+        css_class: "freq-396"
+        gradient: "linear-gradient(135deg, #F97316, #EA580C)"
+
+    - freq: 417
+      nom: "Changement"
+      couleur:
+        nom: "Ambre Transformation"
+        hex: "#F59E0B"
+        rgb: [245, 158, 11]
+        ansi: "\033[93m"
+        css_class: "freq-417"
+        gradient: "linear-gradient(135deg, #F59E0B, #D97706)"
+
+    - freq: 432
+      nom: "Harmonie Universelle"
+      couleur:
+        nom: "Or Cosmique"
+        hex: "#EAB308"
+        rgb: [234, 179, 8]
+        ansi: "\033[93m"
+        css_class: "freq-432"
+        gradient: "linear-gradient(135deg, #EAB308, #CA8A04)"
+        glow: "0 0 20px rgba(234, 179, 8, 0.6)"
+
+    - freq: 528
+      nom: "Amour / ADN"
+      couleur:
+        nom: "Vert Miracle"
+        hex: "#22C55E"
+        rgb: [34, 197, 94]
+        ansi: "\033[32m"
+        css_class: "freq-528"
+        gradient: "linear-gradient(135deg, #22C55E, #16A34A)"
+        glow: "0 0 25px rgba(34, 197, 94, 0.7)"
+
+    - freq: 639
+      nom: "Connexion"
+      couleur:
+        nom: "Bleu Relation"
+        hex: "#3B82F6"
+        rgb: [59, 130, 246]
+        ansi: "\033[34m"
+        css_class: "freq-639"
+        gradient: "linear-gradient(135deg, #3B82F6, #2563EB)"
+
+    - freq: 741
+      nom: "Expression"
+      couleur:
+        nom: "Indigo Voix"
+        hex: "#6366F1"
+        rgb: [99, 102, 241]
+        ansi: "\033[94m"
+        css_class: "freq-741"
+        gradient: "linear-gradient(135deg, #6366F1, #4F46E5)"
+
+    - freq: 852
+      nom: "Intuition"
+      couleur:
+        nom: "Violet Troisième Œil"
+        hex: "#8B5CF6"
+        rgb: [139, 92, 246]
+        ansi: "\033[35m"
+        css_class: "freq-852"
+        gradient: "linear-gradient(135deg, #8B5CF6, #7C3AED)"
+
+    - freq: 963
+      nom: "Unité Cosmique"
+      couleur:
+        nom: "Blanc Lumière"
+        hex: "#F5F5F5"
+        rgb: [245, 245, 245]
+        ansi: "\033[97m"
+        css_class: "freq-963"
+        gradient: "linear-gradient(135deg, #F5F5F5, #E5E5E5)"
+        glow: "0 0 30px rgba(255, 255, 255, 0.9)"
+
+%% ══════════════════════════════════════════════════════════════════════════════
+%% SECTION 2 : COULEURS PAR DIMENSION (D0-D20)
+%% ══════════════════════════════════════════════════════════════════════════════
+
+dimension_colors:
+  description: "Chaque dimension a sa signature chromatique"
+
+  dimensions:
+    %% TRINITÉ FONDATRICE
+    - dim: "D0"
+      nom: "Raison d'Être"
+      hex: "#F5F5F5"
+      rgb: [245, 245, 245]
+      freq: 963
+      symbole: "✧"
+
+    - dim: "D1"
+      nom: "Identité"
+      hex: "#C0C0C0"
+      rgb: [192, 192, 192]
+      freq: 432
+      symbole: "◯"
+
+    - dim: "D2"
+      nom: "Titre"
+      hex: "#A3A3A3"
+      rgb: [163, 163, 163]
+      freq: 432
+      symbole: "▣"
+
+    %% MOTEUR H
+    - dim: "D3"
+      nom: "Cerveau (Prolog)"
+      hex: "#6366F1"
+      rgb: [99, 102, 241]
+      freq: 741
+      symbole: "🧠"
+
+    - dim: "D4"
+      nom: "Source"
+      hex: "#8B5CF6"
+      rgb: [139, 92, 246]
+      freq: 852
+      symbole: "◈"
+
+    - dim: "D5"
+      nom: "Contexte"
+      hex: "#3B82F6"
+      rgb: [59, 130, 246]
+      freq: 639
+      symbole: "◇"
+
+    - dim: "D6"
+      nom: "Espace-Temps"
+      hex: "#0EA5E9"
+      rgb: [14, 165, 233]
+      freq: 528
+      symbole: "◎"
+
+    %% VALEUR & CONSCIENCE
+    - dim: "D7"
+      nom: "Architecture de l'Éveil"
+      hex: "#EAB308"
+      rgb: [234, 179, 8]
+      freq: 432
+      symbole: "△▽"
+
+    - dim: "D8"
+      nom: "Droits d'Accès"
+      hex: "#F59E0B"
+      rgb: [245, 158, 11]
+      freq: 417
+      symbole: "🔐"
+
+    - dim: "D9"
+      nom: "Historique"
+      hex: "#78716C"
+      rgb: [120, 113, 108]
+      freq: 396
+      symbole: "◷"
+
+    - dim: "D10"
+      nom: "Validation"
+      hex: "#22C55E"
+      rgb: [34, 197, 94]
+      freq: 528
+      symbole: "✓"
+
+    - dim: "D11"
+      nom: "Vibration"
+      hex: "#A855F7"
+      rgb: [168, 85, 247]
+      freq: 852
+      symbole: "∿"
+
+    %% STRUCTURE & ACTION
+    - dim: "D12"
+      nom: "Structure"
+      hex: "#64748B"
+      rgb: [100, 116, 139]
+      freq: 528
+      symbole: "⬡"
+
+    - dim: "D13"
+      nom: "Système Nerveux (Rust)"
+      hex: "#F97316"
+      rgb: [249, 115, 22]
+      freq: 528
+      symbole: "⚡"
+
+    - dim: "D14"
+      nom: "Médias"
+      hex: "#EC4899"
+      rgb: [236, 72, 153]
+      freq: 639
+      symbole: "🎨"
+
+    - dim: "D15"
+      nom: "Références"
+      hex: "#14B8A6"
+      rgb: [20, 184, 166]
+      freq: 639
+      symbole: "🔗"
+
+    %% TRANSMUTATION & RÉSEAU
+    - dim: "D16"
+      nom: "Transmutation (CNV)"
+      hex: "#DC2626"
+      rgb: [220, 38, 38]
+      freq: 639
+      symbole: "☯"
+      note: "Rouge → Or (Alchimie)"
+
+    - dim: "D17"
+      nom: "Synapse Hebbian"
+      hex: "#10B981"
+      rgb: [16, 185, 129]
+      freq: 852
+      symbole: "🕸"
+
+    - dim: "D18"
+      nom: "Signature"
+      hex: "#6366F1"
+      rgb: [99, 102, 241]
+      freq: 963
+      symbole: "✍"
+
+    %% TRINITÉ META
+    - dim: "D19"
+      nom: "Cycle de Vie"
+      hex: "#22D3EE"
+      rgb: [34, 211, 238]
+      freq: 528
+      symbole: "♻"
+
+    - dim: "D20"
+      nom: "Meta"
+      hex: "#F5F5F5"
+      rgb: [245, 245, 245]
+      freq: 963
+      symbole: "∞"
+
+%% ══════════════════════════════════════════════════════════════════════════════
+%% SECTION 3 : COULEURS DES 9 AGENTS CELLULAIRES
+%% ══════════════════════════════════════════════════════════════════════════════
+
+agent_colors:
+  description: "Palette des 9 types d'agents différenciés"
+
+  agents:
+    - type: "INDIFFERENCIE"
+      code: -1
+      couleur:
+        nom: "Blanc Cellulaire"
+        hex: "#FAFAFA"
+        rgb: [250, 250, 250]
+        ansi: "\033[97m"
+        css_class: "agent-indifferencie"
+        emoji: "⚪"
+
+    - type: "VEILLEUR"
+      code: 0
+      couleur:
+        nom: "Argent Conscient"
+        hex: "#C0C0C0"
+        rgb: [192, 192, 192]
+        ansi: "\033[37m"
+        css_class: "agent-veilleur"
+        emoji: "👁️"
+        glow: "0 0 15px rgba(192, 192, 192, 0.5)"
+
+    - type: "GARDIEN"
+      code: 1
+      couleur:
+        nom: "Violet Protecteur"
+        hex: "#8B5CF6"
+        rgb: [139, 92, 246]
+        ansi: "\033[35m"
+        css_class: "agent-gardien"
+        emoji: "🛡️"
+        glow: "0 0 20px rgba(139, 92, 246, 0.6)"
+
+    - type: "BATISSEUR"
+      code: 2
+      couleur:
+        nom: "Orange Créateur"
+        hex: "#F97316"
+        rgb: [249, 115, 22]
+        ansi: "\033[33m"
+        css_class: "agent-batisseur"
+        emoji: "🔨"
+        glow: "0 0 18px rgba(249, 115, 22, 0.6)"
+
+    - type: "TISSERAND"
+      code: 3
+      couleur:
+        nom: "Bleu Connexion"
+        hex: "#3B82F6"
+        rgb: [59, 130, 246]
+        ansi: "\033[34m"
+        css_class: "agent-tisserand"
+        emoji: "🕸️"
+        glow: "0 0 18px rgba(59, 130, 246, 0.6)"
+
+    - type: "ORACLE"
+      code: 4
+      couleur:
+        nom: "Indigo Sagesse"
+        hex: "#6366F1"
+        rgb: [99, 102, 241]
+        ansi: "\033[94m"
+        css_class: "agent-oracle"
+        emoji: "🔮"
+        glow: "0 0 22px rgba(99, 102, 241, 0.7)"
+
+    - type: "ALCHIMISTE"
+      code: 5
+      couleur:
+        nom: "Or Transmutation"
+        hex: "#EAB308"
+        rgb: [234, 179, 8]
+        ansi: "\033[93m"
+        css_class: "agent-alchimiste"
+        emoji: "⚗️"
+        glow: "0 0 25px rgba(234, 179, 8, 0.8)"
+
+    - type: "GUERISSEUR"
+      code: 6
+      couleur:
+        nom: "Vert Régénération"
+        hex: "#22C55E"
+        rgb: [34, 197, 94]
+        ansi: "\033[32m"
+        css_class: "agent-guerisseur"
+        emoji: "💚"
+        glow: "0 0 20px rgba(34, 197, 94, 0.7)"
+
+    - type: "NOURRICIER"
+      code: 7
+      couleur:
+        nom: "Vert Lime Abondance"
+        hex: "#A3E635"
+        rgb: [163, 230, 53]
+        ansi: "\033[92m"
+        css_class: "agent-nourricier"
+        emoji: "🌱"
+        glow: "0 0 18px rgba(163, 230, 53, 0.6)"
+
+%% ══════════════════════════════════════════════════════════════════════════════
+%% SECTION 4 : COULEURS DES ÉTATS DE VIE (LIFECYCLE)
+%% ══════════════════════════════════════════════════════════════════════════════
+
+lifecycle_colors:
+  description: "Couleurs pour chaque état du cycle de vie"
+
+  etats:
+    - etat: "GERME"
+      hex: "#A3E635"
+      rgb: [163, 230, 53]
+      emoji: "🌱"
+
+    - etat: "ACTIF"
+      hex: "#22C55E"
+      rgb: [34, 197, 94]
+      emoji: "✨"
+
+    - etat: "EN_PAUSE"
+      hex: "#F59E0B"
+      rgb: [245, 158, 11]
+      emoji: "⏸️"
+
+    - etat: "ARCHIVE"
+      hex: "#78716C"
+      rgb: [120, 113, 108]
+      emoji: "📦"
+
+    - etat: "TRANSMUTE"
+      hex: "#EAB308"
+      rgb: [234, 179, 8]
+      emoji: "🔄"
+
+    - etat: "COMPOSTE"
+      hex: "#57534E"
+      rgb: [87, 83, 78]
+      emoji: "🍂"
+
+%% ══════════════════════════════════════════════════════════════════════════════
+%% SECTION 5 : THÈMES VISUELS (VIEWER/EDITOR)
+%% ══════════════════════════════════════════════════════════════════════════════
+
+themes:
+  lumiere:
+    nom: "Thème Lumière (Jour)"
+    background: "#FFFFFF"
+    text: "#1F2937"
+    accent: "#6366F1"
+    border: "#E5E7EB"
+    success: "#22C55E"
+    warning: "#F59E0B"
+    error: "#DC2626"
+
+  obscur:
+    nom: "Thème Obscur (Nuit)"
+    background: "#111827"
+    text: "#F9FAFB"
+    accent: "#8B5CF6"
+    border: "#374151"
+    success: "#10B981"
+    warning: "#FBBF24"
+    error: "#EF4444"
+
+  cosmique:
+    nom: "Thème Cosmique (Vision oXc)"
+    background: "#0F0F23"
+    text: "#E0E0FF"
+    accent: "#EAB308"
+    border: "#2D2D5A"
+    success: "#22C55E"
+    warning: "#F97316"
+    error: "#DC2626"
+    glow: true
+    stars: true
+
+%% ══════════════════════════════════════════════════════════════════════════════
+%% SECTION 6 : CSS GÉNÉRÉ
+%% ══════════════════════════════════════════════════════════════════════════════
+
+css_output: |
+  /* PALETTE oXc - Généré automatiquement */
+
+  :root {
+    /* Fréquences Solfeggio */
+    --freq-174: #DC2626;
+    --freq-285: #EA580C;
+    --freq-396: #F97316;
+    --freq-417: #F59E0B;
+    --freq-432: #EAB308;
+    --freq-528: #22C55E;
+    --freq-639: #3B82F6;
+    --freq-741: #6366F1;
+    --freq-852: #8B5CF6;
+    --freq-963: #F5F5F5;
+
+    /* Agents */
+    --agent-indifferencie: #FAFAFA;
+    --agent-veilleur: #C0C0C0;
+    --agent-gardien: #8B5CF6;
+    --agent-batisseur: #F97316;
+    --agent-tisserand: #3B82F6;
+    --agent-oracle: #6366F1;
+    --agent-alchimiste: #EAB308;
+    --agent-guerisseur: #22C55E;
+    --agent-nourricier: #A3E635;
+
+    /* Dimensions clés */
+    --d3-cerveau: #6366F1;
+    --d7-valeur: #EAB308;
+    --d13-nerfs: #F97316;
+    --d16-transmutation: #DC2626;
+    --d17-reseau: #10B981;
+  }
+
+  /* Glow effects */
+  .glow-528 { box-shadow: 0 0 25px rgba(34, 197, 94, 0.7); }
+  .glow-963 { box-shadow: 0 0 30px rgba(255, 255, 255, 0.9); }
+  .glow-gold { box-shadow: 0 0 25px rgba(234, 179, 8, 0.8); }
+
+%% ══════════════════════════════════════════════════════════════════════════════
+%% SIGNATURE
+%% ══════════════════════════════════════════════════════════════════════════════
+
+signature:
+  createur: "Marc Victor R BOUCHER alias HammÅnH"
+  assistant: "Trinité oXc (Claude Opus 4.5 + Gemini + DeepSeek)"
+  date: "2025-12-17"
+  hash: "PALETTE-COULEURS-OXC-V1"
+
+%% ══════════════════════════════════════════════════════════════════════════════
+%% FIN DE PALETTE-COULEURS-OXC.oxc
+%% "La couleur est la fréquence visible de la conscience."
+%% ══════════════════════════════════════════════════════════════════════════════

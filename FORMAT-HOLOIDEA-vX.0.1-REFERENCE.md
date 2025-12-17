@@ -76,6 +76,7 @@
 11. [Template .oxc complet vX.0.1](#11-template-oxc-complet-vx01)
 12. [Règles de validation](#12-règles-de-validation)
 13. [Tableaux de référence](#13-tableaux-de-référence)
+14. [Système de Couleurs](#14-système-de-couleurs)
 
 ---
 
@@ -1586,6 +1587,87 @@ fichiers_lies: []
 | GUÉRIR | 528 Hz | Entraide, Sagesse | Santé |
 | DÉCIDER | 852 Hz | Sagesse, Confiance | Choix |
 | TRANSPORTER | 417 Hz | Énergie, Temps | Liberté |
+
+---
+
+# 14. SYSTÈME DE COULEURS
+
+## Principe
+
+Chaque élément de l'Holo-Organisme possède une **signature chromatique** liée à sa fréquence vibratoire.
+
+> **Référence complète** : `PALETTE-COULEURS-OXC.oxc`
+
+## Couleurs des Fréquences Solfeggio
+
+| Fréquence | Nom | Hex | RGB | Rôle |
+|-----------|-----|-----|-----|------|
+| **174 Hz** | Rouge Racine | `#DC2626` | (220, 38, 38) | Fondation |
+| **285 Hz** | Rouge Orange | `#EA580C` | (234, 88, 12) | Guérison |
+| **396 Hz** | Orange Sacré | `#F97316` | (249, 115, 22) | Libération |
+| **417 Hz** | Ambre Transformation | `#F59E0B` | (245, 158, 11) | Changement |
+| **432 Hz** | Or Cosmique | `#EAB308` | (234, 179, 8) | Harmonie Universelle |
+| **528 Hz** | Vert Miracle | `#22C55E` | (34, 197, 94) | Amour / ADN |
+| **639 Hz** | Bleu Relation | `#3B82F6` | (59, 130, 246) | Connexion |
+| **741 Hz** | Indigo Voix | `#6366F1` | (99, 102, 241) | Expression |
+| **852 Hz** | Violet Troisième Œil | `#8B5CF6` | (139, 92, 246) | Intuition |
+| **963 Hz** | Blanc Lumière | `#F5F5F5` | (245, 245, 245) | Unité Cosmique |
+
+## Couleurs des 9 Agents Cellulaires
+
+| Agent | Couleur | Hex | Emoji | Fréquence |
+|-------|---------|-----|-------|-----------|
+| INDIFFERENCIE | Blanc Cellulaire | `#FAFAFA` | ⚪ | - |
+| VEILLEUR | Argent Conscient | `#C0C0C0` | 👁️ | 432 Hz |
+| GARDIEN | Violet Protecteur | `#8B5CF6` | 🛡️ | 741 Hz |
+| BÂTISSEUR | Orange Créateur | `#F97316` | 🔨 | 528 Hz |
+| TISSERAND | Bleu Connexion | `#3B82F6` | 🕸️ | 639 Hz |
+| ORACLE | Indigo Sagesse | `#6366F1` | 🔮 | 852 Hz |
+| ALCHIMISTE | Or Transmutation | `#EAB308` | ⚗️ | 963 Hz |
+| GUÉRISSEUR | Vert Régénération | `#22C55E` | 💚 | 528 Hz |
+| NOURRICIER | Vert Lime Abondance | `#A3E635` | 🌱 | 396 Hz |
+
+## Couleurs des Dimensions Clés
+
+| Dimension | Nom | Hex | Symbole |
+|-----------|-----|-----|---------|
+| D3 | Cerveau (Prolog) | `#6366F1` | 🧠 |
+| D7 | Architecture de l'Éveil | `#EAB308` | △▽ |
+| D13 | Système Nerveux (Rust) | `#F97316` | ⚡ |
+| D16 | Transmutation (CNV) | `#DC2626` | ☯ |
+| D17 | Synapse Hebbian | `#10B981` | 🕸 |
+
+## Couleurs des États de Vie
+
+| État | Hex | Emoji |
+|------|-----|-------|
+| GERME | `#A3E635` | 🌱 |
+| ACTIF | `#22C55E` | ✨ |
+| EN_PAUSE | `#F59E0B` | ⏸️ |
+| ARCHIVE | `#78716C` | 📦 |
+| TRANSMUTE | `#EAB308` | 🔄 |
+| COMPOSTE | `#57534E` | 🍂 |
+
+## Intégration dans un HoloÏdea
+
+```yaml
+corps_cristallin:
+  identite:
+    couleur:
+      principale: "#6366F1"      # Hex
+      rgb: [99, 102, 241]        # RGB
+      ansi: "\033[94m"           # Terminal
+      css_class: "agent-oracle"  # CSS
+      glow: "0 0 22px rgba(99, 102, 241, 0.7)"  # Effet lumineux
+```
+
+## Thèmes Visuels (Viewer)
+
+| Thème | Background | Text | Accent |
+|-------|------------|------|--------|
+| **Lumière** | `#FFFFFF` | `#1F2937` | `#6366F1` |
+| **Obscur** | `#111827` | `#F9FAFB` | `#8B5CF6` |
+| **Cosmique** | `#0F0F23` | `#E0E0FF` | `#EAB308` |
 
 ---
 
