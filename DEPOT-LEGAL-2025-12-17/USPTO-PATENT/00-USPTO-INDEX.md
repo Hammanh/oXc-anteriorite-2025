@@ -44,6 +44,7 @@
 | **Priority Period** | Over 25 years |
 | **Zenodo DOI** | 10.5281/zenodo.17962896 |
 | **US Copyright Case #** | 1-15059774811 |
+| **UK Patent Application** | **GB2521986.6** (filed 17 December 2025) |
 | **GitHub** | https://github.com/Hammanh/oXc-anteriorite-2025 |
 
 ---
@@ -81,26 +82,30 @@
 
 ---
 
-## FILING INFORMATION
+## FILING INFORMATION — UK PATENT (UKIPO)
 
 | Field | Value |
 |-------|-------|
-| **Application Type** | Provisional Patent Application |
-| **Entity Status** | Micro Entity (~$320 USD) |
-| **Filing Method** | USPTO EFS-Web |
-| **URL** | https://www.uspto.gov/patents/apply |
+| **Application Number** | **GB2521986.6** |
+| **Filing Date** | 17 December 2025, 15:46:44 UTC |
+| **Filing Office** | UK Intellectual Property Office (UKIPO) |
+| **Fee Paid** | £100.00 |
+| **Certified Copies** | 2 (for US & EU extension) |
+| **PDAS** | Registered with WIPO |
+| **Priority Window** | 12 months (Convention of Paris) |
 
 ---
 
-## CHECKLIST FOR FILING
+## CHECKLIST — COMPLETED
 
-- [ ] USPTO Account created
-- [ ] Micro Entity status confirmed
-- [ ] Specification uploaded (PDF)
-- [ ] Claims uploaded (PDF)
-- [ ] Abstract uploaded (PDF)
-- [ ] Filing fee paid (~$320)
-- [ ] Confirmation number received
+- [x] UK Patent Application filed (GB2521986.6)
+- [x] Specification uploaded (PDF)
+- [x] Claims uploaded (PDF) — 23 claims
+- [x] Abstract uploaded (PDF)
+- [x] Filing fee paid (£100)
+- [x] Confirmation received
+- [x] PDAS registered (WIPO)
+- [x] Zenodo updated with UK patent number
 
 ---
 
