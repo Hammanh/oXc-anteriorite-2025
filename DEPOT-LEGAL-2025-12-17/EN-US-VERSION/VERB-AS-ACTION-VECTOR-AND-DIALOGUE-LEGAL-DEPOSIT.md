@@ -33,6 +33,29 @@
 
 ---
 
+## UNIVERSAL SCOPE — ALL VERBS IN ALL LANGUAGES
+
+**CRITICAL CLAIM**: The oXc system applies to **ALL VERBS in ALL KNOWN HUMAN LANGUAGES**. The 650 Motor Verbs documented herein are foundational examples, but the paradigm extends universally:
+
+| Language Family | Example Verbs (SELL/BUY) | Status |
+|-----------------|--------------------------|--------|
+| **Romance** | FR: VENDRE/ACHETER, ES: VENDER/COMPRAR, IT: VENDERE/COMPRARE, PT: VENDER/COMPRAR | Covered |
+| **Germanic** | EN: SELL/BUY, DE: VERKAUFEN/KAUFEN, NL: VERKOPEN/KOPEN, SV: SÄLJA/KÖPA | Covered |
+| **Slavic** | RU: ПРОДАВАТЬ/ПОКУПАТЬ, PL: SPRZEDAWAĆ/KUPOWAĆ, CS: PRODÁVAT/KUPOVAT | Covered |
+| **Sino-Tibetan** | ZH: 卖/买 (mài/mǎi), JA: 売る/買う (uru/kau), KO: 팔다/사다 (palda/sada) | Covered |
+| **Semitic** | AR: يبيع/يشتري (yabi'/yashtari), HE: למכור/לקנות (limkor/liknot) | Covered |
+| **Indo-Iranian** | HI: बेचना/खरीदना (bechna/kharidna), FA: فروختن/خریدن | Covered |
+| **All other families** | Turkic, Austronesian, Niger-Congo, Dravidian, etc. | Covered |
+
+The **VERB as TRIGGER** principle is **language-agnostic**. Any verb expressing intention in any human language:
+1. Activates the corresponding ontology
+2. Initiates Dynamic Dialogue
+3. Connects by Frequency Resonance
+
+This **universality** is a fundamental characteristic of the oXc Reality Engine and is hereby claimed as intellectual property.
+
+---
+
 ## PART I — THE OBSERVATION: THE DEAD-END OF NOMINALISM IN CURRENT SEARCH ENGINES
 
 All existing search engines (from Web 1.0 to current generative AI like LLMs) are based on a **nominalist and static paradigm**.

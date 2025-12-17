@@ -28,6 +28,16 @@ This document establishes the intellectual authorship and priority of a new tech
 
 This is not an improvement of existing search engines. It is a total paradigm shift that replaces the very concept of "search engine" with that of "reality engine" based on dynamic dialogue.
 
+### UNIVERSAL SCOPE — ALL LANGUAGES
+
+**CRITICAL**: The oXc paradigm applies to **ALL VERBS in ALL KNOWN HUMAN LANGUAGES**:
+- Romance (FR, ES, IT, PT), Germanic (EN, DE, NL, SV), Slavic (RU, PL, CS)
+- Sino-Tibetan (ZH 卖/买, JA 売る/買う, KO 팔다/사다)
+- Semitic (AR يبيع/يشتري, HE למכור/לקנות), Indo-Iranian (HI, FA)
+- All other language families (Turkic, Austronesian, Niger-Congo, Dravidian, etc.)
+
+The **VERB as TRIGGER** is **language-agnostic** — this universality is claimed as intellectual property.
+
 ---
 
 ## 1. GENESIS: A PHILOSOPHICAL AND TECHNICAL RUPTURE

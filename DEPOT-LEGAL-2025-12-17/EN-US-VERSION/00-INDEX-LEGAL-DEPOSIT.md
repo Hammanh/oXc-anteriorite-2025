@@ -26,6 +26,22 @@
 | **Priority** | Over 25 years |
 | **Status** | ALL RIGHTS RESERVED |
 | **GitHub Repository** | https://github.com/Hammanh/oXc-anteriorite-2025.git |
+| **Language Scope** | **ALL VERBS IN ALL KNOWN HUMAN LANGUAGES** |
+
+---
+
+## UNIVERSAL SCOPE
+
+**CRITICAL CLAIM**: The oXc paradigm is **LANGUAGE-AGNOSTIC**. It applies to ALL VERBS in ALL human languages:
+
+```
+Romance • Germanic • Slavic • Sino-Tibetan • Semitic • Indo-Iranian
+Turkic • Austronesian • Niger-Congo • Dravidian • Uralic • All Others
+```
+
+Examples: SELL/BUY = VENDRE/ACHETER = VERKAUFEN/KAUFEN = 卖/买 = يبيع/يشتري = 売る/買う
+
+The 650 Motor Verbs documented herein are **foundational examples** — the paradigm extends to the **entirety of human verbal expression**.
 
 ---
 
