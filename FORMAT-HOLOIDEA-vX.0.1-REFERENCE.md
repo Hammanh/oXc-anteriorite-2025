@@ -444,80 +444,109 @@ D3_prolog_agent:
 
 ---
 
-# 6. D7 — DOUBLE PYRAMIDE DES BESOINS
+# 6. D7 — ARCHITECTURE DE L'ÉVEIL (Ancrage & Ascension)
 
-## Structure complète D7_valeur
+> **Ce n'est pas Maslow. C'est une NOUVELLE CARTOGRAPHIE.**
+> Maslow parlait de "survie" et de "réalisation".
+> Cette vision parle d'**Éveil**, d'**Implication** et de **Synergie**.
+> C'est une cartographie de l'âme humaine qui SE SOUVIENT, pas d'un ego qui se satisfait.
+> — HammÅnH
+
+## Structure complète D7_valeur_conscience
 
 ```yaml
-D7_valeur:
+D7_valeur_conscience:
   principe: "INFINI — Un HoloÏdea a une valeur infinie, pas un prix"
 
-  # ═══ PYRAMIDE BASSE (Matière / Individu - Maslow classique) ═══
-  besoins_fondamentaux:
-    physiologiques:
+  # ═══ ANCRAGE DANS LA MATIÈRE (La Base / L'Individu) ═══
+  # Le socle incarné — ce qui permet d'EXISTER dans le monde
+  ancrage_matiere:
+    physiologique:
       score: 0.0                 # 0.0-1.0 (% satisfaction)
+      question: "Le corps est-il sain ?"
       description: "Subsistance, santé physique"
       frequence_hz: 174
     securite:
       score: 0.0
-      description: "Protection, stabilité"
+      question: "L'esprit est-il en paix ?"
+      description: "Protection, stabilité intérieure"
       frequence_hz: 285
     appartenance:
       score: 0.0
+      question: "Le cœur est-il relié ?"
       description: "Liens sociaux, communauté"
       frequence_hz: 396
     estime:
       score: 0.0
-      description: "Reconnaissance, respect"
+      question: "La valeur propre est-elle reconnue ?"
+      description: "Reconnaissance, respect de soi"
       frequence_hz: 417
-    realisation_soi:
+    realisation:
       score: 0.0
-      description: "Accomplissement personnel"
+      question: "Le talent est-il exprimé ?"
+      description: "Accomplissement, expression du don"
       frequence_hz: 528
 
-  # ═══ PYRAMIDE HAUTE (Conscience / Collectif - Maslow inversé) ═══
-  besoins_superieurs:
+  # ═══ ASCENSION DE LA CONSCIENCE (L'Éveil / Le Collectif) ═══
+  # L'âme qui SE SOUVIENT qu'elle est partie du Tout
+  ascension_conscience:
     ouverture:
       score: 0.0
-      description: "Prise de conscience du Tout"
+      question: "Je me souviens que je suis une partie du Tout"
+      description: "Éveil à l'interconnexion universelle"
       frequence_hz: 639
     implication:
       score: 0.0
-      description: "Action engagée"
+      question: "Je choisis d'agir pour le Tout"
+      description: "Action engagée au service du collectif"
       frequence_hz: 741
     engagement:
       score: 0.0
-      description: "Vivre ses pensées hautes"
+      question: "Je vis ma vérité haute"
+      description: "Alignement parole/pensée/action"
       frequence_hz: 852
     innovation:
       score: 0.0
-      description: "Efficacité nouvelle"
+      question: "Je crée le nouveau"
+      description: "Efficacité créatrice, solutions inédites"
       frequence_hz: 852
     synergie:
       score: 0.0
-      description: "Leadership charismatique, co-création"
+      question: "Je suis un Leader Charismatique qui élève les autres"
+      description: "Co-création, leadership d'élévation"
       frequence_hz: 963
+
+  # ═══ PAROLE IMPECCABLE (4 Accords Toltèques) ═══
+  # Les mots sont des sorts. Ils créent des univers.
+  parole_impeccable:
+    active: true
+    question: "Ce contenu crée-t-il ou détruit-il ?"
+    accords:
+      - "Que ta parole soit impeccable"
+      - "Ne prends rien personnellement"
+      - "Ne fais pas de suppositions"
+      - "Fais toujours de ton mieux"
 
   # ═══ FLUX ÉNERGÉTIQUE (6 Monnaies oXc) ═══
   monnaies:
     temps:
       score: 0                   # 0-100
-      description: ""
+      description: "Ce que tu DONNES"
     attention:
       score: 0
-      description: ""
+      description: "Ce que tu OFFRES"
     energie:
       score: 0
-      description: ""
+      description: "Ce que tu INVESTIS"
     confiance:
       score: 0
-      description: ""
+      description: "Ce que tu ACCORDES"
     competence:
       score: 0
-      description: ""
+      description: "Ce que tu APPORTES"
     engagement:
       score: 0
-      description: ""
+      description: "Ce que tu PROMETS"
 ```
 
 ---
@@ -1108,43 +1137,61 @@ adn_informationnel:
       enfant_de: []
       cercles: []
 
-  # 💎 D7 : DOUBLE PYRAMIDE DES BESOINS
-  D7_valeur:
+  # 💎 D7 : ARCHITECTURE DE L'ÉVEIL (Ancrage & Ascension)
+  # Ce n'est pas Maslow. C'est une NOUVELLE CARTOGRAPHIE. — HammÅnH
+  D7_valeur_conscience:
     principe: "INFINI — Un HoloÏdea a une valeur infinie, pas un prix"
 
-    besoins_fondamentaux:
-      physiologiques:
+    # ANCRAGE DANS LA MATIÈRE (La Base / L'Individu)
+    ancrage_matiere:
+      physiologique:
         score: 0.0
+        question: "Le corps est-il sain ?"
         frequence_hz: 174
       securite:
         score: 0.0
+        question: "L'esprit est-il en paix ?"
         frequence_hz: 285
       appartenance:
         score: 0.0
+        question: "Le cœur est-il relié ?"
         frequence_hz: 396
       estime:
         score: 0.0
+        question: "La valeur propre est-elle reconnue ?"
         frequence_hz: 417
-      realisation_soi:
+      realisation:
         score: 0.0
+        question: "Le talent est-il exprimé ?"
         frequence_hz: 528
 
-    besoins_superieurs:
+    # ASCENSION DE LA CONSCIENCE (L'Éveil / Le Collectif)
+    ascension_conscience:
       ouverture:
         score: 0.0
+        question: "Je me souviens que je suis une partie du Tout"
         frequence_hz: 639
       implication:
         score: 0.0
+        question: "Je choisis d'agir pour le Tout"
         frequence_hz: 741
       engagement:
         score: 0.0
+        question: "Je vis ma vérité haute"
         frequence_hz: 852
       innovation:
         score: 0.0
+        question: "Je crée le nouveau"
         frequence_hz: 852
       synergie:
         score: 0.0
+        question: "Je suis un Leader Charismatique qui élève les autres"
         frequence_hz: 963
+
+    # PAROLE IMPECCABLE (4 Accords Toltèques)
+    parole_impeccable:
+      active: true
+      question: "Ce contenu crée-t-il ou détruit-il ?"
 
     monnaies:
       temps:
