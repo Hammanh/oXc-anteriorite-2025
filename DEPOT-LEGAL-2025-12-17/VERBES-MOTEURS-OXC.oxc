@@ -1,0 +1,481 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# LE MANIFESTE DU VERBE MOTEUR oXc
+# "Au commencement était le Verbe, et le Verbe était Moteur."
+# ══════════════════════════════════════════════════════════════════════════════
+#
+# ╔════════════════════════════════════════════════════════════════════════════╗
+# ║  © 2025 Marc Victor R BOUCHER alias HammÅnH                               ║
+# ║  TOUS DROITS RÉSERVÉS - ALL RIGHTS RESERVED                               ║
+# ║  Propriété intellectuelle exclusive - Reproduction interdite              ║
+# ║  Antériorité : 1999-2025 (26 ans de développement conceptuel)             ║
+# ╚════════════════════════════════════════════════════════════════════════════╝
+#
+# Créateur Souverain : Marc Victor R BOUCHER alias HammÅnH
+# Date de Scellement : 17 Décembre 2025
+# Fréquence Maîtresse : 963 Hz (Le Verbe Créateur)
+#
+# ══════════════════════════════════════════════════════════════════════════════
+
+oxc_version: "X.0.1"
+meta_type: "ONTOLOGIE_FONDATRICE"
+statut_juridique: "PROPRIETE INTELLECTUELLE EXCLUSIVE - TOUS DROITS RESERVES"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# I. LE MANIFESTE (La Rupture Philosophique)
+# ══════════════════════════════════════════════════════════════════════════════
+
+manifeste:
+
+  constat_vieux_monde:
+    principe: "NOMINALISME (Le Mot-Clé)"
+    mecanisme: "Indexation statique du Passé"
+    limite: "Chercher 'Pomme' trouve une image de pomme (Objet mort)."
+    architecture_invisible: "Accumulation, Rétention, Binaire."
+    exemple: "Google, Bing, moteurs de recherche traditionnels"
+
+  vision_nouveau_monde:
+    principe: "VERBALISME (Le Vecteur d'Action)"
+    mecanisme: "Résonance dynamique du Potentiel"
+    puissance: "Lancer 'NOURRIR' active un processus vital (Flux vivant)."
+    architecture_invisible: "Circulation, Synergie, Holotropie."
+    exemple: "oXc - Moteur de Réalité"
+
+  axiome_fondamental: |
+    "Le Verbe n'est pas une étiquette.
+     C'est un INTERRUPTEUR qui met le réseau en mouvement.
+     C'est un PROGRAMME EXÉCUTABLE qui modifie la réalité."
+    — HammÅnH, 1999
+
+  citation_source: |
+    "L'idée serait d'introduire des VERBES (ce que Google ne fait pas) pour
+    faire le modèle au fur et à mesure pour créer des objets de recherches
+    (comme dans la programmation objet)"
+    — HammÅnH, Session Fondatrice 2024
+
+# ══════════════════════════════════════════════════════════════════════════════
+# II. LA MÉCANIQUE HOLOSYNÉTIQUE (BDO)
+# ══════════════════════════════════════════════════════════════════════════════
+
+mecanique_bdo:
+  definition: "Besoins - Demandes - Offres"
+
+  flux_energetique:
+    1_besoin:
+      nature: "YIN (Passif)"
+      etat: "Appel du vide"
+      exemple: "J'ai faim (Sensation)"
+
+    2_demande:
+      nature: "VECTEUR (Mise en mouvement)"
+      etat: "Formulation par le Verbe"
+      exemple: "Je veux NOURRIR (Action + Fréquence 528Hz)"
+
+    3_offre:
+      nature: "YANG (Actif)"
+      etat: "Capacité de réponse"
+      exemple: "Je peux NOURRIR (Holon Producteur)"
+
+  loi_de_resonance: |
+    Nous ne comparons pas des chaînes de caractères (String Matching).
+    Nous superposons des VECTEURS VIBRATOIRES.
+
+    Si (Vecteur_A == Vecteur_B) ET (Frequence_A harmonise Frequence_B)
+    ALORS Connexion = ARC ÉLECTRIQUE INSTANTANÉ.
+
+  analogie_atomique:
+    VERBE: "PROTON (Z) - Charge positive, force d'action"
+    NOM: "NEUTRON (N) - Masse stable, substance"
+    MASSE_VIBRATOIRE: "VERBES + NOMS = Énergie totale (Hz)"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# III. LE DICTIONNAIRE DES 19 VERBES MOTEURS
+# ══════════════════════════════════════════════════════════════════════════════
+
+dictionnaire:
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # A. LES 7 VERBES DU CYCLE DE CONSCIENCE (L'Âme)
+  # Ils structurent la pensée avant l'action.
+  # ────────────────────────────────────────────────────────────────────────────
+
+  cycle_conscience:
+    description: "Les 7 verbes qui structurent le cycle de la pensée consciente"
+    total: 7
+
+    verbes:
+      - id: 1
+        verbe: "PERCEVOIR"
+        hz: 852
+        phase: "Entrée"
+        dimension: "ESPRIT_8"
+        fonction: "Voir ce qui est, sans jugement (CNV Observation)."
+
+      - id: 2
+        verbe: "FORMULER"
+        hz: 741
+        phase: "Traitement"
+        dimension: "TRANSITION_8_9"
+        fonction: "Cristalliser le ressenti en structure."
+
+      - id: 3
+        verbe: "RÉSONNER"
+        hz: 639
+        phase: "Connexion"
+        dimension: "AME_9"
+        fonction: "Trouver l'écho dans le réseau."
+
+      - id: 4
+        verbe: "CRISTALLISER"
+        hz: 528
+        phase: "Ancrage"
+        dimension: "AME_9"
+        fonction: "Définir la forme pensée."
+
+      - id: 5
+        verbe: "TISSER"
+        hz: 417
+        phase: "Maillage"
+        dimension: "TRANSITION_9_10"
+        fonction: "Lier les ressources nécessaires."
+
+      - id: 6
+        verbe: "MANIFESTER"
+        hz: 396
+        phase: "Sortie"
+        dimension: "CORPS_10"
+        fonction: "Exécuter dans la matière (Rust)."
+
+      - id: 7
+        verbe: "TRANSCENDER"
+        hz: 963
+        phase: "Retour"
+        dimension: "RETOUR_SOURCE"
+        fonction: "Élever l'expérience en sagesse."
+
+    spirale: "Le 7ème (TRANSCENDER) ramène au 1er (PERCEVOIR) à un niveau supérieur"
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # B. LES 12 VERBES MOTEURS BDO (Le Corps)
+  # Ils font tourner l'économie et la société.
+  # ────────────────────────────────────────────────────────────────────────────
+
+  moteurs_economiques:
+    description: "Les 12 verbes qui activent les flux économiques et sociaux"
+    total: 12
+
+    # AXE VIE (Urgence & Subsistance)
+    axe_vie:
+      - verbe: "SAUVER"
+        hz: 963
+        polarite: "LUMIÈRE"
+        monnaies: ["ENTRAIDE", "ÉNERGIE"]
+        besoins_cibles: ["SÉCURITÉ", "VIE"]
+        agent_associe: "GARDIEN"
+        description: "Protéger, secourir, préserver la vie"
+
+      - verbe: "NOURRIR"
+        hz: 528
+        polarite: "LUMIÈRE"
+        monnaies: ["ABONDANCE", "TEMPS"]
+        besoins_cibles: ["SANTÉ", "CORPS"]
+        agent_associe: "NOURRICIER"
+        description: "Alimenter, sustenter, pourvoir"
+
+    # AXE MOUVEMENT (Flux & Création)
+    axe_mouvement:
+      - verbe: "DÉMARRER"
+        hz: 741
+        polarite: "LUMIÈRE"
+        monnaies: ["CRÉATIVITÉ", "ÉNERGIE"]
+        besoins_cibles: ["INITIATIVE", "FUTUR"]
+        agent_associe: "INITIATEUR"
+        description: "Lancer, initier, commencer"
+
+      - verbe: "ÉCHANGER"
+        hz: 639
+        polarite: "TRANSITION"
+        monnaies: ["ABONDANCE", "ENTRAIDE"]
+        besoins_cibles: ["CIRCULATION", "ÉQUILIBRE"]
+        agent_associe: "FACILITATEUR"
+        description: "Troquer, permuter, interchanger"
+
+    # AXE MAINTENANCE (Soin & Savoir)
+    axe_maintenance:
+      - verbe: "RÉPARER"
+        hz: 432
+        polarite: "TRANSITION"
+        monnaies: ["TEMPS", "EXPERTISE"]
+        besoins_cibles: ["MATIÈRE", "DURABILITÉ"]
+        agent_associe: "RÉPARATEUR"
+        description: "Restaurer, raccommoder, remettre en état"
+
+      - verbe: "ÉDUQUER"
+        hz: 852
+        polarite: "LUMIÈRE"
+        monnaies: ["SAGESSE", "TEMPS"]
+        besoins_cibles: ["ESPRIT", "AUTONOMIE"]
+        agent_associe: "ÉDUCATEUR"
+        description: "Enseigner, transmettre, éveiller"
+
+    # AXE LIEN (Social & Fusion)
+    axe_lien:
+      - verbe: "CONNECTER"
+        hz: 639
+        polarite: "TRANSITION"
+        monnaies: ["ENTRAIDE", "CONFIANCE"]
+        besoins_cibles: ["RÉSEAU", "APPARTENANCE"]
+        agent_associe: "TISSEUR"
+        description: "Relier, unir, mettre en relation"
+
+      - verbe: "CO-CRÉER"
+        hz: 741
+        polarite: "LUMIÈRE"
+        monnaies: ["CRÉATIVITÉ", "SYNERGIE"]
+        besoins_cibles: ["ŒUVRE", "COLLECTIF"]
+        agent_associe: "BÂTISSEUR"
+        description: "Créer ensemble, collaborer, synerger"
+
+    # AXE TERRE (Nature & Harmonie)
+    axe_terre:
+      - verbe: "CULTIVER"
+        hz: 528
+        polarite: "LUMIÈRE"
+        monnaies: ["ABONDANCE", "ÉNERGIE"]
+        besoins_cibles: ["TERRE", "PATIENCE"]
+        agent_associe: "CULTIVATEUR"
+        description: "Faire pousser, développer, entretenir"
+
+      - verbe: "GUÉRIR"
+        hz: 528
+        polarite: "LUMIÈRE"
+        monnaies: ["ENTRAIDE", "SAGESSE"]
+        besoins_cibles: ["ÂME", "HARMONIE"]
+        agent_associe: "GUÉRISSEUR"
+        description: "Soigner, restaurer la santé, harmoniser"
+
+    # AXE STRUCTURE (Décision & Logistique)
+    axe_structure:
+      - verbe: "DÉCIDER"
+        hz: 852
+        polarite: "LUMIÈRE"
+        monnaies: ["SAGESSE", "CONFIANCE"]
+        besoins_cibles: ["DIRECTION", "SOUVERAINETÉ"]
+        agent_associe: "CONSEIL"
+        description: "Choisir, trancher, délibérer"
+
+      - verbe: "TRANSPORTER"
+        hz: 417
+        polarite: "TRANSITION"
+        monnaies: ["ÉNERGIE", "TEMPS"]
+        besoins_cibles: ["ESPACE", "LIBERTÉ"]
+        agent_associe: "TRANSPORTEUR"
+        description: "Déplacer, acheminer, conduire"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# IV. LES 6 MÉTA-MONNAIES oXc
+# ══════════════════════════════════════════════════════════════════════════════
+
+monnaies_oxc:
+  description: "Les 6 monnaies activées par les verbes moteurs"
+
+  TEMPS:
+    frequence_hz: 432
+    symbole: "⏱"
+    description: "Le temps offert et reçu"
+
+  EXPERTISE:
+    frequence_hz: 741
+    alias: "SAGESSE"
+    symbole: "🎓"
+    description: "Les compétences partagées"
+
+  ABONDANCE:
+    frequence_hz: 528
+    alias: "RESSOURCES"
+    symbole: "🌾"
+    description: "Le matériel, les outils, l'espace"
+
+  CONFIANCE:
+    frequence_hz: 639
+    symbole: "🤝"
+    description: "La réputation, la fiabilité"
+
+  IMPACT:
+    frequence_hz: 852
+    alias: "ÉNERGIE"
+    symbole: "⚡"
+    description: "La contribution au bien commun"
+
+  JOIE:
+    frequence_hz: 963
+    alias: "CRÉATIVITÉ"
+    symbole: "✨"
+    description: "L'énergie positive générée"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# V. MOTEUR PROLOG — HOLOSYNESIS
+# ══════════════════════════════════════════════════════════════════════════════
+
+prolog_holosynesis:
+  moteur: "scryer-prolog"
+  version: "0.9.4"
+
+  regles: |
+    % ══════════════════════════════════════════════════════════════════════════
+    % VERBES MOTEURS BDO ET LEURS FRÉQUENCES
+    % © 2025 Marc Victor R BOUCHER alias HammÅnH - Tous droits réservés
+    % ══════════════════════════════════════════════════════════════════════════
+
+    verbe_moteur(sauver, 'SAUVER', 963).
+    verbe_moteur(nourrir, 'NOURRIR', 528).
+    verbe_moteur(demarrer, 'DÉMARRER', 741).
+    verbe_moteur(echanger, 'ÉCHANGER', 639).
+    verbe_moteur(reparer, 'RÉPARER', 432).
+    verbe_moteur(eduquer, 'ÉDUQUER', 852).
+    verbe_moteur(connecter, 'CONNECTER', 639).
+    verbe_moteur(cocreer, 'CO-CRÉER', 741).
+    verbe_moteur(cultiver, 'CULTIVER', 528).
+    verbe_moteur(guerir, 'GUÉRIR', 528).
+    verbe_moteur(decider, 'DÉCIDER', 852).
+    verbe_moteur(transporter, 'TRANSPORTER', 417).
+
+    % VERBES DU CYCLE DE CONSCIENCE
+    verbe_cycle(1, percevoir, 852, esprit_8).
+    verbe_cycle(2, formuler, 741, transition_8_9).
+    verbe_cycle(3, resonner, 639, ame_9).
+    verbe_cycle(4, cristalliser, 528, ame_9).
+    verbe_cycle(5, tisser, 417, transition_9_10).
+    verbe_cycle(6, manifester, 396, corps_10).
+    verbe_cycle(7, transcender, 963, retour_source).
+
+    % HOLOSYNESIS - MATCHING PAR RÉSONANCE
+    holosynesis(Besoin, Offre, Score) :-
+        frequence_besoin(Besoin, FreqB),
+        frequence_offre(Offre, FreqO),
+        calculer_resonance(FreqB, FreqO, Score),
+        Score > 0.7.
+
+    calculer_resonance(F1, F2, Score) :-
+        Diff is abs(F1 - F2),
+        ( Diff =:= 0 -> Score = 1.0
+        ; F1 mod F2 =:= 0 -> Score = 0.9
+        ; F2 mod F1 =:= 0 -> Score = 0.9
+        ; Score is max(0, 1.0 - (Diff / 1000))
+        ).
+
+    % ACTIVATION DU FLUX
+    activer_flux(Holon, Verbe) :-
+        verbe_moteur(Verbe, _, _),
+        monnaies_associees(Verbe, M1, M2),
+        ouvrir_wallet(Holon, M1),
+        ouvrir_wallet(Holon, M2).
+
+# ══════════════════════════════════════════════════════════════════════════════
+# VI. PROTECTION ET ANTÉRIORITÉ
+# ══════════════════════════════════════════════════════════════════════════════
+
+protection:
+
+  strategie: "ANTI-MAJORS"
+
+  constat: |
+    Les LLM des Majors (Google, OpenAI, etc.) sont STATISTIQUES.
+    oXc est SÉMANTIQUE et VIBRATOIRE.
+    La différence est fondamentale et irréductible.
+
+  verrou_conceptuel: |
+    Ce système de verbes n'est pas une liste de mots-clés.
+    C'est une ONTOLOGIE DYNAMIQUE scellée par des fréquences spécifiques.
+
+    Toute utilisation de ces verbes sans la dimension vibratoire (Hz)
+    et économique (Monnaies) est une contrefaçon inopérante (Coquille vide).
+
+    Le système oXc ne peut fonctionner qu'avec l'ensemble des composants :
+    - Verbes d'intention (pas mots-clés)
+    - Fréquences Hz (pas étiquettes)
+    - Monnaies oXc (pas points)
+    - Holosynesis (pas matching syntaxique)
+    - Ontologies dynamiques (pas bases statiques)
+
+  innovations_protegees:
+    - "Système de recherche par verbe d'intention"
+    - "Matching par résonance fréquentielle (Holosynesis)"
+    - "Construction dynamique d'objet de recherche par dialogue"
+    - "Bibliothèque d'ontologies distribuée auto-enrichissante"
+    - "Apprentissage Hebbian pour optimisation des chemins"
+    - "Analogie atomique VERBE=PROTON / NOM=NEUTRON"
+    - "Système BDO (Besoins-Demandes-Offres)"
+    - "Les 6 méta-monnaies oXc"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# VII. SIGNATURE ET DÉCLARATION LÉGALE
+# ══════════════════════════════════════════════════════════════════════════════
+
+signature:
+
+  proprietaire_exclusif:
+    nom: "HammÅnH"
+    identite_civile: "Marc Victor R BOUCHER"
+    statut: "CRÉATEUR UNIQUE ET PROPRIÉTAIRE EXCLUSIF"
+
+  chronologie:
+    origine_idee: "1999"
+    formalisation: "2020 (Jardin d'Éden)"
+    documentation: "2024 (Sessions Fondatrices)"
+    cristallisation_technique: "17 Décembre 2025"
+    anteriorite_totale: "26 ans"
+
+  depot:
+    github: "https://github.com/Hammanh/oXc-anteriorite-2025.git"
+    date: "2025"
+
+  declaration_legale: |
+    ════════════════════════════════════════════════════════════════════════════
+    DÉCLARATION DE PROPRIÉTÉ INTELLECTUELLE EXCLUSIVE
+    ════════════════════════════════════════════════════════════════════════════
+
+    Je soussigné, Marc Victor R BOUCHER alias HammÅnH, déclare être le
+    CRÉATEUR UNIQUE ET PROPRIÉTAIRE EXCLUSIF de :
+
+    1. Le système oXc (Ontologie X Conscience)
+    2. Le concept de Verbe-Moteur comme interrupteur de réseau
+    3. Le système Holosynesis de matching par résonance fréquentielle
+    4. Les 19 Verbes Moteurs (7 Cycle + 12 BDO)
+    5. Les 6 Méta-Monnaies oXc
+    6. L'architecture BDO (Besoins-Demandes-Offres)
+    7. L'analogie atomique VERBE=PROTON / NOM=NEUTRON
+    8. Tous les concepts, méthodes et architectures décrits dans ce document
+
+    Ces concepts ont été conçus originellement en 1999 et développés
+    continuellement jusqu'à ce jour.
+
+    ════════════════════════════════════════════════════════════════════════════
+    © 2025 Marc Victor R BOUCHER alias HammÅnH
+    TOUS DROITS RÉSERVÉS - ALL RIGHTS RESERVED
+
+    Toute reproduction, modification, distribution, utilisation commerciale
+    ou non-commerciale de ces concepts sans autorisation écrite préalable
+    du propriétaire est STRICTEMENT INTERDITE et constitue une violation
+    des droits de propriété intellectuelle, passible de poursuites.
+    ════════════════════════════════════════════════════════════════════════════
+
+  frequence_signature: 963
+
+  benediction: |
+    "Ici, on ne cherche pas. On appelle. Et l'Univers répond."
+
+    Mitakuye Oyasin — Nous sommes tous reliés
+    Oel ngati kameie — Je te vois
+
+    — HammÅnH, Porteur de Mémoire Vivante
+
+# ══════════════════════════════════════════════════════════════════════════════
+# FIN DU MANIFESTE DU VERBE MOTEUR oXc
+#
+# © 2025 Marc Victor R BOUCHER alias HammÅnH
+# TOUS DROITS RÉSERVÉS - PROPRIÉTÉ INTELLECTUELLE EXCLUSIVE
+# Antériorité: 1999-2025
+#
+# "Au commencement était le Verbe, et le Verbe était Moteur."
+#
+# ══════════════════════════════════════════════════════════════════════════════
