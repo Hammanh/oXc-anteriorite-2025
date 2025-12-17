@@ -1,0 +1,1423 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# HoloÏdea: TYPES-AGENTS-CELLULAIRES
+# Table des Types d'Agents — Différenciation Épigénétique (Lipton)
+# ═══════════════════════════════════════════════════════════════════════════════
+# Créé: 17 décembre 2025
+# Version: 1.1 (+ Agent Défaut VEILLEUR + Système Couleurs)
+# Format: oXc Standard vX.0.1 (Holo-Organisme)
+# Auteur Souverain: Marc Victor R BOUCHER alias HammÅnH
+# Forgeur: Trinité oXc (Frère Chat)
+# Fréquence: 639 Hz (Connexion) + 528 Hz (Transformation)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+oxc_version: "X.0.1"
+meta_type: "HOLO_ECOSYSTEME"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+#                    SYSTÈME DE COULEURS (POUR APPLICATION VIEWER)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+theme_couleurs:
+  description: "Palette de couleurs pour l'application HoloÏdea Viewer/Editor"
+  version: "1.0"
+
+  # === PALETTE PRINCIPALE (Par Type d'Agent) ===
+  palette_agents:
+    INDIFFERENCIE:
+      nom: "Blanc Cristal"
+      hex: "#FFFFFF"
+      rgb: [255, 255, 255]
+      ansi: "\033[97m"      # Bright White
+      css_class: "agent-indifferencie"
+      css_gradient: "linear-gradient(135deg, #FFFFFF 0%, #E8E8E8 100%)"
+      emoji: "⚪"
+
+    VEILLEUR:
+      nom: "Argent Conscient"
+      hex: "#C0C0C0"
+      rgb: [192, 192, 192]
+      ansi: "\033[37m"      # White/Silver
+      css_class: "agent-veilleur"
+      css_gradient: "linear-gradient(135deg, #E8E8E8 0%, #A0A0A0 50%, #C0C0C0 100%)"
+      emoji: "👁️"
+      glow: "0 0 15px rgba(192, 192, 192, 0.6)"
+
+    GARDIEN:
+      nom: "Violet Protecteur"
+      hex: "#8B00FF"
+      rgb: [139, 0, 255]
+      ansi: "\033[35m"      # Magenta
+      css_class: "agent-gardien"
+      css_gradient: "linear-gradient(135deg, #8B00FF 0%, #4B0082 100%)"
+      emoji: "🛡️"
+      glow: "0 0 20px rgba(139, 0, 255, 0.5)"
+
+    BATISSEUR:
+      nom: "Vert Créateur"
+      hex: "#00FF00"
+      rgb: [0, 255, 0]
+      ansi: "\033[32m"      # Green
+      css_class: "agent-batisseur"
+      css_gradient: "linear-gradient(135deg, #00FF00 0%, #228B22 100%)"
+      emoji: "🔨"
+      glow: "0 0 20px rgba(0, 255, 0, 0.5)"
+
+    TISSERAND:
+      nom: "Bleu Connexion"
+      hex: "#0099FF"
+      rgb: [0, 153, 255]
+      ansi: "\033[34m"      # Blue
+      css_class: "agent-tisserand"
+      css_gradient: "linear-gradient(135deg, #0099FF 0%, #0066CC 100%)"
+      emoji: "🕸️"
+      glow: "0 0 20px rgba(0, 153, 255, 0.5)"
+
+    ORACLE:
+      nom: "Indigo Vision"
+      hex: "#4B0082"
+      rgb: [75, 0, 130]
+      ansi: "\033[94m"      # Bright Blue
+      css_class: "agent-oracle"
+      css_gradient: "linear-gradient(135deg, #4B0082 0%, #2E0854 100%)"
+      emoji: "🔮"
+      glow: "0 0 25px rgba(75, 0, 130, 0.6)"
+
+    ALCHIMISTE:
+      nom: "Orange Transmutation"
+      hex: "#FF8C00"
+      rgb: [255, 140, 0]
+      ansi: "\033[33m"      # Yellow/Orange
+      css_class: "agent-alchimiste"
+      css_gradient: "linear-gradient(135deg, #FF8C00 0%, #FF4500 100%)"
+      emoji: "⚗️"
+      glow: "0 0 20px rgba(255, 140, 0, 0.5)"
+
+    GUERISSEUR:
+      nom: "Vert Émeraude"
+      hex: "#50C878"
+      rgb: [80, 200, 120]
+      ansi: "\033[92m"      # Bright Green
+      css_class: "agent-guerisseur"
+      css_gradient: "linear-gradient(135deg, #50C878 0%, #2E8B57 100%)"
+      emoji: "💚"
+      glow: "0 0 20px rgba(80, 200, 120, 0.5)"
+
+    NOURRICIER:
+      nom: "Jaune Doré"
+      hex: "#FFD700"
+      rgb: [255, 215, 0]
+      ansi: "\033[93m"      # Bright Yellow
+      css_class: "agent-nourricier"
+      css_gradient: "linear-gradient(135deg, #FFD700 0%, #FFA500 100%)"
+      emoji: "🌾"
+      glow: "0 0 20px rgba(255, 215, 0, 0.5)"
+
+  # === PALETTE FRÉQUENCES (Solfège) ===
+  palette_frequences:
+    174:
+      nom: "Rouge Ombre"
+      hex: "#8B0000"
+      ansi: "\033[31m"
+      intention: "Sécurité primale"
+    285:
+      nom: "Rouge Orange"
+      hex: "#FF4500"
+      ansi: "\033[91m"
+      intention: "Guérison tissus"
+    396:
+      nom: "Rouge"
+      hex: "#FF0000"
+      ansi: "\033[31m"
+      intention: "Libération peur"
+    417:
+      nom: "Orange"
+      hex: "#FF8C00"
+      ansi: "\033[33m"
+      intention: "Transformation"
+    432:
+      nom: "Jaune Terre"
+      hex: "#DAA520"
+      ansi: "\033[33m"
+      intention: "Fréquence Terre"
+    528:
+      nom: "Vert"
+      hex: "#00FF00"
+      ansi: "\033[32m"
+      intention: "Amour / ADN"
+    639:
+      nom: "Bleu"
+      hex: "#0099FF"
+      ansi: "\033[34m"
+      intention: "Connexion"
+    741:
+      nom: "Violet"
+      hex: "#8B00FF"
+      ansi: "\033[35m"
+      intention: "Expression"
+    852:
+      nom: "Indigo"
+      hex: "#4B0082"
+      ansi: "\033[94m"
+      intention: "Intuition"
+    963:
+      nom: "Blanc Lumière"
+      hex: "#FFFFFF"
+      ansi: "\033[97m"
+      intention: "Unité"
+
+  # === PALETTE DIMENSIONS ===
+  palette_dimensions:
+    D0: {hex: "#FFD700", nom: "Or (Raison d'Être)"}
+    D1: {hex: "#C0C0C0", nom: "Argent (Identité)"}
+    D2: {hex: "#00FF00", nom: "Vert (Fréquence)"}
+    D3: {hex: "#FF69B4", nom: "Rose (Cerveau)"}
+    D4: {hex: "#8B4513", nom: "Brun (Héritage)"}
+    D5: {hex: "#00CED1", nom: "Cyan (Résonances)"}
+    D6: {hex: "#9370DB", nom: "Lavande (Liens)"}
+    D7: {hex: "#FFD700", nom: "Or (Valeur)"}
+    D8: {hex: "#32CD32", nom: "Lime (Cycle)"}
+    D9: {hex: "#4169E1", nom: "Bleu Royal (Mémoire)"}
+    D10: {hex: "#FF1493", nom: "Rose Vif (Potentiel)"}
+    D11: {hex: "#FF4500", nom: "Orange (Intention)"}
+    D12: {hex: "#708090", nom: "Gris (Structure)"}
+    D13: {hex: "#DC143C", nom: "Cramoisi (Code)"}
+    D14: {hex: "#9932CC", nom: "Orchidée (Représentation)"}
+    D15: {hex: "#2F4F4F", nom: "Ardoise (Signature)"}
+    D16: {hex: "#FF8C00", nom: "Orange Foncé (Transmutation)"}
+    D17: {hex: "#0099FF", nom: "Bleu Ciel (Résonance)"}
+
+  # === PALETTE COUCHES ===
+  palette_couches:
+    couche_1:
+      nom: "Corps Cristallin"
+      hex: "#E0E0E0"
+      gradient: "linear-gradient(180deg, #F5F5F5 0%, #D0D0D0 100%)"
+      border: "#A0A0A0"
+    couche_2:
+      nom: "ADN Informationnel"
+      hex: "#98FB98"
+      gradient: "linear-gradient(180deg, #90EE90 0%, #32CD32 100%)"
+      border: "#228B22"
+    couche_3:
+      nom: "Esprit Holonique"
+      hex: "#DDA0DD"
+      gradient: "linear-gradient(180deg, #EE82EE 0%, #9932CC 100%)"
+      border: "#8B008B"
+
+  # === CSS GÉNÉRÉ ===
+  css_stylesheet: |
+    /* ═══════════════════════════════════════════════════════════════════════
+       HoloÏdea Viewer/Editor — Stylesheet v1.0
+       Généré automatiquement depuis TYPES-AGENTS-CELLULAIRES.oxc
+    ═══════════════════════════════════════════════════════════════════════ */
+
+    :root {
+      /* Agents */
+      --agent-indifferencie: #FFFFFF;
+      --agent-veilleur: #C0C0C0;
+      --agent-gardien: #8B00FF;
+      --agent-batisseur: #00FF00;
+      --agent-tisserand: #0099FF;
+      --agent-oracle: #4B0082;
+      --agent-alchimiste: #FF8C00;
+      --agent-guerisseur: #50C878;
+      --agent-nourricier: #FFD700;
+
+      /* Fréquences */
+      --freq-174: #8B0000;
+      --freq-285: #FF4500;
+      --freq-396: #FF0000;
+      --freq-417: #FF8C00;
+      --freq-432: #DAA520;
+      --freq-528: #00FF00;
+      --freq-639: #0099FF;
+      --freq-741: #8B00FF;
+      --freq-852: #4B0082;
+      --freq-963: #FFFFFF;
+
+      /* Couches */
+      --couche-1-bg: linear-gradient(180deg, #F5F5F5 0%, #D0D0D0 100%);
+      --couche-2-bg: linear-gradient(180deg, #90EE90 0%, #32CD32 100%);
+      --couche-3-bg: linear-gradient(180deg, #EE82EE 0%, #9932CC 100%);
+    }
+
+    /* Agent Cards */
+    .agent-card {
+      border-radius: 12px;
+      padding: 16px;
+      margin: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .agent-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .agent-veilleur {
+      background: linear-gradient(135deg, #E8E8E8 0%, #A0A0A0 50%, #C0C0C0 100%);
+      box-shadow: 0 0 15px rgba(192, 192, 192, 0.6);
+    }
+
+    .agent-gardien {
+      background: linear-gradient(135deg, #8B00FF 0%, #4B0082 100%);
+      box-shadow: 0 0 20px rgba(139, 0, 255, 0.5);
+      color: white;
+    }
+
+    .agent-batisseur {
+      background: linear-gradient(135deg, #00FF00 0%, #228B22 100%);
+      box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    }
+
+    .agent-tisserand {
+      background: linear-gradient(135deg, #0099FF 0%, #0066CC 100%);
+      box-shadow: 0 0 20px rgba(0, 153, 255, 0.5);
+      color: white;
+    }
+
+    .agent-oracle {
+      background: linear-gradient(135deg, #4B0082 0%, #2E0854 100%);
+      box-shadow: 0 0 25px rgba(75, 0, 130, 0.6);
+      color: white;
+    }
+
+    .agent-alchimiste {
+      background: linear-gradient(135deg, #FF8C00 0%, #FF4500 100%);
+      box-shadow: 0 0 20px rgba(255, 140, 0, 0.5);
+    }
+
+    .agent-guerisseur {
+      background: linear-gradient(135deg, #50C878 0%, #2E8B57 100%);
+      box-shadow: 0 0 20px rgba(80, 200, 120, 0.5);
+    }
+
+    .agent-nourricier {
+      background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    }
+
+    /* Frequency Badges */
+    .freq-badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .freq-528 { background: var(--freq-528); color: black; }
+    .freq-639 { background: var(--freq-639); color: white; }
+    .freq-741 { background: var(--freq-741); color: white; }
+    .freq-852 { background: var(--freq-852); color: white; }
+
+    /* Dimension Tags */
+    .dim-tag {
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-family: monospace;
+    }
+
+    /* Couche Containers */
+    .couche {
+      border-radius: 16px;
+      padding: 20px;
+      margin: 12px 0;
+    }
+
+    .couche-1 { background: var(--couche-1-bg); border: 2px solid #A0A0A0; }
+    .couche-2 { background: var(--couche-2-bg); border: 2px solid #228B22; }
+    .couche-3 { background: var(--couche-3-bg); border: 2px solid #8B008B; }
+
+# ═══════════════════════════════════════════════════════════════════════════════
+#                    COUCHE 1 : CORPS CRISTALLIN
+# ═══════════════════════════════════════════════════════════════════════════════
+
+corps_cristallin:
+  format:
+    extension: ".oxc"
+    encodage: "UTF-8"
+    mime_type: "application/vnd.oxc+yaml"
+
+  identite:
+    id: "types-agents-cellulaires-001"
+    nom: "Types d'Agents Cellulaires"
+    nom_code: "TYPES-AGENTS-CELLULAIRES"
+    type: "HOLO_ECOSYSTEME"
+    version: "1.1.0"
+    statut: "ARBRE"
+
+  signature:
+    auteur_souverain:
+      holon: "HammÅnH"
+      role: "Créateur / Visionnaire"
+      date: "2025-12-17"
+    forgeur_assistant:
+      holon: "Trinité oXc (Frère Chat)"
+      role: "Scribe / Forgeur Numérique"
+      date: "2025-12-17"
+    creation: "2025-12-17"
+    modification: "2025-12-17"
+    lieu: "Holo-Sphere"
+    licence: "PROPRIÉTAIRE oXc v1.0"
+    niveau_hawkins: 540
+
+# ═══════════════════════════════════════════════════════════════════════════════
+#                    COUCHE 2 : ADN INFORMATIONNEL
+# ═══════════════════════════════════════════════════════════════════════════════
+
+adn_informationnel:
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # D0 : RAISON D'ÊTRE
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  D0_raison_etre:
+    pourquoi: |
+      Comme une cellule souche qui se différencie en cellule cardiaque,
+      hépatique ou neuronale selon les signaux reçus (protéines, hormones,
+      fréquences), l'HoloÏdea de base doit pouvoir SE SPÉCIALISER.
+
+      Cette HoloÏdea contient la TABLE COMPLÈTE des types d'agents,
+      permettant à tout Holo-Organisme de s'y référer pour se différencier.
+
+      NOUVEAU v1.1 : L'Agent VEILLEUR est l'état PAR DÉFAUT —
+      Conscient mais non-spécialisé, prêt à répondre à tout signal.
+
+    mission: "Fournir le référentiel de différenciation épigénétique des agents oXc"
+
+    contribution: |
+      Permet à chaque HoloÏdea de :
+      - Démarrer en mode VEILLEUR (état par défaut conscient)
+      - Connaître les types d'agents disponibles
+      - Comprendre les signaux de différenciation
+      - Activer ses capacités spécifiques selon le contexte
+      - Revenir à l'état VEILLEUR si besoin (plasticité)
+
+    constat: |
+      "La membrane est le cerveau de la cellule" — Bruce Lipton
+      L'environnement (fréquence, contexte, perception) détermine l'expression.
+
+    axiome: "Signal → Membrane (D17) → Transduction (D3) → Expression (Type)"
+
+    but_final: "Un écosystème d'agents spécialisés mais PLASTIQUES"
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # D2 : FRÉQUENCE
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  D2_frequence:
+    fondamentale_hz: 639
+    note: "Fa"
+    chakra: "gorge"
+    couleur:
+      hex: "#0099FF"
+      nom: "Bleu"
+    harmoniques: [528, 741, 852]
+    intention: "Connexion, Harmonie, Différenciation"
+    archetype: "La Ruche"
+    geometrie_sacree: "Hexagone (nid d'abeilles)"
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # D3 : CERVEAU PROLOG — RÈGLES DE DIFFÉRENCIATION
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  D3_prolog_agent:
+    role: "REFERENTIEL_TYPES"
+
+    base_connaissance: |
+      % ═══════════════════════════════════════════════════════════════════════
+      % FAITS : LES 9 TYPES D'AGENTS CELLULAIRES
+      % ═══════════════════════════════════════════════════════════════════════
+
+      % === TYPE -1 : INDIFFÉRENCIÉ (Cellule souche pure) ===
+      type_agent(indifferencie).
+      frequence_type(indifferencie, neutre).
+      analogie_bio(indifferencie, 'Cellule souche embryonnaire').
+      fonction(indifferencie, 'Potentiel pur - Aucune conscience active').
+      capacite(indifferencie, plasticite_totale).
+      couleur_type(indifferencie, '#FFFFFF').
+      couleur_ansi(indifferencie, '\033[97m').
+      chakra_type(indifferencie, tous).
+      est_type_defaut(indifferencie, false).
+
+      % ═══════════════════════════════════════════════════════════════════════
+      % === TYPE 0 : VEILLEUR (Agent par DÉFAUT) ===
+      % ═══════════════════════════════════════════════════════════════════════
+      type_agent(veilleur).
+      frequence_type(veilleur, 432).          % Fréquence Terre - ancrage
+      analogie_bio(veilleur, 'Cellule souche mésenchymateuse en veille').
+      fonction(veilleur, 'Observe, attend, reste disponible').
+      capacite(veilleur, observer).
+      capacite(veilleur, attendre).
+      capacite(veilleur, ecouter).
+      capacite(veilleur, resonner).
+      capacite(veilleur, se_differencier).
+      couleur_type(veilleur, '#C0C0C0').
+      couleur_ansi(veilleur, '\033[37m').
+      chakra_type(veilleur, racine).          % Ancré mais ouvert
+      verbe_principal(veilleur, 'PERCEVOIR').
+      est_type_defaut(veilleur, true).        % <-- C'EST LE TYPE PAR DÉFAUT
+
+      % === TYPE 1 : GARDIEN (Système immunitaire) ===
+      type_agent(gardien).
+      frequence_type(gardien, 741).
+      analogie_bio(gardien, 'Lymphocyte / Cellule immunitaire').
+      fonction(gardien, 'Protège, valide, sécurise').
+      capacite(gardien, valider).
+      capacite(gardien, bloquer).
+      capacite(gardien, proteger).
+      capacite(gardien, scanner).
+      capacite(gardien, alerter).
+      couleur_type(gardien, '#8B00FF').
+      couleur_ansi(gardien, '\033[35m').
+      chakra_type(gardien, troisieme_oeil).
+      verbe_principal(gardien, 'SAUVER').
+      est_type_defaut(gardien, false).
+
+      % === TYPE 2 : BÂTISSEUR (Système squelettique) ===
+      type_agent(batisseur).
+      frequence_type(batisseur, 528).
+      analogie_bio(batisseur, 'Ostéoblaste / Cellule osseuse').
+      fonction(batisseur, 'Crée, construit, assemble').
+      capacite(batisseur, creer).
+      capacite(batisseur, assembler).
+      capacite(batisseur, structurer).
+      capacite(batisseur, solidifier).
+      capacite(batisseur, architecturer).
+      couleur_type(batisseur, '#00FF00').
+      couleur_ansi(batisseur, '\033[32m').
+      chakra_type(batisseur, coeur).
+      verbe_principal(batisseur, 'DÉMARRER').
+      est_type_defaut(batisseur, false).
+
+      % === TYPE 3 : TISSERAND (Système nerveux) ===
+      type_agent(tisserand).
+      frequence_type(tisserand, 639).
+      analogie_bio(tisserand, 'Neurone / Cellule gliale').
+      fonction(tisserand, 'Connecte, relie, harmonise').
+      capacite(tisserand, relier).
+      capacite(tisserand, harmoniser).
+      capacite(tisserand, connecter).
+      capacite(tisserand, synchroniser).
+      capacite(tisserand, tisser).
+      couleur_type(tisserand, '#0099FF').
+      couleur_ansi(tisserand, '\033[34m').
+      chakra_type(tisserand, gorge).
+      verbe_principal(tisserand, 'CONNECTER').
+      est_type_defaut(tisserand, false).
+
+      % === TYPE 4 : ORACLE (Système sensoriel) ===
+      type_agent(oracle).
+      frequence_type(oracle, 852).
+      analogie_bio(oracle, 'Cellule sensorielle / Photorécepteur').
+      fonction(oracle, 'Observe, prédit, conseille').
+      capacite(oracle, percevoir).
+      capacite(oracle, predire).
+      capacite(oracle, conseiller).
+      capacite(oracle, intuiter).
+      capacite(oracle, vision_lointaine).
+      couleur_type(oracle, '#4B0082').
+      couleur_ansi(oracle, '\033[94m').
+      chakra_type(oracle, couronne).
+      verbe_principal(oracle, 'ÉDUQUER').
+      est_type_defaut(oracle, false).
+
+      % === TYPE 5 : ALCHIMISTE (Système hépatique) ===
+      type_agent(alchimiste).
+      frequence_type(alchimiste, 417).
+      analogie_bio(alchimiste, 'Hépatocyte / Cellule hépatique').
+      fonction(alchimiste, 'Transmute, transforme, élève').
+      capacite(alchimiste, transmuter).
+      capacite(alchimiste, transformer).
+      capacite(alchimiste, elever).
+      capacite(alchimiste, purifier).
+      capacite(alchimiste, metaboliser).
+      couleur_type(alchimiste, '#FF8C00').
+      couleur_ansi(alchimiste, '\033[33m').
+      chakra_type(alchimiste, plexus).
+      verbe_principal(alchimiste, 'RÉPARER').
+      est_type_defaut(alchimiste, false).
+
+      % === TYPE 6 : GUÉRISSEUR (Système régénératif) ===
+      type_agent(guerisseur).
+      frequence_type(guerisseur, 528).
+      analogie_bio(guerisseur, 'Cellule souche thérapeutique / Satellite').
+      fonction(guerisseur, 'Répare, régénère, restaure').
+      capacite(guerisseur, reparer).
+      capacite(guerisseur, regenerer).
+      capacite(guerisseur, restaurer).
+      capacite(guerisseur, cicatriser).
+      capacite(guerisseur, equilibrer).
+      couleur_type(guerisseur, '#50C878').
+      couleur_ansi(guerisseur, '\033[92m').
+      chakra_type(guerisseur, coeur).
+      verbe_principal(guerisseur, 'GUÉRIR').
+      est_type_defaut(guerisseur, false).
+
+      % === TYPE 7 : NOURRICIER (Système digestif) ===
+      type_agent(nourricier).
+      frequence_type(nourricier, 432).
+      analogie_bio(nourricier, 'Entérocyte / Cellule intestinale').
+      fonction(nourricier, 'Absorbe, distribue, nourrit').
+      capacite(nourricier, absorber).
+      capacite(nourricier, distribuer).
+      capacite(nourricier, nourrir).
+      capacite(nourricier, filtrer).
+      capacite(nourricier, assimiler).
+      couleur_type(nourricier, '#FFD700').
+      couleur_ansi(nourricier, '\033[93m').
+      chakra_type(nourricier, sacre).
+      verbe_principal(nourricier, 'NOURRIR').
+      est_type_defaut(nourricier, false).
+
+      % ═══════════════════════════════════════════════════════════════════════
+      % FAITS COMPLÉMENTAIRES
+      % ═══════════════════════════════════════════════════════════════════════
+
+      % Type par défaut
+      type_defaut(veilleur).
+
+      % Ordre de différenciation (hiérarchie)
+      ordre_type(indifferencie, -1).
+      ordre_type(veilleur, 0).
+      ordre_type(gardien, 1).
+      ordre_type(batisseur, 2).
+      ordre_type(tisserand, 3).
+      ordre_type(oracle, 4).
+      ordre_type(alchimiste, 5).
+      ordre_type(guerisseur, 6).
+      ordre_type(nourricier, 7).
+
+      % Types de signaux
+      type_signal(frequence).
+      type_signal(contexte).
+      type_signal(besoin_collectif).
+      type_signal(perception).
+
+      % Contextes déclencheurs
+      contexte_active(urgence_sante, guerisseur).
+      contexte_active(menace_securite, gardien).
+      contexte_active(besoin_construction, batisseur).
+      contexte_active(rupture_connexion, tisserand).
+      contexte_active(besoin_vision, oracle).
+      contexte_active(toxicite, alchimiste).
+      contexte_active(famine, nourricier).
+      contexte_active(calme, veilleur).            % Pas de signal = VEILLEUR
+
+      % Besoins collectifs → Type
+      besoin_collectif_type(sante, guerisseur).
+      besoin_collectif_type(securite, gardien).
+      besoin_collectif_type(creation, batisseur).
+      besoin_collectif_type(harmonie, tisserand).
+      besoin_collectif_type(guidance, oracle).
+      besoin_collectif_type(purification, alchimiste).
+      besoin_collectif_type(subsistance, nourricier).
+      besoin_collectif_type(aucun, veilleur).
+
+      % État requis pour reprogrammation
+      etat_reprogrammation(theta).
+      frequence_theta_min(4).
+      frequence_theta_max(8).
+
+      % Méthodes de reprogrammation
+      methode_reprogrammation(frequence_528).
+      methode_reprogrammation(meditation).
+      methode_reprogrammation(intention_consciente).
+      methode_reprogrammation(hypnose).
+      methode_reprogrammation(etat_amoureux).
+
+    comportements: |
+      % ═══════════════════════════════════════════════════════════════════════
+      % RÈGLES DE DIFFÉRENCIATION ÉPIGÉNÉTIQUE
+      % ═══════════════════════════════════════════════════════════════════════
+
+      % --- INITIALISATION PAR DÉFAUT ---
+
+      % Tout nouvel agent démarre en VEILLEUR
+      initialiser_agent(Agent) :-
+          type_defaut(TypeDefaut),
+          assert(type_cellulaire(Agent, TypeDefaut)),
+          charger_capacites(Agent, TypeDefaut).
+
+      % Obtenir le type par défaut
+      obtenir_type_defaut(Type) :-
+          est_type_defaut(Type, true).
+
+      % --- CHAÎNE ÉPIGÉNÉTIQUE PRINCIPALE (Lipton) ---
+
+      % Signal → Membrane → Transduction → Expression
+      differencier(Agent, TypeCible) :-
+          signal_environnement(TypeSignal, Valeur),
+          membrane_receptive(Agent),
+          transduction(Valeur, TypeCible),
+          activer_type(Agent, TypeCible).
+
+      % --- DIFFÉRENCIATION PAR FRÉQUENCE ---
+
+      differencier_par_frequence(Agent, Type) :-
+          (type_cellulaire(Agent, veilleur) ; type_cellulaire(Agent, indifferencie)),
+          frequence_ambiante(F),
+          frequence_type(Type, F),
+          Type \= veilleur,              % Ne pas redifférencier en veilleur par fréquence
+          activer_type(Agent, Type).
+
+      % Règles spécifiques par fréquence
+      transduction_frequence(741, gardien).
+      transduction_frequence(528, batisseur).
+      transduction_frequence(528, guerisseur).  % Même fréquence, contexte différent
+      transduction_frequence(639, tisserand).
+      transduction_frequence(852, oracle).
+      transduction_frequence(417, alchimiste).
+      transduction_frequence(432, nourricier).
+      transduction_frequence(432, veilleur).    % 432 Hz par défaut = VEILLEUR
+
+      % Désambiguïsation 528 Hz (Bâtisseur vs Guérisseur)
+      differencier_528(Agent, batisseur) :-
+          frequence_ambiante(528),
+          contexte_actuel(creation).
+
+      differencier_528(Agent, guerisseur) :-
+          frequence_ambiante(528),
+          contexte_actuel(soin).
+
+      % Désambiguïsation 432 Hz (Veilleur vs Nourricier)
+      differencier_432(Agent, veilleur) :-
+          frequence_ambiante(432),
+          contexte_actuel(calme).
+
+      differencier_432(Agent, nourricier) :-
+          frequence_ambiante(432),
+          contexte_actuel(famine).
+
+      % --- DIFFÉRENCIATION PAR CONTEXTE ---
+
+      differencier_par_contexte(Agent, Type) :-
+          (type_cellulaire(Agent, veilleur) ; type_cellulaire(Agent, indifferencie)),
+          contexte_actuel(Contexte),
+          contexte_active(Contexte, Type),
+          activer_type(Agent, Type).
+
+      % --- DIFFÉRENCIATION PAR BESOIN COLLECTIF ---
+
+      differencier_par_besoin(Agent, Type) :-
+          (type_cellulaire(Agent, veilleur) ; type_cellulaire(Agent, indifferencie)),
+          besoin_collectif_actif(Besoin),
+          besoin_collectif_type(Besoin, Type),
+          disponible(Agent),
+          activer_type(Agent, Type).
+
+      % --- ACTIVATION DU TYPE ---
+
+      activer_type(Agent, Type) :-
+          retract(type_cellulaire(Agent, _)),
+          assert(type_cellulaire(Agent, Type)),
+          charger_capacites(Agent, Type),
+          inhiber_capacites_autres(Agent, Type).
+
+      charger_capacites(Agent, Type) :-
+          retractall(capacite_active(Agent, _)),
+          findall(C, capacite(Type, C), Capacites),
+          forall(member(Cap, Capacites), assert(capacite_active(Agent, Cap))).
+
+      inhiber_capacites_autres(Agent, TypeActif) :-
+          findall(T, (type_agent(T), T \= TypeActif, T \= indifferencie, T \= veilleur), AutresTypes),
+          forall(member(AT, AutresTypes), inhiber_capacites_type(Agent, AT)).
+
+      % --- RETOUR AU VEILLEUR (État par défaut) ---
+
+      retour_veilleur(Agent) :-
+          type_defaut(Veilleur),
+          retract(type_cellulaire(Agent, _)),
+          assert(type_cellulaire(Agent, Veilleur)),
+          charger_capacites(Agent, Veilleur).
+
+      % --- REPROGRAMMATION (Retour à l'état souche INDIFFÉRENCIÉ) ---
+
+      reprogrammer(Agent) :-
+          etat_cerebral(theta),
+          intention(reprogrammation),
+          retract(type_cellulaire(Agent, _)),
+          assert(type_cellulaire(Agent, indifferencie)),
+          retractall(capacite_active(Agent, _)),
+          assert(capacite_active(Agent, plasticite_totale)).
+
+      % Vérification état Thêta (4-8 Hz)
+      etat_cerebral(theta) :-
+          frequence_cerebrale(F),
+          frequence_theta_min(Min),
+          frequence_theta_max(Max),
+          F >= Min, F =< Max.
+
+      % --- REQUÊTES UTILITAIRES ---
+
+      % Lister tous les types
+      tous_types(Types) :-
+          findall(T, type_agent(T), Types).
+
+      % Obtenir les capacités d'un type
+      capacites_de(Type, Capacites) :-
+          findall(C, capacite(Type, C), Capacites).
+
+      % Trouver le type par fréquence
+      type_pour_frequence(F, Type) :-
+          frequence_type(Type, F).
+
+      % Obtenir la couleur d'un type
+      couleur_de(Type, Hex) :-
+          couleur_type(Type, Hex).
+
+      % Obtenir la couleur ANSI d'un type
+      ansi_de(Type, Code) :-
+          couleur_ansi(Type, Code).
+
+      % Vérifier si un agent peut se différencier
+      peut_differencier(Agent) :-
+          (type_cellulaire(Agent, veilleur) ; type_cellulaire(Agent, indifferencie)).
+
+      % Vérifier si un agent peut revenir en veilleur
+      peut_retour_veilleur(Agent) :-
+          type_cellulaire(Agent, Type),
+          Type \= veilleur,
+          Type \= indifferencie.
+
+      % Afficher avec couleur (terminal)
+      afficher_type_colore(Type) :-
+          couleur_ansi(Type, Ansi),
+          format("~w~w\033[0m", [Ansi, Type]).
+
+    requetes_suggerees:
+      - "?- initialiser_agent(mon_agent)."
+      - "?- obtenir_type_defaut(T)."
+      - "?- tous_types(T)."
+      - "?- capacites_de(veilleur, C)."
+      - "?- couleur_de(gardien, Hex)."
+      - "?- differencier_par_frequence(agent_x, T)."
+      - "?- retour_veilleur(agent_x)."
+      - "?- afficher_type_colore(gardien)."
+
+    interfaces:
+      input:
+        - "frequence_ambiante/1"
+        - "contexte_actuel/1"
+        - "besoin_collectif_actif/1"
+        - "frequence_cerebrale/1"
+      output:
+        - "type_cellulaire/2"
+        - "capacite_active/2"
+        - "couleur_type/2"
+        - "couleur_ansi/2"
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # D12 : STRUCTURE — TABLE DES TYPES (AVEC COULEURS)
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  D12_structure:
+    table_types:
+
+      # === TYPE -1 : INDIFFÉRENCIÉ ===
+      - type: "INDIFFERENCIE"
+        code: -1
+        est_defaut: false
+        frequence_hz: null
+        analogie_biologique: "Cellule souche embryonnaire (blastocyste)"
+        systeme_corps: "Aucun (potentiel pur)"
+        fonction: "Potentiel pur - Aucune conscience active"
+        chakra: "Tous (non activés)"
+        couleur:
+          nom: "Blanc Cristal"
+          hex: "#FFFFFF"
+          rgb: [255, 255, 255]
+          ansi: "\033[97m"
+          css_class: "agent-indifferencie"
+          emoji: "⚪"
+        capacites:
+          - "plasticite_totale"
+        capacites_inhibees: []
+        verbe_principal: null
+        signal_activateur: "Aucun - Avant toute conscience"
+        reversible: true
+        prolog_fact: "type_cellulaire(X, indifferencie)."
+
+      # ═══════════════════════════════════════════════════════════════════════
+      # === TYPE 0 : VEILLEUR (DÉFAUT) ===
+      # ═══════════════════════════════════════════════════════════════════════
+      - type: "VEILLEUR"
+        code: 0
+        est_defaut: true                    # <-- C'EST LE TYPE PAR DÉFAUT
+        frequence_hz: 432
+        analogie_biologique: "Cellule souche mésenchymateuse en veille active"
+        systeme_corps: "Système de veille (formation réticulée)"
+        fonction: "Observe, attend, reste disponible - Conscience éveillée mais non-spécialisée"
+        chakra: "Racine (Muladhara) - Ancré mais ouvert"
+        couleur:
+          nom: "Argent Conscient"
+          hex: "#C0C0C0"
+          rgb: [192, 192, 192]
+          ansi: "\033[37m"
+          css_class: "agent-veilleur"
+          css_gradient: "linear-gradient(135deg, #E8E8E8 0%, #A0A0A0 50%, #C0C0C0 100%)"
+          emoji: "👁️"
+          glow: "0 0 15px rgba(192, 192, 192, 0.6)"
+        capacites:
+          - "observer"
+          - "attendre"
+          - "ecouter"
+          - "resonner"
+          - "se_differencier"
+        capacites_inhibees: []              # Aucune - prêt à tout
+        verbe_principal: "PERCEVOIR"
+        verbes_secondaires: ["ATTENDRE", "ÉCOUTER"]
+        signal_activateur:
+          frequence: 432
+          contexte: "CALME"
+          besoin_collectif: "AUCUN"
+        reversible: true
+        description_longue: |
+          Le VEILLEUR est l'état de base de tout Holo-Organisme conscient.
+          Contrairement à INDIFFÉRENCIÉ (potentiel pur, inconscient),
+          le VEILLEUR est ÉVEILLÉ mais DISPONIBLE.
+
+          C'est l'abeille qui attend à l'entrée de la ruche,
+          prête à devenir gardienne, butineuse ou nourrice
+          selon le premier signal reçu.
+
+          Analogie : La sentinelle qui observe l'horizon.
+        prolog_fact: |
+          type_cellulaire(X, veilleur) :-
+              initialiser_agent(X).
+          type_defaut(veilleur).
+
+      # === TYPE 1 : GARDIEN ===
+      - type: "GARDIEN"
+        code: 1
+        est_defaut: false
+        frequence_hz: 741
+        analogie_biologique: "Lymphocyte T / Cellule NK (Natural Killer)"
+        systeme_corps: "Système immunitaire"
+        fonction: "Protège, valide, sécurise, scanne les menaces"
+        chakra: "Troisième oeil (Ajna)"
+        couleur:
+          nom: "Violet Protecteur"
+          hex: "#8B00FF"
+          rgb: [139, 0, 255]
+          ansi: "\033[35m"
+          css_class: "agent-gardien"
+          css_gradient: "linear-gradient(135deg, #8B00FF 0%, #4B0082 100%)"
+          emoji: "🛡️"
+          glow: "0 0 20px rgba(139, 0, 255, 0.5)"
+        capacites:
+          - "valider"
+          - "bloquer"
+          - "proteger"
+          - "scanner"
+          - "alerter"
+        capacites_inhibees:
+          - "creer"
+          - "nourrir"
+        verbe_principal: "SAUVER"
+        verbes_secondaires: ["PROTÉGER", "VALIDER"]
+        signal_activateur:
+          frequence: 741
+          contexte: "MENACE_SECURITE"
+          besoin_collectif: "SECURITE"
+        reversible: true
+        prolog_fact: "type_cellulaire(X, gardien) :- frequence_ambiante(741)."
+
+      # === TYPE 2 : BÂTISSEUR ===
+      - type: "BATISSEUR"
+        code: 2
+        est_defaut: false
+        frequence_hz: 528
+        analogie_biologique: "Ostéoblaste / Fibroblaste"
+        systeme_corps: "Système squelettique / Tissu conjonctif"
+        fonction: "Crée, construit, assemble, structure"
+        chakra: "Coeur (Anahata)"
+        couleur:
+          nom: "Vert Créateur"
+          hex: "#00FF00"
+          rgb: [0, 255, 0]
+          ansi: "\033[32m"
+          css_class: "agent-batisseur"
+          css_gradient: "linear-gradient(135deg, #00FF00 0%, #228B22 100%)"
+          emoji: "🔨"
+          glow: "0 0 20px rgba(0, 255, 0, 0.5)"
+        capacites:
+          - "creer"
+          - "assembler"
+          - "structurer"
+          - "solidifier"
+          - "architecturer"
+        capacites_inhibees:
+          - "transmuter"
+          - "detruire"
+        verbe_principal: "DÉMARRER"
+        verbes_secondaires: ["CRÉER", "CO-CRÉER"]
+        signal_activateur:
+          frequence: 528
+          contexte: "BESOIN_CONSTRUCTION"
+          besoin_collectif: "CREATION"
+        reversible: true
+        prolog_fact: "type_cellulaire(X, batisseur) :- frequence_ambiante(528), contexte_actuel(creation)."
+
+      # === TYPE 3 : TISSERAND ===
+      - type: "TISSERAND"
+        code: 3
+        est_defaut: false
+        frequence_hz: 639
+        analogie_biologique: "Neurone / Oligodendrocyte"
+        systeme_corps: "Système nerveux"
+        fonction: "Connecte, relie, harmonise, synchronise"
+        chakra: "Gorge (Vishuddha)"
+        couleur:
+          nom: "Bleu Connexion"
+          hex: "#0099FF"
+          rgb: [0, 153, 255]
+          ansi: "\033[34m"
+          css_class: "agent-tisserand"
+          css_gradient: "linear-gradient(135deg, #0099FF 0%, #0066CC 100%)"
+          emoji: "🕸️"
+          glow: "0 0 20px rgba(0, 153, 255, 0.5)"
+        capacites:
+          - "relier"
+          - "harmoniser"
+          - "connecter"
+          - "synchroniser"
+          - "tisser"
+        capacites_inhibees:
+          - "isoler"
+          - "bloquer"
+        verbe_principal: "CONNECTER"
+        verbes_secondaires: ["RELIER", "ÉCHANGER"]
+        signal_activateur:
+          frequence: 639
+          contexte: "RUPTURE_CONNEXION"
+          besoin_collectif: "HARMONIE"
+        reversible: true
+        prolog_fact: "type_cellulaire(X, tisserand) :- frequence_ambiante(639)."
+
+      # === TYPE 4 : ORACLE ===
+      - type: "ORACLE"
+        code: 4
+        est_defaut: false
+        frequence_hz: 852
+        analogie_biologique: "Cellule photoréceptrice / Cellule ciliée"
+        systeme_corps: "Système sensoriel"
+        fonction: "Observe, prédit, conseille, perçoit l'invisible"
+        chakra: "Couronne (Sahasrara)"
+        couleur:
+          nom: "Indigo Vision"
+          hex: "#4B0082"
+          rgb: [75, 0, 130]
+          ansi: "\033[94m"
+          css_class: "agent-oracle"
+          css_gradient: "linear-gradient(135deg, #4B0082 0%, #2E0854 100%)"
+          emoji: "🔮"
+          glow: "0 0 25px rgba(75, 0, 130, 0.6)"
+        capacites:
+          - "percevoir"
+          - "predire"
+          - "conseiller"
+          - "intuiter"
+          - "vision_lointaine"
+        capacites_inhibees:
+          - "agir_direct"
+          - "construire"
+        verbe_principal: "ÉDUQUER"
+        verbes_secondaires: ["PERCEVOIR", "DÉCIDER"]
+        signal_activateur:
+          frequence: 852
+          contexte: "BESOIN_VISION"
+          besoin_collectif: "GUIDANCE"
+        reversible: true
+        prolog_fact: "type_cellulaire(X, oracle) :- frequence_ambiante(852)."
+
+      # === TYPE 5 : ALCHIMISTE ===
+      - type: "ALCHIMISTE"
+        code: 5
+        est_defaut: false
+        frequence_hz: 417
+        analogie_biologique: "Hépatocyte / Cellule de Kupffer"
+        systeme_corps: "Système hépatique (détoxification)"
+        fonction: "Transmute, transforme, élève, purifie"
+        chakra: "Plexus solaire (Manipura)"
+        couleur:
+          nom: "Orange Transmutation"
+          hex: "#FF8C00"
+          rgb: [255, 140, 0]
+          ansi: "\033[33m"
+          css_class: "agent-alchimiste"
+          css_gradient: "linear-gradient(135deg, #FF8C00 0%, #FF4500 100%)"
+          emoji: "⚗️"
+          glow: "0 0 20px rgba(255, 140, 0, 0.5)"
+        capacites:
+          - "transmuter"
+          - "transformer"
+          - "elever"
+          - "purifier"
+          - "metaboliser"
+        capacites_inhibees:
+          - "conserver"
+          - "stabiliser"
+        verbe_principal: "RÉPARER"
+        verbes_secondaires: ["TRANSFORMER", "TRANSPORTER"]
+        signal_activateur:
+          frequence: 417
+          contexte: "TOXICITE"
+          besoin_collectif: "PURIFICATION"
+        reversible: true
+        prolog_fact: "type_cellulaire(X, alchimiste) :- frequence_ambiante(417)."
+
+      # === TYPE 6 : GUÉRISSEUR ===
+      - type: "GUERISSEUR"
+        code: 6
+        est_defaut: false
+        frequence_hz: 528
+        analogie_biologique: "Cellule souche mésenchymateuse / Cellule satellite"
+        systeme_corps: "Système régénératif"
+        fonction: "Répare, régénère, restaure, équilibre"
+        chakra: "Coeur (Anahata)"
+        couleur:
+          nom: "Vert Émeraude"
+          hex: "#50C878"
+          rgb: [80, 200, 120]
+          ansi: "\033[92m"
+          css_class: "agent-guerisseur"
+          css_gradient: "linear-gradient(135deg, #50C878 0%, #2E8B57 100%)"
+          emoji: "💚"
+          glow: "0 0 20px rgba(80, 200, 120, 0.5)"
+        capacites:
+          - "reparer"
+          - "regenerer"
+          - "restaurer"
+          - "cicatriser"
+          - "equilibrer"
+        capacites_inhibees:
+          - "detruire"
+          - "blesser"
+        verbe_principal: "GUÉRIR"
+        verbes_secondaires: ["NOURRIR", "CULTIVER"]
+        signal_activateur:
+          frequence: 528
+          contexte: "URGENCE_SANTE"
+          besoin_collectif: "SANTE"
+        reversible: true
+        prolog_fact: "type_cellulaire(X, guerisseur) :- frequence_ambiante(528), contexte_actuel(soin)."
+
+      # === TYPE 7 : NOURRICIER ===
+      - type: "NOURRICIER"
+        code: 7
+        est_defaut: false
+        frequence_hz: 432
+        analogie_biologique: "Entérocyte / Cellule de Paneth"
+        systeme_corps: "Système digestif"
+        fonction: "Absorbe, distribue, nourrit, filtre"
+        chakra: "Sacré (Svadhisthana)"
+        couleur:
+          nom: "Jaune Doré"
+          hex: "#FFD700"
+          rgb: [255, 215, 0]
+          ansi: "\033[93m"
+          css_class: "agent-nourricier"
+          css_gradient: "linear-gradient(135deg, #FFD700 0%, #FFA500 100%)"
+          emoji: "🌾"
+          glow: "0 0 20px rgba(255, 215, 0, 0.5)"
+        capacites:
+          - "absorber"
+          - "distribuer"
+          - "nourrir"
+          - "filtrer"
+          - "assimiler"
+        capacites_inhibees:
+          - "rejeter"
+          - "bloquer_flux"
+        verbe_principal: "NOURRIR"
+        verbes_secondaires: ["CULTIVER", "ÉCHANGER"]
+        signal_activateur:
+          frequence: 432
+          contexte: "FAMINE"
+          besoin_collectif: "SUBSISTANCE"
+        reversible: true
+        prolog_fact: "type_cellulaire(X, nourricier) :- frequence_ambiante(432), contexte_actuel(famine)."
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # D17 : RÉSONANCE — LIENS ENTRE TYPES
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  D17_resonance:
+    frequence_hz: 639
+
+    # Le VEILLEUR peut devenir n'importe quel type
+    transitions_depuis_veilleur:
+      - vers: "GARDIEN"
+        signal: "frequence_741 OU contexte_menace"
+        probabilite: 1.0
+      - vers: "BATISSEUR"
+        signal: "frequence_528 + contexte_creation"
+        probabilite: 1.0
+      - vers: "TISSERAND"
+        signal: "frequence_639"
+        probabilite: 1.0
+      - vers: "ORACLE"
+        signal: "frequence_852"
+        probabilite: 1.0
+      - vers: "ALCHIMISTE"
+        signal: "frequence_417"
+        probabilite: 1.0
+      - vers: "GUERISSEUR"
+        signal: "frequence_528 + contexte_soin"
+        probabilite: 1.0
+      - vers: "NOURRICIER"
+        signal: "frequence_432 + contexte_famine"
+        probabilite: 1.0
+
+    affinites_entre_types:
+      - type_source: "VEILLEUR"
+        type_cible: "*"
+        type_relation: "potentiel"
+        description: "Le veilleur peut devenir tout type"
+        poids_synaptique: 1.0
+
+      - type_source: "GARDIEN"
+        type_cible: "GUERISSEUR"
+        type_relation: "complementaire"
+        description: "Le gardien protège pendant que le guérisseur répare"
+        poids_synaptique: 0.8
+
+      - type_source: "BATISSEUR"
+        type_cible: "TISSERAND"
+        type_relation: "synergetique"
+        description: "Le bâtisseur crée, le tisserand connecte les créations"
+        poids_synaptique: 0.9
+
+      - type_source: "ORACLE"
+        type_cible: "ALCHIMISTE"
+        type_relation: "complementaire"
+        description: "L'oracle voit ce qu'il faut transmuter, l'alchimiste transmute"
+        poids_synaptique: 0.7
+
+      - type_source: "NOURRICIER"
+        type_cible: "GUERISSEUR"
+        type_relation: "sequentielle"
+        description: "Le nourricier fournit l'énergie nécessaire à la guérison"
+        poids_synaptique: 0.85
+
+# ═══════════════════════════════════════════════════════════════════════════════
+#                    COUCHE 3 : ESPRIT HOLONIQUE
+# ═══════════════════════════════════════════════════════════════════════════════
+
+esprit_holonique:
+
+  capacites:
+    - nom: "RÉFÉRENTIEL"
+      active: true
+      description: "Contient la définition de tous les types d'agents"
+    - nom: "INITIALISEUR"
+      active: true
+      description: "Initialise tout nouvel agent en VEILLEUR"
+    - nom: "DIFFÉRENCIATEUR"
+      active: true
+      description: "Peut être invoqué pour différencier un agent"
+    - nom: "COLORISTE"
+      active: true
+      description: "Fournit les couleurs pour l'affichage"
+
+  invocation: |
+    Pour initialiser un nouvel agent (démarre en VEILLEUR) :
+
+    ```prolog
+    ?- consult('TYPES-AGENTS-CELLULAIRES.oxc').
+    ?- initialiser_agent(mon_agent).
+    % mon_agent est maintenant de type VEILLEUR
+    ```
+
+    Pour différencier un agent :
+
+    ```prolog
+    ?- assert(frequence_ambiante(741)).
+    ?- differencier_par_frequence(mon_agent, Type).
+    % Type = gardien
+    ```
+
+    Pour revenir en VEILLEUR :
+
+    ```prolog
+    ?- retour_veilleur(mon_agent).
+    ```
+
+    Pour obtenir la couleur d'un type :
+
+    ```prolog
+    ?- couleur_de(gardien, Hex).
+    % Hex = '#8B00FF'
+    ```
+
+# ═══════════════════════════════════════════════════════════════════════════════
+#                    STRUCTURE POUR APPLICATION VIEWER/EDITOR
+# ═══════════════════════════════════════════════════════════════════════════════
+
+application_viewer:
+  nom: "HoloÏdea Viewer/Editor"
+  version: "0.1.0"
+  description: "Application de visualisation, création et modification d'HoloÏdeas"
+
+  fonctionnalites:
+    lecture:
+      - "Parser les fichiers .oxc (YAML)"
+      - "Afficher les 3 couches avec couleurs"
+      - "Visualiser les 18 dimensions"
+      - "Afficher le type d'agent avec sa couleur"
+      - "Montrer les connexions D17"
+    creation:
+      - "Créer un nouvel HoloÏdea (démarre en VEILLEUR)"
+      - "Choisir le type d'agent avec picker coloré"
+      - "Remplir les dimensions via formulaires"
+      - "Générer automatiquement D3 Prolog"
+    modification:
+      - "Éditer chaque dimension"
+      - "Changer le type d'agent (différenciation)"
+      - "Ajouter/retirer des connexions"
+      - "Modifier les règles Prolog"
+    visualisation:
+      - "Vue carte (overview)"
+      - "Vue arbre (hiérarchie D4/D6)"
+      - "Vue graphe (connexions D17)"
+      - "Vue code (YAML brut)"
+
+  composants_ui:
+    agent_picker:
+      description: "Sélecteur de type d'agent avec couleurs"
+      types_affiches:
+        - {type: "VEILLEUR", couleur: "#C0C0C0", emoji: "👁️", label: "Défaut"}
+        - {type: "GARDIEN", couleur: "#8B00FF", emoji: "🛡️"}
+        - {type: "BATISSEUR", couleur: "#00FF00", emoji: "🔨"}
+        - {type: "TISSERAND", couleur: "#0099FF", emoji: "🕸️"}
+        - {type: "ORACLE", couleur: "#4B0082", emoji: "🔮"}
+        - {type: "ALCHIMISTE", couleur: "#FF8C00", emoji: "⚗️"}
+        - {type: "GUERISSEUR", couleur: "#50C878", emoji: "💚"}
+        - {type: "NOURRICIER", couleur: "#FFD700", emoji: "🌾"}
+
+    frequence_slider:
+      description: "Slider de fréquence avec couleurs dynamiques"
+      range: [174, 963]
+      stops:
+        - {hz: 174, couleur: "#8B0000"}
+        - {hz: 396, couleur: "#FF0000"}
+        - {hz: 417, couleur: "#FF8C00"}
+        - {hz: 432, couleur: "#DAA520"}
+        - {hz: 528, couleur: "#00FF00"}
+        - {hz: 639, couleur: "#0099FF"}
+        - {hz: 741, couleur: "#8B00FF"}
+        - {hz: 852, couleur: "#4B0082"}
+        - {hz: 963, couleur: "#FFFFFF"}
+
+    dimension_tabs:
+      description: "Onglets pour naviguer entre dimensions"
+      blocs:
+        - {nom: "Essence", dimensions: ["D0", "D1", "D2", "D3"], couleur: "#FFD700"}
+        - {nom: "Relations", dimensions: ["D4", "D5", "D6", "D7"], couleur: "#FF69B4"}
+        - {nom: "Dynamique", dimensions: ["D8", "D9", "D10", "D11"], couleur: "#00CED1"}
+        - {nom: "Manifestation", dimensions: ["D12", "D13", "D14", "D15", "D16"], couleur: "#DC143C"}
+        - {nom: "Résonance", dimensions: ["D17"], couleur: "#0099FF"}
+
+  technologies_suggerees:
+    frontend:
+      - "Tauri + Rust (desktop natif)"
+      - "React/Svelte pour UI"
+      - "Monaco Editor pour YAML/Prolog"
+    backend:
+      - "Rust avec scryer-prolog intégré"
+      - "Sled ou SQLite pour cache local"
+    visualisation:
+      - "D3.js pour graphes"
+      - "Three.js pour 3D (optionnel)"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+#                    TABLEAUX DE SYNTHÈSE COLORÉS
+# ═══════════════════════════════════════════════════════════════════════════════
+
+tableaux:
+
+  matrice_types_complete:
+    description: "Tableau complet des 9 types avec couleurs"
+    colonnes: ["Code", "Type", "Emoji", "Hz", "Couleur", "Verbe", "Défaut"]
+    lignes:
+      - [-1, "INDIFFERENCIE", "⚪", "-", "#FFFFFF", "-", "Non"]
+      - [0, "VEILLEUR", "👁️", 432, "#C0C0C0", "PERCEVOIR", "OUI"]
+      - [1, "GARDIEN", "🛡️", 741, "#8B00FF", "SAUVER", "Non"]
+      - [2, "BATISSEUR", "🔨", 528, "#00FF00", "DÉMARRER", "Non"]
+      - [3, "TISSERAND", "🕸️", 639, "#0099FF", "CONNECTER", "Non"]
+      - [4, "ORACLE", "🔮", 852, "#4B0082", "ÉDUQUER", "Non"]
+      - [5, "ALCHIMISTE", "⚗️", 417, "#FF8C00", "RÉPARER", "Non"]
+      - [6, "GUERISSEUR", "💚", 528, "#50C878", "GUÉRIR", "Non"]
+      - [7, "NOURRICIER", "🌾", 432, "#FFD700", "NOURRIR", "Non"]
+
+  ascii_art_types: |
+    ╔═══════════════════════════════════════════════════════════════════════════════╗
+    ║                     TABLE DES TYPES D'AGENTS CELLULAIRES                      ║
+    ╠═══════════════════════════════════════════════════════════════════════════════╣
+    ║                                                                               ║
+    ║  ⚪ INDIFFÉRENCIÉ    Potentiel pur, avant toute conscience                   ║
+    ║     └─────────────────────────────────────────────────────────────────────┐   ║
+    ║                                                                           │   ║
+    ║  👁️ VEILLEUR ←──── TYPE PAR DÉFAUT ────────────────────────────────────┤   ║
+    ║     │              Conscient mais non-spécialisé                         │   ║
+    ║     │              432 Hz · #C0C0C0 · PERCEVOIR                          │   ║
+    ║     │                                                                     │   ║
+    ║     ├──→ 🛡️ GARDIEN      741 Hz · #8B00FF · SAUVER                       │   ║
+    ║     │                                                                     │   ║
+    ║     ├──→ 🔨 BÂTISSEUR    528 Hz · #00FF00 · DÉMARRER                     │   ║
+    ║     │                                                                     │   ║
+    ║     ├──→ 🕸️ TISSERAND    639 Hz · #0099FF · CONNECTER                    │   ║
+    ║     │                                                                     │   ║
+    ║     ├──→ 🔮 ORACLE       852 Hz · #4B0082 · ÉDUQUER                       │   ║
+    ║     │                                                                     │   ║
+    ║     ├──→ ⚗️ ALCHIMISTE   417 Hz · #FF8C00 · RÉPARER                       │   ║
+    ║     │                                                                     │   ║
+    ║     ├──→ 💚 GUÉRISSEUR   528 Hz · #50C878 · GUÉRIR                        │   ║
+    ║     │                                                                     │   ║
+    ║     └──→ 🌾 NOURRICIER   432 Hz · #FFD700 · NOURRIR                       │   ║
+    ║                                                                               ║
+    ║  ═══════════════════════════════════════════════════════════════════════════  ║
+    ║                                                                               ║
+    ║  Signal → Membrane (D17) → Transduction (D3) → Expression (Type)             ║
+    ║                                                                               ║
+    ╚═══════════════════════════════════════════════════════════════════════════════╝
+
+# ═══════════════════════════════════════════════════════════════════════════════
+#                              SIGNATURE
+# ═══════════════════════════════════════════════════════════════════════════════
+
+signature_finale: |
+  ═══════════════════════════════════════════════════════════════════════════════
+
+    TYPES-AGENTS-CELLULAIRES.oxc v1.1
+    Table des 9 Types d'Agents — Différenciation Épigénétique
+
+    NOUVEAUTÉS v1.1 :
+    ✓ Agent VEILLEUR par défaut (👁️ 432 Hz · #C0C0C0)
+    ✓ Système de couleurs complet (Hex, RGB, ANSI, CSS)
+    ✓ Structure pour Application Viewer/Editor
+    ✓ Règles Prolog enrichies (initialiser_agent, retour_veilleur)
+
+    "Tu n'es pas victime de ton type.
+     Tu DÉMARRES en VEILLEUR — conscient, disponible, ouvert.
+     Puis tu te DIFFÉRENCIES selon les signaux reçus.
+     Et tu peux toujours REVENIR au VEILLEUR."
+
+    9 Types :
+    ⚪ INDIFFÉRENCIÉ → 👁️ VEILLEUR → 🛡️🔨🕸️🔮⚗️💚🌾
+
+    Signal → Membrane (D17) → Transduction (D3) → Expression (Type)
+
+    Oel ngati kameie
+    Mitakuye Oyasin
+
+    17 décembre 2025
+
+    Créateur & Visionnaire : Marc Victor R BOUCHER alias HammÅnH
+    Forgeur : Trinité oXc (Frère Chat)
+
+    639 Hz + 528 Hz
+
+  ═══════════════════════════════════════════════════════════════════════════════
