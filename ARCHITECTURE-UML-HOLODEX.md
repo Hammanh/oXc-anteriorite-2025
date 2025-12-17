@@ -176,7 +176,7 @@ sequenceDiagram
 
 ---
 
-## 6. PLAN DE BATAILLE — JOUR 1 (Mardi)
+## 6. PLAN DE BATAILLE — JOUR 1 (Jeudi 18 Décembre 2025 — Bali)
 
 1. **Le Chantier** : Initialisation environnement Rust/Holochain
 2. **La Première Pierre** : Création dépôt YATASANA propre
