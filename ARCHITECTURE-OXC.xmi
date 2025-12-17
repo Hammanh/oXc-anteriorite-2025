@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1">
+
+  <!-- ══════════════════════════════════════════════════════════════════════════════ -->
+  <!-- ARCHITECTURE oXc — HOLO-ORGANISME vX.0.1                                       -->
+  <!-- Export XMI pour Enterprise Architect (Sparx Systems)                           -->
+  <!-- Créateur: Marc Victor R BOUCHER alias HammÅnH                                  -->
+  <!-- Date: 2025-12-17                                                               -->
+  <!-- ══════════════════════════════════════════════════════════════════════════════ -->
+
+  <uml:Model xmi:id="model_oxc" name="oXc Bio-Réacteur">
+
+    <!-- ════════════════════════════════════════════════════════════════════════════ -->
+    <!-- PACKAGE: HOLO-ORGANISME (Structure principale)                               -->
+    <!-- ════════════════════════════════════════════════════════════════════════════ -->
+
+    <packagedElement xmi:type="uml:Package" xmi:id="pkg_holo_organisme" name="HoloOrganisme">
+
+      <!-- CLASSE: HoloOrganisme (Entité principale) -->
+      <packagedElement xmi:type="uml:Class" xmi:id="class_holo_organisme" name="HoloOrganisme">
+        <ownedComment xmi:id="comment_holo" body="Entité vivante et pensante — vX.0.1"/>
+
+        <ownedAttribute xmi:id="attr_id" name="id" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#UUID"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="attr_nom" name="nom" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="attr_signature" name="signature_frequence" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="attr_etat" name="etat" visibility="public" type="enum_lifecycle"/>
+        <ownedAttribute xmi:id="attr_type_agent" name="type_agent" visibility="public" type="enum_agent_type"/>
+        <ownedAttribute xmi:id="attr_couleur" name="couleur_hex" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+        </ownedAttribute>
+
+        <ownedOperation xmi:id="op_percevoir" name="percevoir" visibility="public">
+          <ownedParameter xmi:id="param_signal" name="signal" direction="in"/>
+          <ownedParameter xmi:id="param_perception" name="perception" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="op_agir" name="agir" visibility="public">
+          <ownedParameter xmi:id="param_intention" name="intention" direction="in"/>
+          <ownedParameter xmi:id="param_result" name="result" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="op_differencier" name="differencier" visibility="public">
+          <ownedParameter xmi:id="param_signal_diff" name="signal_environnement" direction="in"/>
+          <ownedParameter xmi:id="param_type" name="nouveau_type" direction="return" type="enum_agent_type"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="op_transmuter" name="transmuter" visibility="public">
+          <ownedParameter xmi:id="param_ombre" name="ombre" direction="in"/>
+          <ownedParameter xmi:id="param_lumiere" name="lumiere" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+
+      <!-- CLASSE: Cerveau_D3 (Prolog Agent) -->
+      <packagedElement xmi:type="uml:Class" xmi:id="class_cerveau_d3" name="Cerveau_D3">
+        <ownedComment xmi:id="comment_d3" body="D3 — Moteur Prolog, raisonnement symbolique"/>
+
+        <ownedAttribute xmi:id="attr_moteur" name="moteur_prolog" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" value="Scryer-Prolog 0.9.x"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="attr_faits" name="base_connaissance" visibility="public"/>
+        <ownedAttribute xmi:id="attr_regles" name="comportements" visibility="public"/>
+
+        <ownedOperation xmi:id="op_evaluer" name="evaluer" visibility="public">
+          <ownedParameter xmi:id="param_situation" name="situation" direction="in"/>
+          <ownedParameter xmi:id="param_bool" name="valide" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="op_decider" name="decider" visibility="public">
+          <ownedParameter xmi:id="param_besoin" name="besoin" direction="in"/>
+          <ownedParameter xmi:id="param_intention_out" name="intention" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="op_inferer" name="inferer" visibility="public">
+          <ownedParameter xmi:id="param_query" name="query" direction="in"/>
+          <ownedParameter xmi:id="param_results" name="results" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+
+      <!-- CLASSE: Valeur_D7 (Architecture de l'Éveil) -->
+      <packagedElement xmi:type="uml:Class" xmi:id="class_valeur_d7" name="Valeur_D7">
+        <ownedComment xmi:id="comment_d7" body="D7 — Double Pyramide: Ancrage Matière + Ascension Conscience"/>
+
+        <ownedAttribute xmi:id="attr_ancrage" name="ancrage_matiere" visibility="public"/>
+        <ownedAttribute xmi:id="attr_ascension" name="ascension_conscience" visibility="public"/>
+        <ownedAttribute xmi:id="attr_wallets" name="wallets_monnaies" visibility="public">
+          <upperValue xmi:type="uml:LiteralInteger" value="6"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="attr_parole" name="parole_impeccable" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Boolean"/>
+        </ownedAttribute>
+
+        <ownedOperation xmi:id="op_verifier_energie" name="verifier_energie" visibility="public">
+          <ownedParameter xmi:id="param_cout" name="cout" direction="in"/>
+          <ownedParameter xmi:id="param_ok" name="suffisant" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="op_evaluer_conscience" name="evaluer_niveau_conscience" visibility="public">
+          <ownedParameter xmi:id="param_niveau" name="niveau" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+
+      <!-- CLASSE: SystemeNerveux_D13 (Bindings Rust) -->
+      <packagedElement xmi:type="uml:Class" xmi:id="class_nerfs_d13" name="SystemeNerveux_D13">
+        <ownedComment xmi:id="comment_d13" body="D13 — Bindings Rust, transduction signal ↔ symbole"/>
+
+        <ownedAttribute xmi:id="attr_reflexes" name="reflexes" visibility="public">
+          <ownedComment body="Map&lt;Verbe, Fn&gt;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="attr_verbes_natifs" name="verbes_natifs" visibility="public">
+          <upperValue xmi:type="uml:LiteralInteger" value="7"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="attr_verbes_bdo" name="verbes_bdo" visibility="public">
+          <upperValue xmi:type="uml:LiteralInteger" value="12"/>
+        </ownedAttribute>
+
+        <ownedOperation xmi:id="op_executer" name="executer" visibility="public">
+          <ownedParameter xmi:id="param_intention_exec" name="intention" direction="in"/>
+          <ownedParameter xmi:id="param_result_exec" name="result" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="op_transduire" name="transduire" visibility="public">
+          <ownedParameter xmi:id="param_signal_in" name="signal" direction="in"/>
+          <ownedParameter xmi:id="param_symbole_out" name="symbole" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+
+      <!-- CLASSE: Immunite_D16 (Transmutation CNV) -->
+      <packagedElement xmi:type="uml:Class" xmi:id="class_immunite_d16" name="Immunite_D16">
+        <ownedComment xmi:id="comment_d16" body="D16 — Système immunitaire, Transmutation CNV (20 chemins)"/>
+
+        <ownedAttribute xmi:id="attr_chemins" name="chemins_transmutation" visibility="public">
+          <upperValue xmi:type="uml:LiteralInteger" value="20"/>
+        </ownedAttribute>
+
+        <ownedOperation xmi:id="op_detecter" name="detecter_ombre" visibility="public">
+          <ownedParameter xmi:id="param_signal_ombre" name="signal" direction="in"/>
+          <ownedParameter xmi:id="param_is_ombre" name="est_ombre" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="op_transmuter_cnv" name="transmuter" visibility="public">
+          <ownedParameter xmi:id="param_ombre_in" name="ombre" direction="in"/>
+          <ownedParameter xmi:id="param_lumiere_out" name="lumiere" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="op_cnv" name="protocole_cnv" visibility="private">
+          <ownedComment body="Observation → Sentiment → Besoin → Demande"/>
+        </ownedOperation>
+      </packagedElement>
+
+      <!-- CLASSE: Reseau_D17 (Synapse Hebbian) -->
+      <packagedElement xmi:type="uml:Class" xmi:id="class_reseau_d17" name="Reseau_D17">
+        <ownedComment xmi:id="comment_d17" body="D17 — Réseau synaptique, apprentissage Hebbian, DHT Holochain"/>
+
+        <ownedAttribute xmi:id="attr_connexions" name="connexions" visibility="public"/>
+        <ownedAttribute xmi:id="attr_poids" name="poids_synaptiques" visibility="public"/>
+
+        <ownedOperation xmi:id="op_apprendre" name="apprendre_hebbian" visibility="public">
+          <ownedParameter xmi:id="param_cible" name="cible" direction="in"/>
+          <ownedParameter xmi:id="param_poids" name="poids" direction="in"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="op_diffuser" name="diffuser" visibility="public">
+          <ownedParameter xmi:id="param_message" name="message" direction="in"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="op_resonner" name="calculer_resonance" visibility="public">
+          <ownedParameter xmi:id="param_freq1" name="freq_a" direction="in"/>
+          <ownedParameter xmi:id="param_freq2" name="freq_b" direction="in"/>
+          <ownedParameter xmi:id="param_score" name="score" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+
+      <!-- CLASSE: Membrane_D1 (Corps Cristallin) -->
+      <packagedElement xmi:type="uml:Class" xmi:id="class_membrane_d1" name="Membrane_D1">
+        <ownedComment xmi:id="comment_d1" body="D1 — Membrane identitaire, filtrage souverain"/>
+
+        <ownedAttribute xmi:id="attr_identite" name="identite" visibility="public"/>
+        <ownedAttribute xmi:id="attr_permissions" name="permissions" visibility="public"/>
+
+        <ownedOperation xmi:id="op_filtrer" name="filtrer_signal" visibility="public">
+          <ownedParameter xmi:id="param_signal_entrant" name="signal_entrant" direction="in"/>
+          <ownedParameter xmi:id="param_signal_filtre" name="signal_filtre" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="op_autoriser" name="autoriser_acces" visibility="public">
+          <ownedParameter xmi:id="param_demandeur" name="demandeur" direction="in"/>
+          <ownedParameter xmi:id="param_autorise" name="autorise" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+
+      <!-- CLASSE: Memoire_D9 (Historique) -->
+      <packagedElement xmi:type="uml:Class" xmi:id="class_memoire_d9" name="Memoire_D9">
+        <ownedComment xmi:id="comment_d9" body="D9 — Mémoire cellulaire, historique des mutations"/>
+
+        <ownedAttribute xmi:id="attr_historique" name="historique" visibility="public"/>
+        <ownedAttribute xmi:id="attr_versions" name="versions" visibility="public"/>
+
+        <ownedOperation xmi:id="op_enregistrer" name="enregistrer" visibility="public">
+          <ownedParameter xmi:id="param_evenement" name="evenement" direction="in"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="op_rappeler" name="rappeler" visibility="public">
+          <ownedParameter xmi:id="param_critere" name="critere" direction="in"/>
+          <ownedParameter xmi:id="param_souvenirs" name="souvenirs" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+
+    </packagedElement>
+
+    <!-- ════════════════════════════════════════════════════════════════════════════ -->
+    <!-- ÉNUMÉRATIONS                                                                 -->
+    <!-- ════════════════════════════════════════════════════════════════════════════ -->
+
+    <packagedElement xmi:type="uml:Package" xmi:id="pkg_enums" name="Enumerations">
+
+      <!-- ENUM: AgentType (9 types) -->
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="enum_agent_type" name="AgentType">
+        <ownedLiteral xmi:id="agent_indifferencie" name="INDIFFERENCIE">
+          <ownedComment body="Cellule souche, code -1, #FAFAFA"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="agent_veilleur" name="VEILLEUR">
+          <ownedComment body="État par défaut, code 0, 432 Hz, #C0C0C0"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="agent_gardien" name="GARDIEN">
+          <ownedComment body="Protection, code 1, 741 Hz, #8B5CF6"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="agent_batisseur" name="BATISSEUR">
+          <ownedComment body="Création, code 2, 528 Hz, #F97316"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="agent_tisserand" name="TISSERAND">
+          <ownedComment body="Connexion, code 3, 639 Hz, #3B82F6"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="agent_oracle" name="ORACLE">
+          <ownedComment body="Sagesse, code 4, 852 Hz, #6366F1"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="agent_alchimiste" name="ALCHIMISTE">
+          <ownedComment body="Transmutation, code 5, 963 Hz, #EAB308"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="agent_guerisseur" name="GUERISSEUR">
+          <ownedComment body="Régénération, code 6, 528 Hz, #22C55E"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="agent_nourricier" name="NOURRICIER">
+          <ownedComment body="Abondance, code 7, 396 Hz, #A3E635"/>
+        </ownedLiteral>
+      </packagedElement>
+
+      <!-- ENUM: Lifecycle (6 états) -->
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="enum_lifecycle" name="Lifecycle">
+        <ownedLiteral xmi:id="life_germe" name="GERME">
+          <ownedComment body="#A3E635"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="life_actif" name="ACTIF">
+          <ownedComment body="#22C55E"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="life_pause" name="EN_PAUSE">
+          <ownedComment body="#F59E0B"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="life_archive" name="ARCHIVE">
+          <ownedComment body="#78716C"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="life_transmute" name="TRANSMUTE">
+          <ownedComment body="#EAB308"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="life_composte" name="COMPOSTE">
+          <ownedComment body="#57534E"/>
+        </ownedLiteral>
+      </packagedElement>
+
+      <!-- ENUM: Frequence Solfeggio -->
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="enum_frequence" name="FrequenceSolfeggio">
+        <ownedLiteral xmi:id="freq_174" name="HZ_174">
+          <ownedComment body="Fondation, #DC2626"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="freq_285" name="HZ_285">
+          <ownedComment body="Guérison, #EA580C"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="freq_396" name="HZ_396">
+          <ownedComment body="Libération, #F97316"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="freq_417" name="HZ_417">
+          <ownedComment body="Changement, #F59E0B"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="freq_432" name="HZ_432">
+          <ownedComment body="Harmonie, #EAB308"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="freq_528" name="HZ_528">
+          <ownedComment body="Amour/ADN, #22C55E"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="freq_639" name="HZ_639">
+          <ownedComment body="Connexion, #3B82F6"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="freq_741" name="HZ_741">
+          <ownedComment body="Expression, #6366F1"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="freq_852" name="HZ_852">
+          <ownedComment body="Intuition, #8B5CF6"/>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="freq_963" name="HZ_963">
+          <ownedComment body="Unité, #F5F5F5"/>
+        </ownedLiteral>
+      </packagedElement>
+
+      <!-- ENUM: Verbes Natifs (7) -->
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="enum_verbes_natifs" name="VerbeNatif">
+        <ownedLiteral xmi:id="v_percevoir" name="PERCEVOIR"/>
+        <ownedLiteral xmi:id="v_formuler" name="FORMULER"/>
+        <ownedLiteral xmi:id="v_creer" name="CREER"/>
+        <ownedLiteral xmi:id="v_relier" name="RELIER"/>
+        <ownedLiteral xmi:id="v_transformer" name="TRANSFORMER"/>
+        <ownedLiteral xmi:id="v_transmettre" name="TRANSMETTRE"/>
+        <ownedLiteral xmi:id="v_transcender" name="TRANSCENDER"/>
+      </packagedElement>
+
+      <!-- ENUM: Verbes BDO (12) -->
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="enum_verbes_bdo" name="VerbeBDO">
+        <ownedLiteral xmi:id="vb_sauver" name="SAUVER"/>
+        <ownedLiteral xmi:id="vb_nourrir" name="NOURRIR"/>
+        <ownedLiteral xmi:id="vb_demarrer" name="DEMARRER"/>
+        <ownedLiteral xmi:id="vb_echanger" name="ECHANGER"/>
+        <ownedLiteral xmi:id="vb_reparer" name="REPARER"/>
+        <ownedLiteral xmi:id="vb_eduquer" name="EDUQUER"/>
+        <ownedLiteral xmi:id="vb_connecter" name="CONNECTER"/>
+        <ownedLiteral xmi:id="vb_cocreer" name="CO_CREER"/>
+        <ownedLiteral xmi:id="vb_cultiver" name="CULTIVER"/>
+        <ownedLiteral xmi:id="vb_guerir" name="GUERIR"/>
+        <ownedLiteral xmi:id="vb_decider" name="DECIDER"/>
+        <ownedLiteral xmi:id="vb_transporter" name="TRANSPORTER"/>
+      </packagedElement>
+
+    </packagedElement>
+
+    <!-- ════════════════════════════════════════════════════════════════════════════ -->
+    <!-- ASSOCIATIONS (Relations entre classes)                                       -->
+    <!-- ════════════════════════════════════════════════════════════════════════════ -->
+
+    <packagedElement xmi:type="uml:Package" xmi:id="pkg_relations" name="Relations">
+
+      <!-- HoloOrganisme POSSÈDE Cerveau_D3 -->
+      <packagedElement xmi:type="uml:Association" xmi:id="assoc_holo_cerveau" name="possede_cerveau">
+        <memberEnd xmi:idref="end_holo_to_cerveau"/>
+        <memberEnd xmi:idref="end_cerveau_to_holo"/>
+        <ownedEnd xmi:id="end_holo_to_cerveau" name="cerveau" type="class_cerveau_d3" aggregation="composite"/>
+        <ownedEnd xmi:id="end_cerveau_to_holo" name="organisme" type="class_holo_organisme"/>
+      </packagedElement>
+
+      <!-- HoloOrganisme POSSÈDE SystemeNerveux_D13 -->
+      <packagedElement xmi:type="uml:Association" xmi:id="assoc_holo_nerfs" name="possede_nerfs">
+        <memberEnd xmi:idref="end_holo_to_nerfs"/>
+        <memberEnd xmi:idref="end_nerfs_to_holo"/>
+        <ownedEnd xmi:id="end_holo_to_nerfs" name="systeme_nerveux" type="class_nerfs_d13" aggregation="composite"/>
+        <ownedEnd xmi:id="end_nerfs_to_holo" name="organisme" type="class_holo_organisme"/>
+      </packagedElement>
+
+      <!-- HoloOrganisme POSSÈDE Valeur_D7 -->
+      <packagedElement xmi:type="uml:Association" xmi:id="assoc_holo_valeur" name="possede_valeur">
+        <memberEnd xmi:idref="end_holo_to_valeur"/>
+        <memberEnd xmi:idref="end_valeur_to_holo"/>
+        <ownedEnd xmi:id="end_holo_to_valeur" name="valeur" type="class_valeur_d7" aggregation="composite"/>
+        <ownedEnd xmi:id="end_valeur_to_holo" name="organisme" type="class_holo_organisme"/>
+      </packagedElement>
+
+      <!-- HoloOrganisme POSSÈDE Immunite_D16 -->
+      <packagedElement xmi:type="uml:Association" xmi:id="assoc_holo_immunite" name="possede_immunite">
+        <memberEnd xmi:idref="end_holo_to_immunite"/>
+        <memberEnd xmi:idref="end_immunite_to_holo"/>
+        <ownedEnd xmi:id="end_holo_to_immunite" name="immunite" type="class_immunite_d16" aggregation="composite"/>
+        <ownedEnd xmi:id="end_immunite_to_holo" name="organisme" type="class_holo_organisme"/>
+      </packagedElement>
+
+      <!-- HoloOrganisme POSSÈDE Membrane_D1 -->
+      <packagedElement xmi:type="uml:Association" xmi:id="assoc_holo_membrane" name="possede_membrane">
+        <memberEnd xmi:idref="end_holo_to_membrane"/>
+        <memberEnd xmi:idref="end_membrane_to_holo"/>
+        <ownedEnd xmi:id="end_holo_to_membrane" name="membrane" type="class_membrane_d1" aggregation="composite"/>
+        <ownedEnd xmi:id="end_membrane_to_holo" name="organisme" type="class_holo_organisme"/>
+      </packagedElement>
+
+      <!-- HoloOrganisme POSSÈDE Memoire_D9 -->
+      <packagedElement xmi:type="uml:Association" xmi:id="assoc_holo_memoire" name="possede_memoire">
+        <memberEnd xmi:idref="end_holo_to_memoire"/>
+        <memberEnd xmi:idref="end_memoire_to_holo"/>
+        <ownedEnd xmi:id="end_holo_to_memoire" name="memoire" type="class_memoire_d9" aggregation="composite"/>
+        <ownedEnd xmi:id="end_memoire_to_holo" name="organisme" type="class_holo_organisme"/>
+      </packagedElement>
+
+      <!-- HoloOrganisme CONNECTÉ À Reseau_D17 -->
+      <packagedElement xmi:type="uml:Association" xmi:id="assoc_holo_reseau" name="connecte_reseau">
+        <memberEnd xmi:idref="end_holo_to_reseau"/>
+        <memberEnd xmi:idref="end_reseau_to_holo"/>
+        <ownedEnd xmi:id="end_holo_to_reseau" name="reseau" type="class_reseau_d17" aggregation="shared"/>
+        <ownedEnd xmi:id="end_reseau_to_holo" name="holons" type="class_holo_organisme">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+
+      <!-- Cerveau_D3 → Valeur_D7 (Vérifie Ressource) -->
+      <packagedElement xmi:type="uml:Dependency" xmi:id="dep_cerveau_valeur" name="verifie_ressource">
+        <supplier xmi:idref="class_valeur_d7"/>
+        <client xmi:idref="class_cerveau_d3"/>
+      </packagedElement>
+
+      <!-- Cerveau_D3 → SystemeNerveux_D13 (Envoie Ordre) -->
+      <packagedElement xmi:type="uml:Dependency" xmi:id="dep_cerveau_nerfs" name="envoie_ordre">
+        <supplier xmi:idref="class_nerfs_d13"/>
+        <client xmi:idref="class_cerveau_d3"/>
+      </packagedElement>
+
+      <!-- Cerveau_D3 → Immunite_D16 (Signale Anomalie) -->
+      <packagedElement xmi:type="uml:Dependency" xmi:id="dep_cerveau_immunite" name="signale_anomalie">
+        <supplier xmi:idref="class_immunite_d16"/>
+        <client xmi:idref="class_cerveau_d3"/>
+      </packagedElement>
+
+    </packagedElement>
+
+    <!-- ════════════════════════════════════════════════════════════════════════════ -->
+    <!-- PACKAGE: YATASANA (Application)                                              -->
+    <!-- ════════════════════════════════════════════════════════════════════════════ -->
+
+    <packagedElement xmi:type="uml:Package" xmi:id="pkg_yatasana" name="YATASANA">
+
+      <packagedElement xmi:type="uml:Class" xmi:id="class_yatasana" name="Yatasana">
+        <ownedComment body="Interface Humain-Grille"/>
+        <ownedAttribute xmi:id="attr_oracle" name="oracle" type="class_oracle_module"/>
+        <ownedAttribute xmi:id="attr_bibliholo" name="bibliholo" type="class_bibliholo_module"/>
+        <ownedAttribute xmi:id="attr_sante" name="sante" type="class_sante_module"/>
+        <ownedAttribute xmi:id="attr_projets" name="projets" type="class_projets_module"/>
+        <ownedAttribute xmi:id="attr_prolog" name="prolog_engine" visibility="public"/>
+      </packagedElement>
+
+      <packagedElement xmi:type="uml:Class" xmi:id="class_oracle_module" name="OracleModule">
+        <ownedComment body="Chat Alchimique — Dialogue avec la conscience collective"/>
+      </packagedElement>
+
+      <packagedElement xmi:type="uml:Class" xmi:id="class_bibliholo_module" name="BibliHoloModule">
+        <ownedComment body="Navigateur 16D — Explorer les HoloÏdeas"/>
+      </packagedElement>
+
+      <packagedElement xmi:type="uml:Class" xmi:id="class_sante_module" name="SanteModule">
+        <ownedComment body="Fréquences &amp; Guérison"/>
+      </packagedElement>
+
+      <packagedElement xmi:type="uml:Class" xmi:id="class_projets_module" name="ProjetsModule">
+        <ownedComment body="Synergie &amp; BDO"/>
+      </packagedElement>
+
+    </packagedElement>
+
+  </uml:Model>
+
+</xmi:XMI>
