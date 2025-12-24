@@ -17,22 +17,16 @@ Je soussigné déclare que :
 |-------|--------|
 | **Nom** | BOUCHER |
 | **Prénoms** | MARC VICTOR R. |
-| **Nationalité** | Belge (BEL) |
-| **Date de naissance** | 11 01 1960 |
-| **Lieu de naissance** | AUVELAIS |
-| **Numéro de passeport** | GC8133393 |
-| **Date de délivrance** | 24 03 2025 |
-| **Date d'expiration** | 23 03 2032 |
-| **Autorité** | LISBONNE |
+| **Nationalité** | Belge |
 | **Pseudonyme** | HammÅnH |
+
+*Les informations détaillées du passeport sont conservées hors dépôt public pour des raisons de sécurité.*
 
 ---
 
 ## 📄 PIÈCE JUSTIFICATIVE
 
-Une copie du passeport belge est jointe à ce document.
-
-**Fichier** : `PASSEPORT-MARC-VICTOR-R-BOUCHER.pdf`
+Une copie du passeport belge est conservée en privé et peut être fournie sur demande légitime.
 
 ---
 
@@ -77,7 +71,7 @@ Ce document établit de manière irréfutable que :
 
 ## 📎 PIÈCES JOINTES
 
-- [x] Copie du passeport belge (page identité)
+- Pièce d'identité disponible sur demande légitime (non publiée pour raisons de sécurité)
 
 ---
 

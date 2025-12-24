@@ -459,8 +459,11 @@ sha256sum -c MANIFEST.sha256
 
 ## LICENCE
 
-© 2025 Marc Victor R Boucher (HammÅnH)
-Tous droits réservés — Licence CC-BY-SA 4.0 + Clause Anti-Détournement
+© 2025 Marc Victor R Boucher (HammÅnH). Tous droits réservés.
+
+**Voir [LICENSE-OXC-v1.0.md](LICENSE-OXC-v1.0.md)** — Licence Propriétaire Souveraine oXc
+
+L'identité canonique de l'auteur est établie dans **[AUTHORSHIP.md](AUTHORSHIP.md)**
 
 ---
 
